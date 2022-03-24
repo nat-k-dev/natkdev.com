@@ -1,23 +1,140 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  function toggleMenu() {
+    if (!window.matchMedia("screen and (max-width: 780px)").matches) {
+      return;
+    }
+    let menuBox = document.getElementById('menu-box');
+    if (menuBox.style.display === 'flex'){
+      menuBox.style.display = 'none';
+    } else {
+      menuBox.style.display = 'flex';
+    };
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <header className="header">
+          <h1 className="header__caption"><a href="/">Appalse</a></h1>
+          <div className="header__mobile-menu" id="menu-btn">
+            <button className="header__menu-btn" onClick={toggleMenu}><i className="fas fa-bars"></i></button>
+          </div>
+          <nav className="header__btns" id="menu-box">
+            <button className="header__btn" onClick={toggleMenu} id="header-btn-about"><a href="#aboutme">About me</a></button>
+            <button className="header__btn" onClick={toggleMenu} id="header-btn-projects"><a href="#projects">Projects</a></button>
+            <button className="header__btn" onClick={toggleMenu} id="header-btn-learning"><a href="#learning">Learning</a></button>
+            <button className="header__btn" onClick={toggleMenu} id="header-btn-blog"><a href="#blog">Blog</a></button>
+            <button className="header__btn" onClick={toggleMenu} id="header-btn-contacts"><a href="#contacts">Contacts</a></button>
+          </nav>
+        </header>
+
+        <footer className="footer">&copy; appalse.ru 2019</footer>
+
+        <main className="main">
+
+          <div id="aboutme"></div>
+          <section className="main__subsection">
+            <h2 className="subsection__header">About me:</h2>
+            <img className="aboutme__photo" src="me.jpg" alt="website developer" />
+            <article className="aboutme__text"> 
+              <p className="aboutme__paragraph">Hello, my name is Natalia. I'm interested in front-end development and I'm currently learning HTML, CSS, Javascript and React. In my previous job as a junior C++ programmer, I had various tasks related to testing, refactoring and algorithms. And most of all I was inspired by the tasks to improve the program interface. I became more interested in this area, and this led me to the world of front-end development. I have completed courses in HTML, CSS and Javascript, created several web-pages and continue my studies towards the React library.</p>
+              <p className="aboutme__paragraph">At the moment I am open to new professional opportunities, internships and volunteer work projects in getting a related experience. Please, see below my projects that were developed during my studies and other materials to learn more about me.</p>
+            </article>	
+          </section>
+
+          <div id="projects"></div>
+          <section className="main__subsection">	
+            <h2 className="subsection__header">My projects:</h2>
+            <div className="projects">
+              <div className="project project__memoji-game">
+                <a href="memoji" title="Click to open in new tab" target="_blank">
+                  <p className="caption">Memoji web-game</p>
+                  <div className="icon"></div>				
+                </a>
+              </div>
+              <div className="project project__messier-objects">
+                <a href="https://messier-objects.firebaseapp.com" title="Click to open in new tab" target="_blank" rel="noreferrer">
+                  <p className="caption">Online Store on React</p>
+                  <div className="icon"></div>
+                </a>		
+              </div>
+              <div className="project project__hadn-dadn">
+                <a href="https://hadn-dadn.netlify.app" title="Click to open in new tab" target="_blank" rel="noreferrer">
+                  <p className="caption">Music band page</p>
+                  <div className="icon"></div>
+                </a>
+              </div>
+              <div className="project project__binary-calculator">
+                <a href="binary-calculator" title="Click to open in new tab" target="_blank">
+                  <p className="caption">Binary calculator online</p>
+                  <div className="icon"></div>
+                </a>		
+              </div>
+              <div className="project project__smartphone">
+                <a href="https://codepen.io/appalse/full/LvPvbg" title="Click to open in new tab" target="_blank" rel="noreferrer">
+                  <p className="caption">Smartphone rotation</p>
+                  <div className="icon"></div>
+                </a>		
+              </div>
+              <div className="project project__tribute-page">
+                <a href="https://codepen.io/appalse/full/MRmoNg" title="Click to open in new tab" target="_blank" rel="noreferrer">
+                  <p className="caption">Tenzing Norgay tribute page</p>
+                  <div className="icon"></div>
+                </a>
+              </div>
+              <div className="project project__design-system">
+                <a href="design-system" title="Click to open in new tab" target="_blank" rel="noreferrer">
+                  <p className="caption">Design system</p>
+                  <div className="icon"></div>
+                </a>
+              </div>
+              <div className="project project__sportmaster">
+                <a href="sportmaster" title="Click to open in new tab" target="_blank" rel="noreferrer">
+                  <p className="caption">PSD to HTML, CSS</p>
+                  <div className="icon"></div>
+                </a>
+              </div>
+            </div>	
+          </section>
+
+          <div id="learning"></div>
+          <section className="main__subsection">
+            <h2 className="subsection__header">My certificates:</h2>
+            <ul className="certificates">
+              <li className="certificate certificate__coursera-frontend">
+                <p className="caption" title="Click to open in new tab"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/PWMDB5J9ESS8" target="_blank" rel="noreferrer">Frontend: page making and Javascript, Coursera by MIPT and Yandex</a></p>
+              </li>
+              <li className="certificate certificate__free-code-camp">
+                <p className="caption" title="Click to open in new tab"><a href="https://www.freecodecamp.org/fcc3ad6e5ae-7fed-4b67-ad44-2c42570b0bc3" target="_blank" rel="noreferrer">FreeCodeCamp (Responsive Web)</a></p>
+              </li>
+            </ul>
+          </section>
+
+          <div id="blog"></div>
+          <section className="main__subsection">
+            <h2 className="subsection__header">My blog:</h2>
+            <ul className="articles">
+              <li className="article article__openssh">
+                <p className="caption" title="Click to open in new tab"><a href="https://natalia-kutina.livejournal.com/9076.html" target="_blank" rel="noreferrer">OpenSSH for github, host and local machines</a></p>
+              </li>
+            </ul>
+          </section>
+
+          <div id="contacts"></div>
+          <section className="main__subsection">
+            <h2 className="subsection__header">Contacts:</h2>
+            <div className="subsection__contacts">				
+              <ul className="contact-list">
+                <li className="caption"><a href="https://github.com/nat-k-dev" target="_blank" rel="noreferrer"><i className="contact-icon fab fa-github"></i>Github</a></li>
+                <li className="caption"><a href="mailto:natalia.kutina13@gmail.com"><i className="contact-icon fas fa-envelope"></i>Email</a></li>
+                <li className="caption"><a href="https://www.linkedin.com/in/nataliakutina" target="_blank" rel="noreferrer"><i className="contact-icon fab fa-linkedin-in"></i>LinkedIn</a></li>
+              </ul>	
+
+            </div>
+          </section>
+
+        </main>
     </div>
   );
 }
