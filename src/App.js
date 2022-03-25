@@ -1,6 +1,7 @@
 import './App.css';
+import { Routes, Route, Link } from "react-router-dom";
 
-function App() {
+function Home() {
   function toggleMenu() {
     if (!window.matchMedia("screen and (max-width: 780px)").matches) {
       return;
@@ -13,9 +14,11 @@ function App() {
     };
   }
 
+
+
   return (
-    <div className="App">
-        <header className="header">
+    <>
+      <header className="header">
           <h1 className="header__caption"><a href="/">Appalse</a></h1>
           <div className="header__mobile-menu" id="menu-btn">
             <button className="header__menu-btn" onClick={toggleMenu}><i className="fas fa-bars"></i></button>
@@ -29,7 +32,7 @@ function App() {
           </nav>
         </header>
 
-        <footer className="footer">&copy; appalse.ru 2019</footer>
+        <footer className="footer">&copy; nat-k-dev.com 2022</footer>
 
         <main className="main">
 
@@ -48,10 +51,10 @@ function App() {
             <h2 className="subsection__header">My projects:</h2>
             <div className="projects">
               <div className="project project__memoji-game">
-                <a href="memoji" title="Click to open in new tab" target="_blank">
+                <Link to="/memoji">
                   <p className="caption">Memoji web-game</p>
                   <div className="icon"></div>				
-                </a>
+                </Link>
               </div>
               <div className="project project__messier-objects">
                 <a href="https://messier-objects.firebaseapp.com" title="Click to open in new tab" target="_blank" rel="noreferrer">
@@ -66,10 +69,10 @@ function App() {
                 </a>
               </div>
               <div className="project project__binary-calculator">
-                <a href="binary-calculator" title="Click to open in new tab" target="_blank">
+                <Link to="/binary-calculator">
                   <p className="caption">Binary calculator online</p>
                   <div className="icon"></div>
-                </a>		
+                </Link>		
               </div>
               <div className="project project__smartphone">
                 <a href="https://codepen.io/appalse/full/LvPvbg" title="Click to open in new tab" target="_blank" rel="noreferrer">
@@ -84,16 +87,16 @@ function App() {
                 </a>
               </div>
               <div className="project project__design-system">
-                <a href="design-system" title="Click to open in new tab" target="_blank" rel="noreferrer">
+                <Link to="/design-system">
                   <p className="caption">Design system</p>
                   <div className="icon"></div>
-                </a>
+                </Link>
               </div>
               <div className="project project__sportmaster">
-                <a href="sportmaster" title="Click to open in new tab" target="_blank" rel="noreferrer">
+                <Link to="/sportmaster">
                   <p className="caption">PSD to HTML, CSS</p>
                   <div className="icon"></div>
-                </a>
+                </Link>
               </div>
             </div>	
           </section>
@@ -135,6 +138,88 @@ function App() {
           </section>
 
         </main>
+    </>
+  );
+}
+
+function Memoji() {
+  return (
+    <>
+      <main>
+        <h2>Memoji?</h2>
+        <p>
+          Memoji
+        </p>
+      </main>
+      <nav>
+        <Link to="/">Home</Link>
+      </nav>
+    </>
+  );
+}
+
+function Sportmaster() {
+  return (
+    <>
+      <main>
+        <h2>Who are we?</h2>
+        <p>
+          Sportmaster
+        </p>
+      </main>
+      <nav>
+        <Link to="/">Home</Link>
+      </nav>
+    </>
+  );
+}
+
+function BinaryCalculator() {
+  return (
+    <>
+      <main>
+        <h2>Who are we?</h2>
+        <p>
+          Binary calculator
+        </p>
+      </main>
+      <nav>
+        <Link to="/">Home</Link>
+      </nav>
+    </>
+  );
+}
+
+function DesignSystem() {
+  return (
+    <>
+      <main>
+        <h2>Who are we?</h2>
+        <p>
+          Design system
+        </p>
+      </main>
+      <nav>
+        <Link to="/">Home</Link>
+      </nav>
+    </>
+  );  
+}
+
+function App() {
+
+
+  return (
+    <div className="App">
+        
+
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/memoji" element={<Memoji />} />
+        <Route exact path="/sportmaster" element={<Sportmaster />} />
+        <Route exact path="/binary-calculator" element={<BinaryCalculator />} />
+        <Route exact path="/design-system" element={<DesignSystem />} />
+      </Routes>
     </div>
   );
 }
