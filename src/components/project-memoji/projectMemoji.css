@@ -7,8 +7,8 @@
 	--failure-background-color: #F44336;
 }
 
-
-body {
+.project-memoji {
+	width: 100%;
 	margin: 0;
 	background: var(--background-color);
 	font-family: Arial, sans-serif;
@@ -20,7 +20,7 @@ body {
 	margin: 0 auto;
 }
 
-.header {
+.game .header {
 	text-align: center;
 	font: bold 42px/47px Arial;
 	margin: 40px auto;
@@ -187,7 +187,7 @@ body {
 	}
 }
 
-.footer {
+.game .footer {
     position: absolute;
     bottom: 0;
     width: 100%;

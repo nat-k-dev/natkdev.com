@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './home.css';
 
 const Home = () => {
     function toggleMenu() {
@@ -15,7 +16,7 @@ const Home = () => {
     }
   
     return (
-      <>
+      <div className="home-page">
         <header className="header">
             <h1 className="header__caption"><a href="/">Appalse</a></h1>
             <div className="header__mobile-menu" id="menu-btn">
@@ -137,7 +138,7 @@ const Home = () => {
             </section>
   
           </main>
-      </>
+      </div>
     );
   }
 
