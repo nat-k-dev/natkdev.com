@@ -27,7 +27,7 @@ html, body {
 	margin: -110px 0 0; 
 }
 
-.header {
+.home-page .header {
 	order: 1;
 	width: 100%;
 	position: fixed;
@@ -72,7 +72,7 @@ html, body {
 	border-radius: 10px;
 }
 
-.footer {
+.home-page .footer {
 	order: 3;
 	width: 100%;
 	text-align: center;
