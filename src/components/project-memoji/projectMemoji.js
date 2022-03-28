@@ -220,32 +220,32 @@ const ProjectMemoji = () => {
 
 
     /* ----------------------------------------------------------------------- */
-    (function () { 
-        let game = new Game();
+    let game = null;
 
-        /* ----------------------------------------------------------------------- */
-        let cardsElem = document.getElementById('game');
-        /*cardsElem.addEventListener('click', function(event) {
-            event.preventDefault();
-            if (event.target.classList.contains('card__face')) {
-                if (game.IsBeforeStart()) {
-                    game.Start(game);
-                }
-                let card = new Card(event.target);
-                let successCardsCount = card.processClick();
-                game.CheckIfWin(successCardsCount);
+    function onClickGame(event) {
+        if (game === null) {
+            game = new Game();
+        }
+        console.log('click game');
+        if (event.target.classList.contains('card__face')) {
+            if (game.IsBeforeStart()) {
+                game.Start(game);
             }
+            let card = new Card(event.target);
+            let successCardsCount = card.processClick();
+            game.CheckIfWin(successCardsCount);
+        }
 
-            if (event.target.classList.contains('message__btn')) {
-                game.CloseMessage();
-            }
-        });
-        */
-    }());
+        if (event.target.classList.contains('message__btn')) {
+            game.CloseMessage();
+            game = null;
+        }
+
+    }
     
     return (
       <div className="project-memoji">
-        <section className="game" id="game">
+        <section className="game" id="game" onClick={(event) => onClickGame(event)}>
             <h1 className="header">Memoji</h1>
             <ul className="cards" id="cards">
                 <li className="card card-1"  id="card1">
