@@ -1,18 +1,18 @@
 :root {
-	--gradient-left-color: #22AB93;
-	--gradient-right-color: #19668D;
-	--background-color: #CFD0CF;
-	--text-color: #434344;
-	--succes-background-color: #5AD66F;
-	--failure-background-color: #F44336;
+	--memoji-gradient-left-color: #22AB93;
+	--memoji-gradient-right-color: #19668D;
+	--memoji-background-color: #FFF;
+	--memoji-text-color: #434344;
+	--memoji-succes-background-color: #5AD66F;
+	--memoji-failure-background-color: #F44336;
 }
 
 .project-memoji {
 	width: 100%;
 	margin: 0;
-	background: var(--background-color);
+	background: var(--memoji-background-color);
 	font-family: Arial, sans-serif;
-	color: var(--text-color);
+	color: var(--memoji-text-color);
 }
 
 .game {
@@ -20,7 +20,7 @@
 	margin: 0 auto;
 }
 
-.game .header {
+.game__header {
 	text-align: center;
 	font: bold 42px/47px Arial;
 	margin: 40px auto;
@@ -69,14 +69,14 @@
 	-webkit-box-sizing: border-box;
 			box-sizing: border-box;		
 	background: -webkit-linear-gradient(45deg, 
-								var(--gradient-left-color),
-								var(--gradient-right-color));
+								var(--memoji-gradient-left-color),
+								var(--memoji-gradient-right-color));
 	background: -o-linear-gradient(45deg, 
-								var(--gradient-left-color),
-								var(--gradient-right-color));	
+								var(--memoji-gradient-left-color),
+								var(--memoji-gradient-right-color));	
 	background: linear-gradient(45deg, 
-								var(--gradient-left-color),
-								var(--gradient-right-color));		
+								var(--memoji-gradient-left-color),
+								var(--memoji-gradient-right-color));		
 }
 
 .card__face--back {
@@ -107,11 +107,11 @@
 }
 
 .card.success .card__face--back {
-	background: var(--succes-background-color);
+	background: var(--memoji-succes-background-color);
 }
 
 .card.failure .card__face--back {
-	background: var(--failure-background-color);
+	background: var(--memoji-failure-background-color);
 }
 
 .timer {
@@ -145,7 +145,8 @@
 	background-color: white;
 	display: flex;
 	flex-direction: column;
-	align-items: center;	
+	align-items: center;
+	border-radius: 10px;
 }
 
 .message__status {
@@ -163,8 +164,8 @@
 	font: bold 20px Arial;
 	color: white;
 	background: linear-gradient(90deg, 
-								var(--gradient-right-color),
-								var(--gradient-left-color));
+								var(--memoji-gradient-right-color),
+								var(--memoji-gradient-left-color));
 	box-shadow: 1px 1px 1px #000;
 	border-radius: 9px;
 	border: none;

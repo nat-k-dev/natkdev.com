@@ -29,7 +29,7 @@ const ProjectMemoji = () => {
     return (
       <div className="project-memoji">
         <section className="game" id="game" onClick={(event) => onClickGame(event)}>
-            <h1 className="header">Memoji</h1>
+            <h1 className="game__header">Memoji</h1>
             <ul className="cards" id="cards">
                 <li className="card card-1"  id="card1">
                     <div className="card__face card__face--front"></div>
