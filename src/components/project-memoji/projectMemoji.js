@@ -10,7 +10,6 @@ const ProjectMemoji = () => {
         if (game === null) {
             game = new Game();
         }
-        console.log('click game');
         if (event.target.classList.contains('card__face')) {
             if (game.IsBeforeStart()) {
                 game.Start(game);
