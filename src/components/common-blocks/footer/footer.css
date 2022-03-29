@@ -1,0 +1,8 @@
+.home-page .footer {
+	order: 3;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background-color: var(--home-inverted-background-color);
+	color: var(--home-inverted-text-color);
+}

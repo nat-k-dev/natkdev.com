@@ -1,37 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './home.css';
+import Footer from "./../common-blocks/footer/footer";
+import Header from "../common-blocks/header/header";
+import "./home.css";
 
 const Home = () => {
-    function toggleMenu() {
-      if (!window.matchMedia("screen and (max-width: 780px)").matches) {
-        return;
-      }
-      let menuBox = document.getElementById('menu-box');
-      if (menuBox.style.display === 'flex'){
-        menuBox.style.display = 'none';
-      } else {
-        menuBox.style.display = 'flex';
-      };
-    }
+
   
     return (
       <div className="home-page">
-        <header className="header">
-            <h1 className="header__caption"><a href="/">Appalse</a></h1>
-            <div className="header__mobile-menu" id="menu-btn">
-              <button className="header__menu-btn" onClick={toggleMenu}><i className="fas fa-bars"></i></button>
-            </div>
-            <nav className="header__btns" id="menu-box">
-              <button className="header__btn" onClick={toggleMenu} id="header-btn-about"><a href="#aboutme">About me</a></button>
-              <button className="header__btn" onClick={toggleMenu} id="header-btn-projects"><a href="#projects">Projects</a></button>
-              <button className="header__btn" onClick={toggleMenu} id="header-btn-learning"><a href="#learning">Learning</a></button>
-              <button className="header__btn" onClick={toggleMenu} id="header-btn-blog"><a href="#blog">Blog</a></button>
-              <button className="header__btn" onClick={toggleMenu} id="header-btn-contacts"><a href="#contacts">Contacts</a></button>
-            </nav>
-          </header>
-  
-          <footer className="footer">&copy; nat-k-dev.com 2022</footer>
+          <Header />  
+          <Footer />
   
           <main className="main">
   
