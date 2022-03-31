@@ -23,7 +23,6 @@ const ProjectMemoji = () => {
             game.CloseMessage();
             game = null;
         }
-
     }
     
     return (

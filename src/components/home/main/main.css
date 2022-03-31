@@ -1,4 +1,4 @@
-.main {
+.home-page .main {
 	order: 2;
 	padding-top: 100px;
 	width: 100%;
@@ -34,8 +34,8 @@ button:focus {
 }
 
 @media screen and (max-width: 780px) {
-	.main {
-		padding-top: 0;
+	.home-page .main {
+		padding-top: 30px;
 	}
 	.caption {
 		font-size: 18px;

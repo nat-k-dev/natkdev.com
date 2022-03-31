@@ -1,9 +1,10 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "./footer.css";
 
 function Footer() {
     return (
-        <footer className="footer">&copy; nat-k-dev.com 2022</footer>
+        <footer className="footer">&copy; <Link to="/">nat-k-dev.com</Link> 2022</footer>
     );
 }
 

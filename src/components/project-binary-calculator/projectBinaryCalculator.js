@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-//import "./binaryCalculator.css";
+import Footer from "../common-blocks/footer/footer";
+import "./binaryCalculator.css";
 
 const ProjectBinaryCalculator = () => {
 
     let isCalculated = false;
     let btnsIds = ['btn0', 'btn1', 'btnSum', 'btnSub', 'btnMul', 'btnDiv'];
 
-    document.getElementById('btns').addEventListener('click', (event) => {
+    function onClickCalc(event) {
     let target = event.target;
     let res = document.getElementById('res');
 
@@ -26,35 +27,33 @@ const ProjectBinaryCalculator = () => {
         let result = res.innerHTML.replace(/[01]+/g, (substring) => {
             return parseInt(substring, 2);
         });
-        res.innerHTML = Math.floor(eval(result)).toString(2);
+        // there is no security risk because the code is not implemented on the server
+        // and the source string is always correct because it is assembled from the calc-buttons pressing
+        res.innerHTML = Math.floor(eval(result)).toString(2); 
     }
-    });
-
+    }
 
     return (
-      <>
-        <header class="header"><h1>Binary calculator</h1></header>
-        <footer class="footer">&copy; nat-k-dev.com 2022
-            <nav>
-                <Link to="/">Home</Link>
-            </nav>
-        </footer>
-        <main>
-            <section class="main">
+      <div className="binary-calc-page">
+        <h1 className="binary-calc-heading">Binary calculator</h1>
+        <main className="binary-calc-main">
+            <section className="binary-calc-section">
                 <div id="res"></div>
-                <div class="btns" id="btns">     
-                <button class="btn" id="btn0">0</button>
-                <button class="btn" id="btn1">1</button>
-                <button class="btn" id="btnClr">C</button>
-                <button class="btn" id="btnEql">=</button>
-                <button class="btn" id="btnSum">+</button>
-                <button class="btn" id="btnSub">-</button>
-                <button class="btn" id="btnMul">*</button>
-                <button class="btn" id="btnDiv">/</button>
+                <div className="btns" id="btns" onClick={(event) => onClickCalc(event)}>     
+                <button className="btn" id="btn0">0</button>
+                <button className="btn" id="btn1">1</button>
+                <button className="btn" id="btnClr">C</button>
+                <button className="btn" id="btnEql">=</button>
+                <button className="btn" id="btnSum">+</button>
+                <button className="btn" id="btnSub">-</button>
+                <button className="btn" id="btnMul">*</button>
+                <button className="btn" id="btnDiv">/</button>
                 </div>
             </section>
-        </main>        
-      </>
+            <Link className="binary-calc-home-link" to="/">Home</Link>
+        </main>
+        <Footer />
+      </div>
     );
 }
 

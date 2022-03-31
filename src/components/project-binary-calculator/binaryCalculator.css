@@ -1,21 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
+.binary-calc-heading {
   width: 100%;
   padding: 40px 0;
   text-align: center;
   color: darkblue;
 }
 
-.main {
+.binary-calc-section {
     margin: auto;
     width: 33%;
 }
@@ -52,11 +42,21 @@ body {
     border-radius: 5px;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    color: rgb(104,104,104);
-    padding: 10px 0;
+.binary-calc-home-link {
+    color: darkslateblue;
+    font-weight: bold;
+    border: 2px solid darkslateblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.binary-calc-home-link:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+
+.binary-calc-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
 }
