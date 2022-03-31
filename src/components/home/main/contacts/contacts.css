@@ -1,0 +1,22 @@
+.subsection__contacts {
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-list {
+	list-style: none;
+}
+
+.contact-list > li {
+	margin: 20px 0;
+	font-size: 25px;
+	padding: 5px;
+}
+
+@media screen and (max-width: 780px) {
+	.contact-list > li {
+		font-size: 18px;
+	}    
+}

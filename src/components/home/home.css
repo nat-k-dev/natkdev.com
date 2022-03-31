@@ -5,7 +5,6 @@
 	--home-text-color: var(--home-light-color);
 	--home-inverted-background-color: var(--home-light-color);
 	--home-inverted-text-color: var(--home-dark-color);
-	--home-hovered-background: #72b4e3;
 }
 
 * {

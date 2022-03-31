@@ -1,0 +1,9 @@
+
+.article {
+	margin: 10px;
+	padding: 8px;
+}
+
+.article > .caption {
+	text-align: center;
+}

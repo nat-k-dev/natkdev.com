@@ -1,0 +1,9 @@
+
+.certificate {
+	margin: 10px;
+	padding: 8px;
+}
+
+.certificate > .caption {
+	text-align: center;
+}

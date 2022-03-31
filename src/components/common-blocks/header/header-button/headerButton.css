@@ -1,0 +1,23 @@
+
+.header__btn {
+	font-size: 30px;
+	font-weight: bold;
+	border: none;
+	background-color: inherit;
+	margin: 15px;
+	padding: 5px;
+	font-family: Lobster;
+	color: var(--home-inverted-text-color);	
+}
+
+@media screen and (max-width: 780px) { 
+	.header__btn {
+		text-decoration: underline;
+	}     
+}
+
+@media screen and (max-width: 1024px) {
+	.header__btn {
+		font-size: 20px;
+	}
+}
