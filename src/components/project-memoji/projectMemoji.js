@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
+import Footer from "../common-blocks/footer/footer";
 import "./projectMemoji.css";
 import Game from "./game";
 import Card from "./card";
 
 const ProjectMemoji = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     let game = null;
 
     function onClickGame(event) {
@@ -86,7 +91,8 @@ const ProjectMemoji = () => {
                     <button className="message__btn" id="message__btn">Play again</button>
                 </div>	
             </div>
-        </section>	
+        </section>
+        <Footer />	
       </div>
     );
 }

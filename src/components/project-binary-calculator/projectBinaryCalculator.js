@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Link } from "react-router-dom";
 import Footer from "../common-blocks/footer/footer";
 import "./binaryCalculator.css";
 
 const ProjectBinaryCalculator = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
 
     let isCalculated = false;
     let btnsIds = ['btn0', 'btn1', 'btnSum', 'btnSub', 'btnMul', 'btnDiv'];
@@ -35,23 +38,25 @@ const ProjectBinaryCalculator = () => {
 
     return (
       <div className="binary-calc-page">
-        <h1 className="binary-calc-heading">Binary calculator</h1>
-        <main className="binary-calc-main">
-            <section className="binary-calc-section">
-                <div id="res"></div>
-                <div className="btns" id="btns" onClick={(event) => onClickCalc(event)}>     
-                <button className="btn" id="btn0">0</button>
-                <button className="btn" id="btn1">1</button>
-                <button className="btn" id="btnClr">C</button>
-                <button className="btn" id="btnEql">=</button>
-                <button className="btn" id="btnSum">+</button>
-                <button className="btn" id="btnSub">-</button>
-                <button className="btn" id="btnMul">*</button>
-                <button className="btn" id="btnDiv">/</button>
-                </div>
-            </section>
-            <Link className="binary-calc-home-link" to="/">Home</Link>
-        </main>
+          <div className="binary-calc-content">
+            <h1 className="binary-calc-heading">Binary calculator</h1>
+            <main className="binary-calc-main">
+                <section className="binary-calc-section">
+                    <div id="res"></div>
+                    <div className="btns" id="btns" onClick={(event) => onClickCalc(event)}>     
+                    <button className="btn" id="btn0">0</button>
+                    <button className="btn" id="btn1">1</button>
+                    <button className="btn" id="btnClr">C</button>
+                    <button className="btn" id="btnEql">=</button>
+                    <button className="btn" id="btnSum">+</button>
+                    <button className="btn" id="btnSub">-</button>
+                    <button className="btn" id="btnMul">*</button>
+                    <button className="btn" id="btnDiv">/</button>
+                    </div>
+                </section>
+                <Link className="binary-calc-home-link" to="/">Home</Link>
+            </main>
+        </div>
         <Footer />
       </div>
     );

@@ -48,7 +48,9 @@
     border: 2px solid darkslateblue;
     border-radius: 10px;
     padding: 10px 20px;
+    margin-bottom: 30px;
 }
+
 .binary-calc-home-link:hover {
     background-color: darkslateblue;
     color: white;
@@ -59,4 +61,18 @@
     flex-direction: column;
     align-items: center;
     gap: 42px;
+}
+
+.binary-calc-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.binary-calc-page .binary-calc-content {
+    min-height: calc(100vh - var(--footer-height) - var(--footer-padding) - var(--footer-padding));
+    order: 1;
+}
+
+.binary-calc-page .footer {
+    order: 2;
 }

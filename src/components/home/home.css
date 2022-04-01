@@ -5,6 +5,8 @@
 	--home-text-color: var(--home-light-color);
 	--home-inverted-background-color: var(--home-light-color);
 	--home-inverted-text-color: var(--home-dark-color);
+	--footer-height: 16px;
+	--footer-padding: 10px;
 }
 
 * {
@@ -42,3 +44,14 @@ html, body {
 	width: 100%;
 }
 
+.home-page .header {
+	order: 1;
+}
+
+.home-page .main {
+	order: 2;
+}
+
+.home-page .footer {
+	order: 3;	
+}

@@ -1,20 +1,15 @@
-.home-page .footer {
-	order: 3;
-	width: 100%;
-	text-align: center;
-	padding: 10px;
-}
-
-.binary-calc-page .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    color: rgb(104,104,104);
-    padding: 10px 0;
-}
-
 .footer {
 	background-color: var(--home-inverted-background-color);
 	color: var(--home-inverted-text-color);
+    width: 100%;
+	height: var(--footer-height);
+	padding: var(--footer-padding);
+	text-align: center;
 }
+
+.footer-pin {
+	position: relative;
+	left: 0;
+	bottom: 0;
+  }
+

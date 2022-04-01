@@ -1,12 +1,9 @@
-* {
+  .project-design-system {
+    margin: 0;
+    width: 100;
     box-sizing: border-box;
     --max-width-m: 1280px;
     --max-width-s: 920px
-  }
-  
-  body {
-    margin: 0;
-    width: 100
   }
   
   .cover {
@@ -54,7 +51,7 @@
     }
   }
   
-  .footer {
+  .design-system-footer {
     padding: var(--space-xxxl) var(--gap);
     position: relative
   }
@@ -70,7 +67,7 @@
     max-width: var(--max-width-m)
   }
   
-  .header {
+  .design-system-header {
     padding: var(--space-xxxl) var(--gap)
   }
   
@@ -112,14 +109,39 @@
   
   .onoffswitch {
     width: 97px;
-    height: 32px;
+    height: 28px;
     border: 2px solid var(--border-bg-color);
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: start;
     justify-content: flex-start
   }
-  
+
+  .onoffswitch__prompt {
+    padding: 3px;
+    font-size: 18px;
+    text-align: center;
+    height: 20px;
+    width: 95px;
+    background-color: lightsalmon;
+    position: absolute;
+    border-radius: 10px;
+    top: 10px; 
+  } 
+
+  .onoffswitch__prompt::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 20px solid lightsalmon;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    transform: rotate(-50deg);    
+  }
+
   .onoffswitch.onoffswitch_checked {
     -ms-flex-pack: end;
     justify-content: flex-end
@@ -643,13 +665,13 @@
   
   @media (min-width:1024px) {
     .grid_m-columns_12 {
-      -ms-grid-columns: (1fr)[12];
+      -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-columns: repeat(12, 1fr);
       grid-auto-flow: row
     }
   
     .grid_m-columns_10 {
-      -ms-grid-columns: (1fr)[10];
+      -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-columns: repeat(10, 1fr);
       grid-auto-flow: row
     }
