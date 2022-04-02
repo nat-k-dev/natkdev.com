@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import BackHomeButton from "../common-blocks/back-home-button/back-home-button";
 import "./projectSportmaster.css";
 
 const ProjectSportmaster = () => {
@@ -7,6 +8,7 @@ const ProjectSportmaster = () => {
     }, []);
     return (
         <div className="project-sportmaster layout main-color-theme">
+            <BackHomeButton />
             <header className=""></header>
             <main className="layout__main">
 

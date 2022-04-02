@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import BackHomeButton from "../common-blocks/back-home-button/back-home-button";
 import "./projectDesignSystem.css";
 
 const ProjectDesignSystem = () => {
@@ -26,13 +27,14 @@ const ProjectDesignSystem = () => {
     return (
       <div className="project-design-system" onClick={(event) => {onClickDesignSystem(event)}}>
         <div className="page theme theme_color_project-default theme_size_default theme_space_default theme_gap_small">
-        <div className="design-system-header">
-            <div className="header__content">
-                <div className="header__logo"></div>
-                <div className="onoffswitch onoffswitch_checked">
-                    <div class="onoffswitch__prompt">Click me</div>
-                    <div className="onoffswitch__button"></div>
-                </div>
+            <BackHomeButton />
+            <div className="design-system-header">
+                <div className="header__content">
+                    <div className="header__logo"></div>
+                    <div className="onoffswitch onoffswitch_checked">
+                        <div class="onoffswitch__prompt">Click me</div>
+                        <div className="onoffswitch__button"></div>
+                    </div>
             </div>
         </div>
         <div className="layout">
@@ -293,13 +295,13 @@ const ProjectDesignSystem = () => {
         </div>
         <div className="design-system-footer">
             <div className="footer__content">
-            <div className="text text_view_primary text_size_l">
-                <div className="text__word text__word_width_l"></div>
-                <div className="text__word text__word_width_s"></div>
-            </div>
-            <div className="text text_view_primary text_size_l">
-                <div className="text__word text__word_width_l"></div>
-            </div>
+                <div className="text text_view_primary text_size_l">
+                    <div className="text__word text__word_width_l"></div>
+                    <div className="text__word text__word_width_s"></div>
+                </div>
+                <div className="text text_view_primary text_size_l">
+                    <div className="text__word text__word_width_l"></div>
+                </div>
             </div>
         </div>
         </div>

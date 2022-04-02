@@ -118,6 +118,7 @@
   }
 
   .onoffswitch__prompt {
+    cursor: pointer;
     padding: 3px;
     font-size: 18px;
     text-align: center;
@@ -1260,3 +1261,15 @@
     }
   }
   
+  .theme .back-home-button {
+    background-color: lightsalmon;
+  }
+
+  .theme .back-home-button:hover {
+    background-color: rgb(228, 117, 73);
+  }
+
+  .theme_color_project-default .back-home-button,
+  .theme_color_project-inverse .back-home-button {
+    color: var(--primary-color);
+  }

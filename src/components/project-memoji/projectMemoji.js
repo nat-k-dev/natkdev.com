@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import { Link } from "react-router-dom";
 import Footer from "../common-blocks/footer/footer";
 import "./projectMemoji.css";
 import Game from "./game";
@@ -91,6 +92,7 @@ const ProjectMemoji = () => {
                     <button className="message__btn" id="message__btn">Play again</button>
                 </div>	
             </div>
+            <Link className="memoji-home-link" to="/">Home</Link>
         </section>
         <Footer />	
       </div>
