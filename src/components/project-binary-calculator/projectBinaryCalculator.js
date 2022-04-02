@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import {evaluate} from "mathjs";
 import { Link } from "react-router-dom";
 import Footer from "../common-blocks/footer/footer";
 import "./binaryCalculator.css";
@@ -32,7 +33,7 @@ const ProjectBinaryCalculator = () => {
         });
         // there is no security risk because the code is not implemented on the server
         // and the source string is always correct because it is assembled from the calc-buttons pressing
-        res.innerHTML = Math.floor(eval(result)).toString(2); 
+        res.innerHTML = Math.floor(evaluate(result)).toString(2); 
     }
     }
 
