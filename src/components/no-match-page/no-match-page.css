@@ -1,0 +1,117 @@
+.no-match-page {
+    height: 100vh;
+    background-color: var(--home-background-color);
+    color: var(--home-light-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.no-match-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: calc(100vh - var(--footer-height) - var(--footer-padding) - var(--footer-padding));
+}
+
+.no-match-page-home-link {
+    border: 2px solid var(--home-light-color);
+    text-align: center;
+	margin: 0 auto;
+	display: block;
+    border-radius: 10px;
+	padding: 10px 20px;
+	margin-bottom: 30px;
+    width: 80px;
+
+}
+
+.no-match-page-home-link:hover {
+    background-color: var(--home-light-color);
+    color: var(--home-dark-color)
+}
+
+.caption-404 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.number-404 {
+    line-height: 100px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.moon-404 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--home-light-color);
+    box-shadow: 3px 0 10px 3px rgba(229,229,229,0.3),
+                5px 0 10px 3px rgba(229,229,229,0.3),
+                0px 0 3px 2px rgba(229,229,229,0.3);
+}
+
+.moon-craters-404,
+.moon-craters-404:after,
+.moon-craters-404:before {
+    background-color: rgba(162, 162, 162, 0.2);
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 1px 0 0 1px rgba(98, 98, 98, 0.51);
+}
+
+.moon-craters-404 {
+    left:  45px;
+    top:  18px;
+    width: 10px;  
+    height: 10px;
+}
+
+.moon-craters-404:after {
+    content: "";
+    left:  14px;
+    top:  12px;
+    width: 5px;  
+    height: 5px;
+}
+
+.moon-craters-404:before {
+    content: "";
+    left:  -3px;
+    top:  20px;
+    width: 12px;  
+    height: 12px;
+}
+
+.gravity {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    
+}
+
+.satellite {
+    width: 5px;
+    height: 10px;
+    border-top-left-radius: 99%;
+    border-top-right-radius: 99%;
+    background: antiquewhite;
+    animation: circle 4s infinite linear;
+    position: absolute;
+    left: 50%;
+    transform-origin: 70px center;
+}
+
+@keyframes circle { 
+    to { 
+        transform: rotate(1turn);
+    } 
+}
