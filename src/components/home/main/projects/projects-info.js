@@ -2,7 +2,7 @@ export const projectsInfo = {
     messier: {
       internalPage: false,
       cssClassName: "project__messier-objects",
-      link: "https://messier-objects.firebaseapp.com",
+      link: "https://messier-objects.netlify.app",
       caption: "Online Store on React"
     },
     hadnDadn: {
