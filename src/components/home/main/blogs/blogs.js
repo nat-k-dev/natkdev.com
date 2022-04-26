@@ -6,6 +6,12 @@ import "./blogs.css";
 function Blogs() {
   return (
     <ul className="articles">
+      <Blog cssClassName={blogsInfo.techArticleBrowserCookies.cssClassName}
+            href={blogsInfo.techArticleBrowserCookies.href}
+            caption={blogsInfo.techArticleBrowserCookies.caption} />
+      <Blog cssClassName={blogsInfo.techArticleHowBrowserParsesWebpage.cssClassName}
+            href={blogsInfo.techArticleHowBrowserParsesWebpage.href}
+            caption={blogsInfo.techArticleHowBrowserParsesWebpage.caption} />
       <Blog cssClassName={blogsInfo.techArticleOpenSSH.cssClassName}
             href={blogsInfo.techArticleOpenSSH.href}
             caption={blogsInfo.techArticleOpenSSH.caption} />
