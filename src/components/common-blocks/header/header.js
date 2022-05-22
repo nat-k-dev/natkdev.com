@@ -18,7 +18,7 @@ function Header() {
 
     return (
         <header className="header">
-            <h1 className="header__caption"><a href="/">nat-k-dev</a></h1>
+            <h1 className="header__caption"><a href="/">natkdev</a></h1>
             <div className="header__mobile-menu" id="menu-btn">
               <button className="header__menu-btn" onClick={toggleMenu}><i className="fas fa-bars"></i></button>
             </div>
