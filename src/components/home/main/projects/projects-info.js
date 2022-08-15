@@ -14,7 +14,7 @@ export const projectsInfo = {
     smartphone: {
       internalPage: false,
       cssClassName: "project__smartphone",
-      link: "https://codepen.io/appalse/full/LvPvbgp",
+      link: "https://codepen.io/appalse/full/LvPvbg",
       caption: "Smartphone rotation"
     },
     tributePage: {
