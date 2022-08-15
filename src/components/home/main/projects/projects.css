@@ -1,19 +1,23 @@
 .projects {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
 }
 
-@media screen and (max-width: 780px) {
-    .projects {
-		flex-direction: column;
+@media screen and (max-width: 1200px) {
+	.projects {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 860px) {
+    .projects {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 580px) {
 	.projects {
-		flex-direction: column;
+		grid-template-columns: 1fr;
 	}
 }

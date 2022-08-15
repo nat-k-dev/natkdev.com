@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import {homeDarkColor, homeLightColor} from "./../../main-constants";
+import {homeDarkColor, homeLightColor, backgroundColor3sAnimation} from "./../../main-constants";
 import "./project.css";
 
 function Project(props) {
-    const [bgColour, setBgColour] = useState(homeDarkColor);
-    const [textColour, setTextColour] = useState(homeLightColor);
+    const [bgColour, setBgColour] = useState(homeLightColor);
+    const [textColour, setTextColour] = useState(homeDarkColor);
     const bgStyles = {
       background: `${bgColour}`,
       color: `${textColour}`,
-      "borderRadius": "10px"
+      "transition": backgroundColor3sAnimation
     };
     const cssClassName = ["project", props.cssClassName].join(' ');
 
@@ -17,12 +17,12 @@ function Project(props) {
         <div className={cssClassName}
                   style={bgStyles}
                   onMouseEnter={() => {
-                      setBgColour(homeLightColor);
-                      setTextColour(homeDarkColor);
+                      setBgColour(homeDarkColor);
+                      setTextColour(homeLightColor);
                   }}
                   onMouseLeave={() => {
-                    setBgColour(homeDarkColor);
-                    setTextColour(homeLightColor);
+                    setBgColour(homeLightColor);
+                    setTextColour(homeDarkColor);
                   }}>
                 {props.internalPage ? 
                     <Link to={props.link}>

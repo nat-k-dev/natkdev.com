@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {homeDarkColor, homeLightColor} from "./../../main-constants";
+import {homeDarkColor, homeLightColor, backgroundColor3sAnimation} from "./../../main-constants";
 import "./contact.css";
 
 function Contact(props) {
@@ -8,7 +8,7 @@ function Contact(props) {
   const bgStyles = {
     background: `${bgColour}`,
     color: `${textColour}`,
-    "borderRadius": "10px"
+    "transition": backgroundColor3sAnimation
   };
   const iconClassName = ["contact-icon", props.icon].join(' ');
   const targetValue = props.type === "link" ? "_blank" : false;

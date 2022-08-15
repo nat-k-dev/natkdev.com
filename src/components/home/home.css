@@ -5,6 +5,9 @@
 	--home-text-color: var(--home-light-color);
 	--home-inverted-background-color: var(--home-light-color);
 	--home-inverted-text-color: var(--home-dark-color);
+	--header-background-color: #f9f8f8;
+	--header-text-color: var(--home-dark-color);
+	--header-hover-button-effect: linear-gradient(90deg, #94bbe9, #94e3e9, #94bbe9);
 	--footer-height: 16px;
 	--footer-padding: 10px;
 }

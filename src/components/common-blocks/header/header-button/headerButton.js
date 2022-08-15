@@ -1,20 +1,19 @@
 import React, { useState } from "react";
-import {homeDarkColor, homeLightColor} from "../../../home/main/main-constants"
+import {headerDarkColor, headerLightColor, headerHoverButtonEffect, smallScreenWidth} from "../../../home/main/main-constants"
 import "./headerButton.css";
 
 function HeaderButton(props) {
-  const [bgColour, setBgColour] = useState(homeLightColor);
-  const [textColour, setTextColour] = useState(homeDarkColor);
+  const [bgColour, setBgColour] = useState(headerLightColor);
+  const [textColour, setTextColour] = useState(headerDarkColor);
   const bgStyles = {
     background: `${bgColour}`,
-    "borderRadius": "10px"
   };
   const textStyles = {
     color: `${textColour}`
   }
 
   function toggleMenu() {
-    if (!window.matchMedia("screen and (max-width: 780px)").matches) {
+    if (!window.matchMedia(`screen and (max-width: ${smallScreenWidth}px)`).matches) {
       return;
     }
     let menuBox = document.getElementById('menu-box');
@@ -25,18 +24,27 @@ function HeaderButton(props) {
     };
   }
 
+  window.addEventListener("resize", function(event) {
+    let menuBox = document.getElementById('menu-box');
+    if (this.document.body.clientWidth > smallScreenWidth) {
+      menuBox.style.display = 'flex';
+    } else {
+      menuBox.style.display = 'none';
+    }
+  })
+
   return (
     <button className="header__btn" 
             id={props.id} 
             style={bgStyles}
             onClick={toggleMenu}
             onMouseEnter={() => {
-                setBgColour(homeDarkColor);
-                setTextColour(homeLightColor);
+                setBgColour(headerHoverButtonEffect);
+                setTextColour(headerDarkColor);
             }}
             onMouseLeave={() => {
-              setBgColour(homeLightColor);
-              setTextColour(homeDarkColor);
+              setBgColour(headerLightColor);
+              setTextColour(headerDarkColor);
             }} >
         <a href={props.href} style={textStyles}>
             {props.caption}

@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import {homeDarkColor, homeLightColor} from "../../main-constants";
+import {homeDarkColor, homeLightColor, backgroundColor3sAnimation} from "../../main-constants";
 import "./blog.css";
 
 function Blog(props) {
-  const [bgColour, setBgColour] = useState(homeDarkColor);
-  const [textColour, setTextColour] = useState(homeLightColor);
+  const [bgColour, setBgColour] = useState(homeLightColor);
+  const [textColour, setTextColour] = useState(homeDarkColor);
   const bgStyles = {
     background: `${bgColour}`,
-    "borderRadius": "10px"
+    "transition": backgroundColor3sAnimation
   };
   const textStyles = {
     color: `${textColour}`
@@ -17,12 +17,12 @@ function Blog(props) {
       <li className={cssClassName}
           style={bgStyles}
           onMouseEnter={() => {
-              setBgColour(homeLightColor);
-              setTextColour(homeDarkColor);
+              setBgColour(homeDarkColor);
+              setTextColour(homeLightColor);
           }}
           onMouseLeave={() => {
-            setBgColour(homeDarkColor);
-            setTextColour(homeLightColor);
+            setBgColour(homeLightColor);
+            setTextColour(homeDarkColor);
           }}>
         <p className="caption" title="Click to open in new tab">
           <a href={props.href} style={textStyles} target="_blank" rel="noreferrer">

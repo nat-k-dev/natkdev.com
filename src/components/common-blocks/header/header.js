@@ -1,11 +1,12 @@
 import React from "react";
 import HeaderButton from "./header-button/headerButton";
 import { headerButtonsInfo } from "./header-buttons-info";
+import {smallScreenWidth}  from "../../home/main/main-constants";
 import "./header.css";
 
 function Header() {
     function toggleMenu() {
-        if (!window.matchMedia("screen and (max-width: 780px)").matches) {
+        if (!window.matchMedia(`screen and (max-width: ${smallScreenWidth}px)`).matches) {
           return;
         }
         let menuBox = document.getElementById('menu-box');

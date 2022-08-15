@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {homeDarkColor, homeLightColor} from "./../../main-constants";
+import {homeDarkColor, homeLightColor, backgroundColor3sAnimation} from "./../../main-constants";
 import "./certificate.css";
 
 function Certificate(props) {
@@ -7,7 +7,7 @@ function Certificate(props) {
   const [textColour, setTextColour] = useState(homeLightColor);
   const bgStyles = {
     background: `${bgColour}`,
-    "borderRadius": "10px"
+    "transition": backgroundColor3sAnimation
   };
   const textStyles = {
     color: `${textColour}`
