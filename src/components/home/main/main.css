@@ -48,6 +48,12 @@ button:focus {
 	text-align: left;
 }
 
+@media screen and (max-width: 1024px) {
+	.main__subsection:last-of-type {
+		margin-bottom: 30px;
+	}
+}
+
 @media screen and (max-width: 780px) {
 	.home-page .main {
 		padding-top: 50px;
@@ -63,5 +69,8 @@ button:focus {
 	}
 	.subsection__heading {
 		padding: 10px;
+	}
+	.main__subsection:last-of-type {
+		margin-bottom: 10px;
 	}
 }
