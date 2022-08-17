@@ -33,6 +33,7 @@
 @media screen and (max-width: 1024px) {
 	.header__caption {
 		font-size: 20px;
+		margin: 10px;
 	}
 }
 
@@ -49,12 +50,17 @@
 	.header__mobile-menu {
 		display: flex;
 		justify-content: flex-end;
-		padding: 1rem;
+		padding: 2px;
+		margin-top: 6px;
+		margin-right: 5px;
 	}
 	.header__menu-btn {
-		font-size: 40px;
+		font-size: 25px;
 		border: none;
 		background-color: transparent;
+	}
+	.header__caption {
+		margin: 5px;
 	}
 }
 
