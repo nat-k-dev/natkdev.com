@@ -2,9 +2,6 @@
 .home-page .header {
 	width: 100%;
 	position: fixed;
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
 	top: 0;
 	background-color: var(--header-background-color);
 	color: var(--header-text-color);	
@@ -35,7 +32,6 @@
 @media screen and (max-width: 1024px) {
 	.header__caption {
 		font-size: 20px;
-		margin: 10px;
 	}
 }
 
