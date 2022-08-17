@@ -11,8 +11,8 @@ function Contact(props) {
     "transition": backgroundColor3sAnimation
   };
   const iconClassName = ["contact-icon", props.icon].join(' ');
-  const targetValue = props.type === "link" ? "_blank" : false;
-  const relValue = props.type === "link" ? "noreferrer" : false;
+  const targetValue = props.type === "link" ? "_blank" : "_self";
+  const relValue = props.type === "link" ? "noreferrer" : "";
   return (
         <li className="caption"
             style={bgStyles}
