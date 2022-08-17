@@ -7,6 +7,12 @@
 	border-radius: 50%;
 }
 
+@supports not (display: grid) {
+	.aboutme__photo {
+		float: left;
+	}
+}
+
 .aboutme__text {
 	font-size: 20px;
 	line-height: 30px;
