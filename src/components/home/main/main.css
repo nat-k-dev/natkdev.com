@@ -61,4 +61,7 @@ button:focus {
 	.main__subsection {
 		margin-top: -22px;
 	}
+	.subsection__heading {
+		padding: 10px;
+	}
 }
