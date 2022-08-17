@@ -1,5 +1,5 @@
 .home-page .main {
-	padding-top: 100px;
+	padding-top: 68px;
 	width: 100%;
 }
 
@@ -50,7 +50,7 @@ button:focus {
 
 @media screen and (max-width: 780px) {
 	.home-page .main {
-		padding-top: 60px;
+		padding-top: 50px;
 	}
 	.caption {
 		font-size: 18px;
