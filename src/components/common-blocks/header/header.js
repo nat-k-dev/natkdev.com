@@ -1,25 +1,10 @@
 import React from "react";
 import HeaderButton from "./header-button/headerButton";
 import { headerButtonsInfo } from "./header-buttons-info";
-import {smallScreenWidth}  from "../../home/main/main-constants";
+import {toggleMenu} from "./toggle-menu";
 import "./header.css";
 
 function Header() {
-    function toggleMenu() {
-        if (!window.matchMedia(`screen and (max-width: ${smallScreenWidth}px)`).matches) {
-          return;
-        }
-        let menuBox = document.getElementById('menu-box');
-        let header = document.querySelector('.home-page .header');
-        if (menuBox.style.display === 'flex'){
-          menuBox.style.display = 'none';
-          header.style.borderBottomLeftRadius = '0';
-        } else {
-          menuBox.style.display = 'flex';
-          header.style.borderBottomLeftRadius = '100px';
-        };
-    }
-
     return (
         <header className="header">
             <h1 className="header__caption"><a href="/">Natalia Karaseva</a></h1>
