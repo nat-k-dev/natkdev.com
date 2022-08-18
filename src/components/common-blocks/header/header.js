@@ -9,7 +9,7 @@ function Header() {
         <header className="header">
             <h1 className="header__caption"><a href="/">Natalia Karaseva</a></h1>
             <div className="header__mobile-menu" id="menu-btn">
-              <button className="header__menu-btn" onClick={toggleMenu}><i className="fas fa-bars"></i></button>
+              <button className="header__menu-btn" onClick={toggleMenu} ariaLabel="main menu"><i className="fas fa-bars"></i></button>
             </div>
             <nav className="header__btns" id="menu-box">
               <HeaderButton id={headerButtonsInfo.aboutMe.id}
