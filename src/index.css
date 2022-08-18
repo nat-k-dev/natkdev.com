@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  src: url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-brands-400.woff2) format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.woff2) format('woff2');
+  font-display: swap;
+}
