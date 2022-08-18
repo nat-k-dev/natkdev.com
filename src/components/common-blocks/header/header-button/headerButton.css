@@ -7,7 +7,8 @@
 	background-color: inherit;
 	margin: 15px 0;
 	padding: 5px 15px;
-	font-family: Roboto;
+	font-family: Roboto, Helvetica, sans-serif;
+	font-display: swap;
 	color: var(--home-inverted-text-color);
 	animation: slidebg 4s linear infinite alternate;
 }
