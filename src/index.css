@@ -15,7 +15,8 @@ code {
 @font-face {
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
-  src: url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-brands-400.woff2) format('woff2');
+  font-weight: normal;
+  src: url('/font/fa-brands-400.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -23,6 +24,6 @@ code {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
-  src: url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.woff2) format('woff2');
+  src: url('/font/fa-solid-900.woff2') format('woff2');
   font-display: swap;
 }
