@@ -6,10 +6,10 @@ import "./projects.css";
 function Projects() {
     return (
       <div className="projects">
-        <Project cssClassName={projectsInfo.messier.cssClassName} 
-                  link={projectsInfo.messier.link}
-                  caption={projectsInfo.messier.caption}
-                  internalPage={projectsInfo.messier.internalPage} />
+        <Project cssClassName={projectsInfo.cacaoBu.cssClassName} 
+                  link={projectsInfo.cacaoBu.link}
+                  caption={projectsInfo.cacaoBu.caption}
+                  internalPage={projectsInfo.cacaoBu.internalPage} />
         <Project cssClassName={projectsInfo.hadnDadn.cssClassName} 
                   link={projectsInfo.hadnDadn.link}
                   caption={projectsInfo.hadnDadn.caption}

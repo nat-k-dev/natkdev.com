@@ -1,8 +1,8 @@
 export const projectsInfo = {
-    messier: {
+    cacaoBu: {
       internalPage: false,
-      cssClassName: "project__messier-objects",
-      link: "https://messier-objects.netlify.app",
+      cssClassName: "project__cacao-bu",
+      link: "https://cacao-bu.netlify.app/",
       caption: "Online Store on React"
     },
     hadnDadn: {
