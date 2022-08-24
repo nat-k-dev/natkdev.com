@@ -40,11 +40,5 @@ export const projectsInfo = {
       cssClassName: "project__design-system",
       link: "/design-system",
       caption: "Design system"
-    },
-    sportmaster: {
-      internalPage: true,
-      cssClassName: "project__sportmaster",
-      link: "/sportmaster",
-      caption: "PSD to HTML, CSS"
     }
   };
