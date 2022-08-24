@@ -35,11 +35,6 @@ function Projects() {
                   link={projectsInfo.designSystem.link}
                   caption={projectsInfo.designSystem.caption}
                   internalPage={projectsInfo.designSystem.internalPage} /> 
-        <Project cssClassName={projectsInfo.sportmaster.cssClassName} 
-                  link={projectsInfo.sportmaster.link}
-                  caption={projectsInfo.sportmaster.caption}
-                  internalPage={projectsInfo.sportmaster.internalPage} />                                                        
-        
       </div>	
     );
 }
