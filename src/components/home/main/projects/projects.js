@@ -10,10 +10,10 @@ function Projects() {
                   link={projectsInfo.cacaoBu.link}
                   caption={projectsInfo.cacaoBu.caption}
                   internalPage={projectsInfo.cacaoBu.internalPage} />
-        <Project cssClassName={projectsInfo.hadnDadn.cssClassName} 
-                  link={projectsInfo.hadnDadn.link}
-                  caption={projectsInfo.hadnDadn.caption}
-                  internalPage={projectsInfo.hadnDadn.internalPage} />
+        <Project cssClassName={projectsInfo.pianoles.cssClassName} 
+                  link={projectsInfo.pianoles.link}
+                  caption={projectsInfo.pianoles.caption}
+                  internalPage={projectsInfo.pianoles.internalPage} />
         <Project cssClassName={projectsInfo.smartphone.cssClassName} 
                   link={projectsInfo.smartphone.link}
                   caption={projectsInfo.smartphone.caption}

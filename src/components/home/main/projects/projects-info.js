@@ -5,11 +5,11 @@ export const projectsInfo = {
       link: "https://cacao-bu.netlify.app/",
       caption: "Online Store on React"
     },
-    hadnDadn: {
+    pianoles: {
       internalPage: false,
-      cssClassName: "project__hadn-dadn",
-      link: "https://hadn-dadn.netlify.app",
-      caption: "Music band page"
+      cssClassName: "project__pianoles",
+      link: "https://pianoles.netlify.app/",
+      caption: "Multi-language page"
     },
     smartphone: {
       internalPage: false,
