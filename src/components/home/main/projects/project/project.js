@@ -26,11 +26,11 @@ function Project(props) {
                   }}>
                 {props.internalPage ? 
                     <Link to={props.link}>
-                        <p className="caption">{props.caption}</p>
+                        <p className="caption project-caption_text-center">{props.caption}</p>
                         <div className="icon"></div>
                     </Link> :
                     <a href={props.link} title="Click to open in new tab" target="_blank" rel="noreferrer">
-                        <p className="caption">{props.caption}</p>
+                        <p className="caption project-caption_text-center">{props.caption}</p>
                         <div className="icon"></div>
                     </a>
                 }

@@ -41,3 +41,6 @@
 	background: url('project__design-system.png') no-repeat center;
 }
 
+.caption.project-caption_text-center {
+	text-align: center;
+}

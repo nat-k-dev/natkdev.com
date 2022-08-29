@@ -9,7 +9,7 @@ export const projectsInfo = {
       internalPage: false,
       cssClassName: "project__pianoles",
       link: "https://pianoles.netlify.app/",
-      caption: "Multi-language page"
+      caption: "Multi-language React page"
     },
     smartphone: {
       internalPage: false,
