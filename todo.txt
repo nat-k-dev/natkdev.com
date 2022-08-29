@@ -1,0 +1,6 @@
+1) Fix "findDOMNode is deprecated in StrictMode"
+2) caching policy
+3) js, css minification. splitting css.
+4) optimizations
+5) use Typescript, SCSS, babel, styled-components.
+6) cross-browsers testing
