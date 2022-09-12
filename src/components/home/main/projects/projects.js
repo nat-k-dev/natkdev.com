@@ -14,6 +14,10 @@ function Projects() {
                   link={projectsInfo.pianoles.link}
                   caption={projectsInfo.pianoles.caption}
                   internalPage={projectsInfo.pianoles.internalPage} />
+        <Project cssClassName={projectsInfo.wordpressBlog.cssClassName} 
+                  link={projectsInfo.wordpressBlog.link}
+                  caption={projectsInfo.wordpressBlog.caption}
+                  internalPage={projectsInfo.wordpressBlog.internalPage} />                  
         <Project cssClassName={projectsInfo.smartphone.cssClassName} 
                   link={projectsInfo.smartphone.link}
                   caption={projectsInfo.smartphone.caption}

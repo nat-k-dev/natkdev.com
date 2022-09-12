@@ -25,6 +25,10 @@
 	background: url('project__pianoles.png') no-repeat center;
 }
 
+.project__wordpress-blog > a > .icon {
+	background: url('project__wordpress-blog.png') no-repeat center;
+}
+
 .project__smartphone > a > .icon {
 	background: url('project__smartphone.png') no-repeat center;
 }

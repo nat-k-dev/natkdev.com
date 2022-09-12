@@ -11,6 +11,12 @@ export const projectsInfo = {
       link: "https://pianoles.netlify.app/",
       caption: "Multi-language React page"
     },
+    wordpressBlog: {
+      internalPage: false,
+      cssClassName: "project__wordpress-blog",
+      link: "https://natkdevtravel.wordpress.com/",
+      caption: "Travel blog on WordPress"
+    },    
     smartphone: {
       internalPage: false,
       cssClassName: "project__smartphone",
