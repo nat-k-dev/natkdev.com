@@ -45,6 +45,10 @@
 	background: url('project__design-system.png') no-repeat center;
 }
 
+.project__tech-blog-vue > a > .icon {
+	background: url('project__tech-blog-vue.png') no-repeat center;
+}
+
 .caption.project-caption_text-center {
 	text-align: center;
 }

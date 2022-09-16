@@ -14,6 +14,10 @@ function Projects() {
                   link={projectsInfo.pianoles.link}
                   caption={projectsInfo.pianoles.caption}
                   internalPage={projectsInfo.pianoles.internalPage} />
+        <Project cssClassName={projectsInfo.techBlogVue.cssClassName} 
+                  link={projectsInfo.techBlogVue.link}
+                  caption={projectsInfo.techBlogVue.caption}
+                  internalPage={projectsInfo.techBlogVue.internalPage} />                  
         <Project cssClassName={projectsInfo.wordpressBlog.cssClassName} 
                   link={projectsInfo.wordpressBlog.link}
                   caption={projectsInfo.wordpressBlog.caption}
@@ -30,11 +34,7 @@ function Projects() {
         <Project cssClassName={projectsInfo.memoji.cssClassName} 
                   link={projectsInfo.memoji.link}
                   caption={projectsInfo.memoji.caption}
-                  internalPage={projectsInfo.memoji.internalPage} /> 
-        <Project cssClassName={projectsInfo.binaryCalc.cssClassName} 
-                  link={projectsInfo.binaryCalc.link}
-                  caption={projectsInfo.binaryCalc.caption}
-                  internalPage={projectsInfo.binaryCalc.internalPage} /> 
+                  internalPage={projectsInfo.memoji.internalPage} />  
         <Project cssClassName={projectsInfo.designSystem.cssClassName} 
                   link={projectsInfo.designSystem.link}
                   caption={projectsInfo.designSystem.caption}

@@ -46,5 +46,11 @@ export const projectsInfo = {
       cssClassName: "project__design-system",
       link: "/design-system",
       caption: "Design system"
+    },
+    techBlogVue: {
+      internalPage: false,
+      cssClassName: "project__tech-blog-vue",
+      link: "https://tech-blog-vue.netlify.app/",
+      caption: "Tech blog on Vue.JS"
     }
   };
