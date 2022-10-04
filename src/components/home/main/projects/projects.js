@@ -6,6 +6,10 @@ import "./projects.css";
 function Projects() {
     return (
       <div className="projects">
+        <Project cssClassName={projectsInfo.techBlogVue.cssClassName} 
+                  link={projectsInfo.techBlogVue.link}
+                  caption={projectsInfo.techBlogVue.caption}
+                  internalPage={projectsInfo.techBlogVue.internalPage} />          
         <Project cssClassName={projectsInfo.cacaoBu.cssClassName} 
                   link={projectsInfo.cacaoBu.link}
                   caption={projectsInfo.cacaoBu.caption}
@@ -14,10 +18,6 @@ function Projects() {
                   link={projectsInfo.pianoles.link}
                   caption={projectsInfo.pianoles.caption}
                   internalPage={projectsInfo.pianoles.internalPage} />
-        <Project cssClassName={projectsInfo.techBlogVue.cssClassName} 
-                  link={projectsInfo.techBlogVue.link}
-                  caption={projectsInfo.techBlogVue.caption}
-                  internalPage={projectsInfo.techBlogVue.internalPage} />                  
         <Project cssClassName={projectsInfo.wordpressBlog.cssClassName} 
                   link={projectsInfo.wordpressBlog.link}
                   caption={projectsInfo.wordpressBlog.caption}
