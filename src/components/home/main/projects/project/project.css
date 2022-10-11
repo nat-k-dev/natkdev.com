@@ -49,6 +49,11 @@
 	background: url('project__tech-blog-vue.png') no-repeat center;
 }
 
+.project__angular-cargo > a > .icon {
+	background: url('project__angular-cargo.png') no-repeat center;
+}
+
+
 .caption.project-caption_text-center {
 	text-align: center;
 }

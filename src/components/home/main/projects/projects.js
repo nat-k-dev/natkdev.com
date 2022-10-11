@@ -6,6 +6,10 @@ import "./projects.css";
 function Projects() {
     return (
       <div className="projects">
+        <Project cssClassName={projectsInfo.angularCargo.cssClassName} 
+                  link={projectsInfo.angularCargo.link}
+                  caption={projectsInfo.angularCargo.caption}
+                  internalPage={projectsInfo.angularCargo.internalPage} /> 
         <Project cssClassName={projectsInfo.techBlogVue.cssClassName} 
                   link={projectsInfo.techBlogVue.link}
                   caption={projectsInfo.techBlogVue.caption}

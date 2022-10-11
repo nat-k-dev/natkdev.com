@@ -52,5 +52,11 @@ export const projectsInfo = {
       cssClassName: "project__tech-blog-vue",
       link: "https://tech-blog-vue.netlify.app/",
       caption: "Tech blog on Vue.JS"
+    },
+    angularCargo: {
+      internalPage: false,
+      cssClassName: "project__angular-cargo",
+      link: "https://angular-cargo.netlify.app/",
+      caption: "Delivery company website on Angular and Tailwind (only frontend)"
     }
   };
