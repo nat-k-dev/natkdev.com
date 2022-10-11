@@ -43,6 +43,10 @@ function Projects() {
                   link={projectsInfo.designSystem.link}
                   caption={projectsInfo.designSystem.caption}
                   internalPage={projectsInfo.designSystem.internalPage} /> 
+        <Project cssClassName={projectsInfo.binaryCalc.cssClassName} 
+                  link={projectsInfo.binaryCalc.link}
+                  caption={projectsInfo.binaryCalc.caption}
+                  internalPage={projectsInfo.binaryCalc.internalPage} /> 
       </div>	
     );
 }
