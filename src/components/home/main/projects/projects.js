@@ -6,10 +6,7 @@ import "./projects.css";
 function Projects() {
     return (
       <div className="projects">
-        <Project cssClassName={projectsInfo.angularCargo.cssClassName} 
-                  link={projectsInfo.angularCargo.link}
-                  caption={projectsInfo.angularCargo.caption}
-                  internalPage={projectsInfo.angularCargo.internalPage} /> 
+         
         <Project cssClassName={projectsInfo.techBlogVue.cssClassName} 
                   link={projectsInfo.techBlogVue.link}
                   caption={projectsInfo.techBlogVue.caption}
@@ -22,6 +19,10 @@ function Projects() {
                   link={projectsInfo.pianoles.link}
                   caption={projectsInfo.pianoles.caption}
                   internalPage={projectsInfo.pianoles.internalPage} />
+        <Project cssClassName={projectsInfo.angularCargo.cssClassName} 
+                  link={projectsInfo.angularCargo.link}
+                  caption={projectsInfo.angularCargo.caption}
+                  internalPage={projectsInfo.angularCargo.internalPage} />
         <Project cssClassName={projectsInfo.wordpressBlog.cssClassName} 
                   link={projectsInfo.wordpressBlog.link}
                   caption={projectsInfo.wordpressBlog.caption}
