@@ -4,3 +4,4 @@
 4) optimizations
 5) use Typescript, SCSS, babel, styled-components.
 6) cross-browsers testing
+
