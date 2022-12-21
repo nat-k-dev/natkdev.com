@@ -58,5 +58,11 @@ export const projectsInfo = {
       cssClassName: "project__angular-cargo",
       link: "https://angular-cargo.netlify.app/",
       caption: "Delivery company website on Angular and Tailwind (only frontend)"
+    },
+    parallaxTailwind: {
+      internalPage: false,
+      cssClassName: "project__parallax-tailwind",
+      link: "https://play.tailwindcss.com/mQheFvgu5o?layout=preview",
+      caption: "Parallax effect on Tailwind"
     }
   };

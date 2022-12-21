@@ -23,6 +23,10 @@ function Projects() {
                   link={projectsInfo.angularCargo.link}
                   caption={projectsInfo.angularCargo.caption}
                   internalPage={projectsInfo.angularCargo.internalPage} />
+        <Project cssClassName={projectsInfo.parallaxTailwind.cssClassName} 
+                  link={projectsInfo.parallaxTailwind.link}
+                  caption={projectsInfo.parallaxTailwind.caption}
+                  internalPage={projectsInfo.parallaxTailwind.internalPage} />                  
         <Project cssClassName={projectsInfo.wordpressBlog.cssClassName} 
                   link={projectsInfo.wordpressBlog.link}
                   caption={projectsInfo.wordpressBlog.caption}

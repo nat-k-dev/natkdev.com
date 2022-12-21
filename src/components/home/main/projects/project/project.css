@@ -53,6 +53,10 @@
 	background: url('project__angular-cargo.png') no-repeat center;
 }
 
+.project__parallax-tailwind > a > .icon {
+	background: url('project__parallax-tailwind.png') no-repeat center;
+}
+
 
 .caption.project-caption_text-center {
 	text-align: center;
