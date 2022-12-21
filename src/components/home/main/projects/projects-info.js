@@ -62,7 +62,7 @@ export const projectsInfo = {
     parallaxTailwind: {
       internalPage: false,
       cssClassName: "project__parallax-tailwind",
-      link: "https://play.tailwindcss.com/mQheFvgu5o?layout=preview",
+      link: "https://play.tailwindcss.com/cdMTD7LkOb?layout=preview",
       caption: "Parallax effect on Tailwind"
     }
   };
