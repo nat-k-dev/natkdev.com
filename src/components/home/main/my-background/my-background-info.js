@@ -1,4 +1,4 @@
-export const certificatesInfo = {
+export const myBackgroundInfo = {
     courseraYaFrontend: {
         cssClassName: "certificate__coursera-frontend",
         href: "https://www.coursera.org/account/accomplishments/specialization/certificate/PWMDB5J9ESS8",

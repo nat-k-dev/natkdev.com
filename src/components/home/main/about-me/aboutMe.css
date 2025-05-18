@@ -28,11 +28,12 @@
 .subsection__aboutme {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
+	gap: 60px;
 	justify-items: center;
 	align-items: center;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1080px) {
 	.aboutme__text {
 		font-size: 18px;
 		margin-top: 20px;
@@ -42,6 +43,7 @@
 	}
 	.subsection__aboutme {
 		grid-template-columns: 1fr;
+		gap: 10px;
 	}
 	.aboutme__photo {
 		width: 250px;

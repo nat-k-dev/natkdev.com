@@ -1,16 +1,21 @@
 :root {
-	--home-light-color: #d8e3eb;
-	--home-dark-color: #1a405c;
-	--home-background-color: var(--home-dark-color);
-	--home-text-color: var(--home-light-color);
-	--home-inverted-background-color: var(--home-light-color);
-	--home-inverted-text-color: var(--home-dark-color);
-	--header-background-color: #f9f8f8;
-	--header-text-color: var(--home-dark-color);
-	--header-hover-button-effect: linear-gradient(90deg, #94bbe9, #94e3e9, #94bbe9);
+	--pale-turquoise:  rgba(223, 246, 245, 0.5);
+	--white-turquoise: #F8FEFE;
+	--soft-mint-blue: rgba(181, 234, 234, 0.3);
+	--slightly-lighter-grey: #444444;
+	--charcoal-grey: #2E2E2E;
+	--muted-coral: #F6C6B5;
+	
+	--home-background-color: var(--soft-mint-blue);
+	--home-text-color: var(--charcoal-grey) ;
+	--home-inverted-background-color: var(--white-turquoise);
+	--home-inverted-text-color: var(--slightly-lighter-grey);
+	--header-background-color: #fff;
+	--header-text-color: var(--slightly-lighter-grey);
 	--footer-height: 16px;
 	--footer-padding: 10px;
 }
+
 
 * {
 	margin: 0;
@@ -39,7 +44,6 @@ html, body {
 }
 
 .home-page {
-	background-color: var(--home-background-color);
 	color: var(--home-text-color);
 	display: flex;
 	flex-direction: column;

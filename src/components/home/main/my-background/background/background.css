@@ -1,9 +1,9 @@
 
-.certificate {
+.background {
 	margin: 10px;
 	padding: 8px;
 }
 
-.certificate > .caption {
+.background > .caption {
 	text-align: left;
 }

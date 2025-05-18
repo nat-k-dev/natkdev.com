@@ -1,7 +1,8 @@
-1) Fix "findDOMNode is deprecated in StrictMode"
-2) caching policy
-3) js, css minification. splitting css.
-4) optimizations
-5) use Typescript, SCSS, babel, styled-components.
-6) cross-browsers testing
+1) Animated timeline with working experience, date and responsibilities or projects done. 
+2) List of skills (maybe 3D animated). 3D animation Three.js cubus with 6 skills: HTML, CSS, Javascript, Angular, React, Vue https://www.youtube.com/watch?v=9XvZ3ChtT9M
+3) caching policy
+4) js, css minification. splitting css.
+5) optimizations
+6) use Typescript, SCSS, babel, styled-components.
+7) cross-browsers testing
 

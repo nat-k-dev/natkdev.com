@@ -6,4 +6,5 @@
 
 .article > .caption {
 	text-align: left;
+	text-decoration: underline;
 }

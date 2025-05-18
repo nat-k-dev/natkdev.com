@@ -7,6 +7,10 @@ function Projects() {
     return (
       <div className="projects">
          
+        <Project cssClassName={projectsInfo.flyerFamilyApp.cssClassName} 
+                  link={projectsInfo.flyerFamilyApp.link}
+                  caption={projectsInfo.flyerFamilyApp.caption}
+                  internalPage={projectsInfo.flyerFamilyApp.internalPage} /> 
         <Project cssClassName={projectsInfo.techBlogVue.cssClassName} 
                   link={projectsInfo.techBlogVue.link}
                   caption={projectsInfo.techBlogVue.caption}

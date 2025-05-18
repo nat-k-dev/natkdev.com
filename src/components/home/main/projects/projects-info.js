@@ -64,5 +64,11 @@ export const projectsInfo = {
       cssClassName: "project__parallax-tailwind",
       link: "https://play.tailwindcss.com/cdMTD7LkOb?layout=preview",
       caption: "Parallax effect on Tailwind"
+    },
+    flyerFamilyApp: {
+      internalPage: false,
+      cssClassName: "project__flyer-family-app",
+      link: "https://mmc.neolook.care/",
+      caption: "Information Flyer for Neolook S2S Family"
     }
   };

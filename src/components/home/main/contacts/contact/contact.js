@@ -1,29 +1,12 @@
-import React, {useState} from "react";
-import {homeDarkColor, homeLightColor, backgroundColor3sAnimation} from "./../../main-constants";
+import React from "react";
 import "./contact.css";
 
 function Contact(props) {
-  const [bgColour, setBgColour] = useState(homeDarkColor);
-  const [textColour, setTextColour] = useState(homeLightColor);
-  const bgStyles = {
-    background: `${bgColour}`,
-    color: `${textColour}`,
-    "transition": backgroundColor3sAnimation
-  };
   const iconClassName = ["contact-icon", props.icon].join(' ');
   const targetValue = props.type === "link" ? "_blank" : "_self";
   const relValue = props.type === "link" ? "noreferrer" : "";
   return (
-        <li className="caption"
-            style={bgStyles}
-            onMouseEnter={() => {
-                setBgColour(homeLightColor);
-                setTextColour(homeDarkColor);
-            }}
-            onMouseLeave={() => {
-              setBgColour(homeDarkColor);
-              setTextColour(homeLightColor);
-            }}>
+        <li className="caption">
           <a href={props.href} target={targetValue} rel={relValue}>
             <i className={iconClassName}></i>
             {props.caption}

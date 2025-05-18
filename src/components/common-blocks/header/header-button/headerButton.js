@@ -1,17 +1,13 @@
 import React, { useState } from "react";
-import {headerDarkColor, headerLightColor, headerHoverButtonEffect, smallScreenWidth} from "../../../home/main/main-constants";
+import {headerLightColor, headerHoverButtonEffect, smallScreenWidth} from "../../../home/main/main-constants";
 import { toggleMenu } from "../toggle-menu";
 import "./headerButton.css";
 
 function HeaderButton(props) {
   const [bgColour, setBgColour] = useState(headerLightColor);
-  const [textColour, setTextColour] = useState(headerDarkColor);
   const bgStyles = {
     background: `${bgColour}`,
   };
-  const textStyles = {
-    color: `${textColour}`
-  }
 
   window.addEventListener("resize", function(event) {
     let menuBox = document.getElementById('menu-box');
@@ -29,13 +25,11 @@ function HeaderButton(props) {
             onClick={toggleMenu}
             onMouseEnter={() => {
                 setBgColour(headerHoverButtonEffect);
-                setTextColour(headerDarkColor);
             }}
             onMouseLeave={() => {
               setBgColour(headerLightColor);
-              setTextColour(headerDarkColor);
             }} >
-        <a href={props.href} style={textStyles}>
+        <a href={props.href}>
             {props.caption}
         </a>
     </button>

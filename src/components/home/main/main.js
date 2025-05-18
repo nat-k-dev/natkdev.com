@@ -1,7 +1,7 @@
 import React from "react";
 import AboutMe from "./about-me/aboutMe";
 import Projects from "./projects/projects";
-import Certificates from "./certificates/certificates";
+import MyBackground from "./my-background/my-background";
 import Blogs from "./blogs/blogs";
 import Contacts from "./contacts/contacts";
 import "./main.css";
@@ -21,15 +21,15 @@ function Main() {
               <Projects />
             </section>
   
-            <div id="certificates"></div>
+            <div id="experience"></div>
             <section className="main__subsection">
-              <h2 className="subsection__heading">My certificates</h2>
-              <Certificates />
+              <h2 className="subsection__heading">My experience</h2>
+              <MyBackground />
             </section>
   
-            <div id="blogs"></div>
+            <div id="blog"></div>
             <section className="main__subsection">
-              <h2 className="subsection__heading">My blogs</h2>
+              <h2 className="subsection__heading">My articles</h2>
               <Blogs />            
             </section>
   

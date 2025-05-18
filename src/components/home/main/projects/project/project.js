@@ -1,29 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import {homeDarkColor, homeLightColor, backgroundColor3sAnimation} from "./../../main-constants";
 import "./project.css";
 
 function Project(props) {
-    const [bgColour, setBgColour] = useState(homeLightColor);
-    const [textColour, setTextColour] = useState(homeDarkColor);
-    const bgStyles = {
-      background: `${bgColour}`,
-      color: `${textColour}`,
-      "transition": backgroundColor3sAnimation
-    };
+
     const cssClassName = ["project", props.cssClassName].join(' ');
 
     return (
-        <div className={cssClassName}
-                  style={bgStyles}
-                  onMouseEnter={() => {
-                      setBgColour(homeDarkColor);
-                      setTextColour(homeLightColor);
-                  }}
-                  onMouseLeave={() => {
-                    setBgColour(homeLightColor);
-                    setTextColour(homeDarkColor);
-                  }}>
+        <div className={cssClassName}>
                 {props.internalPage ? 
                     <Link to={props.link}>
                         <p className="caption project-caption_text-center">{props.caption}</p>

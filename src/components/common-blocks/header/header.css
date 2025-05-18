@@ -5,8 +5,7 @@
 	top: 0;
 	background-color: var(--header-background-color);
 	color: var(--header-text-color);	
-	border-bottom: solid 1px silver;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 3px 8px rgba(181, 234, 234, 0.5);
 }
 
 .header__caption {

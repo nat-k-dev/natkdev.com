@@ -9,15 +9,15 @@ export const headerButtonsInfo = {
         href: "#projects",
         caption: "Projects"
     },
-    certificates: {
-        id: "header-btn-certificates",
-        href: "#certificates",
-        caption: "Certificates"
+    myBackground: {
+        id: "header-btn-my-background",
+        href: "#experience",
+        caption: "Experience"
     },
     blogs: {
         id: "header-btn-blogs",
-        href: "#blogs",
-        caption: "Blogs"
+        href: "#blog",
+        caption: "Blog"
     },
     contacts: {
         id: "header-btn-contacts",
