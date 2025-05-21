@@ -68,6 +68,10 @@
 	background: url('project__flyer-family-app.png') no-repeat center;
 }
 
+.project__biebouders-app > a > .icon {
+	background: url('project__biebouders.png') no-repeat center;
+}
+
 
 .caption.project-caption_text-center {
 	text-align: center;

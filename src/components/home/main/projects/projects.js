@@ -7,6 +7,10 @@ function Projects() {
     return (
       <div className="projects">
          
+        <Project cssClassName={projectsInfo.biebOudersApp.cssClassName} 
+                  link={projectsInfo.biebOudersApp.link}
+                  caption={projectsInfo.biebOudersApp.caption}
+                  internalPage={projectsInfo.biebOudersApp.internalPage} /> 
         <Project cssClassName={projectsInfo.flyerFamilyApp.cssClassName} 
                   link={projectsInfo.flyerFamilyApp.link}
                   caption={projectsInfo.flyerFamilyApp.caption}

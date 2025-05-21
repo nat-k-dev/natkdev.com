@@ -70,5 +70,11 @@ export const projectsInfo = {
       cssClassName: "project__flyer-family-app",
       link: "https://mmc.neolook.care/",
       caption: "Information Flyer for Neolook S2S Family"
+    },
+    biebOudersApp: {
+      internalPage: false,
+      cssClassName: "project__biebouders-app",
+      link: "https://biebouders.netlify.app/",
+      caption: "School library app to help register books"
     }
   };
