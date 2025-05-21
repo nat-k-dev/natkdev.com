@@ -2,6 +2,8 @@
 .aboutme__photo {
 	width: 320px;
 	height: 320px;
+	min-width: 320px;
+	min-height: 320px;
 	padding: 10px 10px 10px 10px;
 	margin-right: 20px;
 	border-radius: 50%;
