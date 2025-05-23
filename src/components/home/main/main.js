@@ -23,7 +23,7 @@ function Main() {
   
             <div id="experience"></div>
             <section className="main__subsection">
-              <h2 className="subsection__heading">My experience</h2>
+              <h2 className="subsection__heading">My background</h2>
               <MyBackground />
             </section>
   

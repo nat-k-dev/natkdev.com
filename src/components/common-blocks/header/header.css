@@ -6,6 +6,7 @@
 	background-color: var(--header-background-color);
 	color: var(--header-text-color);	
 	box-shadow: 0 3px 8px rgba(181, 234, 234, 0.5);
+	z-index: 10;
 }
 
 .header__caption {

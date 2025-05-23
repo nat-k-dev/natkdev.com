@@ -4,17 +4,14 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    abbyy,
+    neolook,
+    selfStudy,
+    InfoBuh,
     threejs,
   } from "../assets";
   
@@ -43,20 +40,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -78,55 +63,62 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Frontend Developer",
+      company_name: "Neolook Solutions",
+      icon: neolook,
+      iconBg: "#fff",
+      date: "October 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Translated UI/UX designs from Figma into responsive, cross-browser compatible web pages and components such as tables, forms, navigation, menu, buttons, cards, modals, animations using HTML, CSS and Tailwind CSS, Typescript. Implemented routing, data processing and API communication at frontend side, created API with Strapi. Developed dark/light color modes, Dutch-English translation module, email templates. Debugged and solved issues.",
+        "Collaborated with backend developers and designers to deliver consistent, user-friendly experiences (sprint-based workflow, with stand-ups, sprint planning, and demonstrator meetings).",
       ],
+      pointsWithSubpoints: [
+        {
+          mainPointText: "Developed web interfaces using Angular for the following applications:",
+          subpoints: [
+            "• “S2S Family” - livestream web application to allow families video access to their child staying in a neonatology department (NICU);",
+            "• “S2S Professional” - livestream web application for nurses in NICU;",
+            "• “Early Moves” - web application to record baby movements remotely;",
+            "• Information Flyer - helping instructions for parents to start using “S2S Family” https://mmc.neolook.care."
+          ]
+        }
+      ]
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Skills Development",
       company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      icon: selfStudy,
+      iconBg: "#fff",
+      date: "Sep 2018 - Sep 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created projects using ReactJS, styled-components, Bootstrap: personal website (https://karnaryen.com/), multi-language webpage (https://pianoles.netlify.app/), and frontend for online shop (https://cacao-bu.netlify.app/);",
+        "Created project using VueJS, Intersection Observer API: tech blog (https://tech-blog-vue.netlify.app/);",
+        "Created project using Angular, Tailwind CSS: delivery company website (https://angular-cargo.netlify.app/);",
+        "“Yandex School of Web Interfaces Development”, Frontend student (6 months): created frontend for internal web application to automatically build projects from github (git, webpack, Figma to responsive CSS/HTML, Javascript, ReactJS, testing, client-side optimization, ESLint, BEM, Typescript);",
+        "Completed two online specializations in web-interfaces development (Coursera and freeCodeCamp). Learned and practiced with responsive web design, semantic and accessible HTML, CSS-animations, pure HTML5/CSS3/Javascript webpages.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Software Developer",
+      company_name: "InfoAccountant",
+      icon: InfoBuh,
+      iconBg: "#fff",
+      date: "Sep 2017 - Aug 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participating in development of the new version of accounting software in C++ for Windows, improving the program interface in accordance with a new design, writing tests (gtest), code review.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Software Test Engineer",
+      company_name: "ABBYY",
+      icon: abbyy,
+      iconBg: "#fff",
+      date: "Apr 2012 - Aug 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Testing of SDK for optical character recognition (Windows, C++).",
+        "Full cycle of SDK applications release testing: test plan development and prioritization, test data and test environment preparation, tests implementation, tests results analysis and bug reporting, test automation and regression testing, report writing.",
+        "Functional, exploratory and load testing; tests utilities development and support, code review.",
+        "Release management, communication with developers and analysts, working in accordance with Agile Methodologies.",
       ],
     },
   ];

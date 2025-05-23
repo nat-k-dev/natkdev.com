@@ -26,6 +26,7 @@
 
 .project__binary-calculator > a > .icon {
 	background: url('project__binary-calculator.png') no-repeat center;
+	max-width: 95%;
 }
 
 .project__pianoles > a > .icon {
