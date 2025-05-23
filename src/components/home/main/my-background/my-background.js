@@ -36,17 +36,17 @@ const ExperienceCard = ({ experience }) => {
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
-      {experience.pointsWithSubpoints && experience.pointsWithSubpoints.map((pointWithSubpoints, index) => (
+      {experience.pointsWithSubpoints.map((pointWithSubpoints, i) => (
         <li
-          key={`experience-point-${index}-sub`}
+          key={`experience-point-${i}-sub`}
           className='pl-1 tracking-wider'
         >
-          {pointWithSubpoints.mainPointText}
+          {pointWithSubpoints.text}
           <ul className='list-none ml-10 space-y-2'>
-          {pointWithSubpoints.subpoints.map((subpoint, index) => (
+          {pointWithSubpoints.subpoints && pointWithSubpoints.subpoints.map((subpoint, j) => (
             <li
-              key={`experience-point-${index}-sub-${index}`}
-              className='pl-1 tracking-wider'
+              key={`experience-point-${i}-sub-${j}`}
+              className='pl-1 tracking-wider' 
             >
               {subpoint}
             </li>
@@ -55,20 +55,10 @@ const ExperienceCard = ({ experience }) => {
         </li>
       ))}
       </ul>
-
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
-        {experience.points.map((point, index) => (
-          <li
-            key={`experience-point-${index}`}
-            className='pl-1 tracking-wider'
-          >
-            {point}
-          </li>
-        ))}
-      </ul>
     </VerticalTimelineElement>
   );
 };
+
 
 function MyBackground() {
   return (
