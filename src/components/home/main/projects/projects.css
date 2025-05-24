@@ -2,6 +2,8 @@
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
 	grid-gap: 40px;
+	max-width: 1600px;
+	margin: auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -23,3 +25,4 @@
 		grid-template-columns: 1fr;
 	}
 }
+

@@ -2,10 +2,25 @@ import React from "react";
 import Project from "./project/project";
 import {projectsInfo} from "./projects-info";
 import "./projects.css";
+import { motion } from "framer-motion";
+
+const containerVariants = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.1, // delay between each card
+    },
+  },
+};
 
 function Projects() {
     return (
-      <div className="projects">
+      <motion.div className="projects"
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.1 }}
+      >
          
         <Project cssClassName={projectsInfo.biebOudersApp.cssClassName} 
                   link={projectsInfo.biebOudersApp.link}
@@ -56,11 +71,11 @@ function Projects() {
                   link={projectsInfo.designSystem.link}
                   caption={projectsInfo.designSystem.caption}
                   internalPage={projectsInfo.designSystem.internalPage} /> 
-        <Project cssClassName={projectsInfo.binaryCalc.cssClassName} 
+        {/*<Project cssClassName={projectsInfo.binaryCalc.cssClassName} 
                   link={projectsInfo.binaryCalc.link}
                   caption={projectsInfo.binaryCalc.caption}
-                  internalPage={projectsInfo.binaryCalc.internalPage} /> 
-      </div>	
+                  internalPage={projectsInfo.binaryCalc.internalPage} /> */}
+      </motion.div>	
     );
 }
 

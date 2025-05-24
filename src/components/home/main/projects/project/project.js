@@ -1,13 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./project.css";
+import { motion } from "framer-motion";
+
+const cardVariants = {
+    hidden: { opacity: 0, y: 20 },
+    show: { opacity: 1, y: 0 },
+  };
 
 function Project(props) {
 
     const cssClassName = ["project", props.cssClassName].join(' ');
 
     return (
-        <div className={cssClassName}>
+        <motion.div className={cssClassName} key={props.link} variants={cardVariants}>
                 {props.internalPage ? 
                     <Link to={props.link}>
                         <p className="caption project-caption_text-center">{props.caption}</p>
@@ -18,7 +24,7 @@ function Project(props) {
                         <div className="icon"></div>
                     </a>
                 }
-        </div>
+        </motion.div>
     );
 }
 
