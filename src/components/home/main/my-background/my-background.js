@@ -3,6 +3,8 @@ import "./my-background.css";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "../../../../constants";
+import Background from "./background/background";
+import { myBackgroundInfo } from "./my-background-info";
 
 
 const ExperienceCard = ({ experience }) => {
@@ -74,16 +76,17 @@ function MyBackground() {
         </VerticalTimeline>
 
       </div>
-    </div>
-    /*<ul className="my-background">
-      <p className="my-certificates">My certificates:</p>
-      <Background cssClassName={myBackgroundInfo.courseraYaFrontend.cssClassName}
+      <ul className="list-disc mt-10 max-w-[900px] mx-auto">
+        <p className="my-certificates text-center">My certificates:</p>
+        <Background cssClassName={myBackgroundInfo.courseraYaFrontend.cssClassName}
                    href={myBackgroundInfo.courseraYaFrontend.href}
                    caption={myBackgroundInfo.courseraYaFrontend.caption} />
-      <Background cssClassName={myBackgroundInfo.freeCodeCampResponsiveWeb.cssClassName}
+        <Background cssClassName={myBackgroundInfo.freeCodeCampResponsiveWeb.cssClassName}
                    href={myBackgroundInfo.freeCodeCampResponsiveWeb.href}
                    caption={myBackgroundInfo.freeCodeCampResponsiveWeb.caption} />
-    </ul>*/
+      </ul>
+    </div>
+
   );
 }
 

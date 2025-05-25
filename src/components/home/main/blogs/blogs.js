@@ -5,7 +5,7 @@ import "./blogs.css";
 
 function Blogs() {
   return (
-    <ul className="articles">
+    <ul className="articles max-w-[900px] mx-auto list-disc">
       <Blog cssClassName={blogsInfo.techArticleBrowserCookies.cssClassName}
             href={blogsInfo.techArticleBrowserCookies.href}
             caption={blogsInfo.techArticleBrowserCookies.caption} />
