@@ -14,3 +14,6 @@
 	background: #b5eaea4d !important;
   }
   
+  .vertical-timeline {
+	max-width: 2000px !important;
+  }
