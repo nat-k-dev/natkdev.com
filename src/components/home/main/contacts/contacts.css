@@ -7,6 +7,7 @@
 
 .contact-list {
 	list-style: none;
+	margin: auto;
 }
 
 .contact-list > li {

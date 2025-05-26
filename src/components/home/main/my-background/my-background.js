@@ -76,8 +76,9 @@ function MyBackground() {
         </VerticalTimeline>
 
       </div>
-      <ul className="list-disc mt-10 max-w-[900px] mx-auto">
-        <p className="my-certificates text-center">My certificates:</p>
+
+      <p className="mt-10 text-center text-3xl">My certificates:</p>
+      <ul className="list-disc mx-auto">
         <Background cssClassName={myBackgroundInfo.courseraYaFrontend.cssClassName}
                    href={myBackgroundInfo.courseraYaFrontend.href}
                    caption={myBackgroundInfo.courseraYaFrontend.caption} />
