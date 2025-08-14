@@ -23,8 +23,8 @@
 }
 
 .aboutme__paragraph {
-    text-indent: 20px;
 	line-height: 1.8rem;
+	margin-bottom: 14px;
 }
 
 .subsection__aboutme {
@@ -32,7 +32,6 @@
 	grid-template-columns: 1fr 3fr;
 	gap: 60px;
 	justify-items: center;
-	align-items: center;
 	max-width: 1200px;
 	margin: auto;
 }

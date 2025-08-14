@@ -17,7 +17,7 @@ function AboutMe() {
             <p className="aboutme__paragraph">
             Hello, my name is Natalia.
 I'm a frontend developer passionate about creating clean, user-friendly, and responsive web interfaces.
-I've worked with technologies like HTML, CSS, Tailwind CSS, JavaScript, TypeScript, Angular, and React.
+I'm working with HTML, CSS, Tailwind CSS, JavaScript, TypeScript, Angular, and React.
 I enjoy building web applications that people find easy to use, and I value being part of projects that have a meaningful impact.
 My recent experience includes developing web applications for the healthcare sector — helping medical staff, children in intensive care units and families stay connected through intuitive, modern interfaces.
             </p>
