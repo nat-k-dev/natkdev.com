@@ -1,7 +1,7 @@
 import React from "react";
-import "./background.css";
+import "./my-certificate.css";
 
-function Background(props) {
+function MyCertificate(props) {
   const cssClassName = ["background", props.cssClassName].join(" ");
   return (
       <li className={cssClassName}>
@@ -16,4 +16,4 @@ function Background(props) {
   );
 }
 
-export default Background;
+export default MyCertificate;

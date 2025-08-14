@@ -2,9 +2,9 @@ import React from "react";
 import AboutMe from "./about-me/aboutMe";
 import Projects from "./projects/projects";
 import MyBackground from "./my-background/my-background";
-import Blogs from "./blogs/blogs";
 import Contacts from "./contacts/contacts";
 import "./main.css";
+import Education from "./education/education";
 
 function Main() {
     return (
@@ -26,14 +26,14 @@ function Main() {
   
             <div id="experience"></div>
             <section className="main__subsection">
-              <h2 className="subsection__heading">My experience</h2>
+              <h2 className="subsection__heading">Experience</h2>
               <MyBackground />
             </section>
   
-            <div id="blog"></div>
+            <div id="education"></div>
             <section className="main__subsection">
-              <h2 className="subsection__heading">My articles</h2>
-              <Blogs />            
+              <h2 className="subsection__heading">Education</h2>
+              <Education />            
             </section>
   
             <div id="contacts"></div>

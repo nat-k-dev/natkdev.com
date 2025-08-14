@@ -19,6 +19,11 @@ export const headerButtonsInfo = {
         href: "#blog",
         caption: "Blog"
     },
+    education: {
+        id: "header-btn-education",
+        href: "#education",
+        caption: "Education"
+    },
     contacts: {
         id: "header-btn-contacts",
         href: "#contacts",

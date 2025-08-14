@@ -3,8 +3,7 @@ import "./my-background.css";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "../../../../constants";
-import Background from "./background/background";
-import { myBackgroundInfo } from "./my-background-info";
+
 
 
 const ExperienceCard = ({ experience }) => {
@@ -44,7 +43,7 @@ const ExperienceCard = ({ experience }) => {
           className='pl-1 tracking-wider'
         >
           {pointWithSubpoints.text}
-          <ul className='list-none ml-10 space-y-2'>
+          <ul className='list-none ml-1 space-y-2'>
           {pointWithSubpoints.subpoints && pointWithSubpoints.subpoints.map((subpoint, j) => (
             <li
               key={`experience-point-${i}-sub-${j}`}
@@ -74,20 +73,8 @@ function MyBackground() {
             />
           ))}
         </VerticalTimeline>
-
       </div>
-
-      <p className="mt-10 text-center text-3xl">My certificates:</p>
-      <ul className="list-disc mx-auto">
-        <Background cssClassName={myBackgroundInfo.courseraYaFrontend.cssClassName}
-                   href={myBackgroundInfo.courseraYaFrontend.href}
-                   caption={myBackgroundInfo.courseraYaFrontend.caption} />
-        <Background cssClassName={myBackgroundInfo.freeCodeCampResponsiveWeb.cssClassName}
-                   href={myBackgroundInfo.freeCodeCampResponsiveWeb.href}
-                   caption={myBackgroundInfo.freeCodeCampResponsiveWeb.caption} />
-      </ul>
     </div>
-
   );
 }
 

@@ -25,9 +25,9 @@ function Header() {
               <HeaderButton id={headerButtonsInfo.myBackground.id}
                       href={headerButtonsInfo.myBackground.href}
                       caption={headerButtonsInfo.myBackground.caption} />
-              <HeaderButton id={headerButtonsInfo.blogs.id}
-                      href={headerButtonsInfo.blogs.href}
-                      caption={headerButtonsInfo.blogs.caption} />
+              <HeaderButton id={headerButtonsInfo.education.id}
+                      href={headerButtonsInfo.education.href}
+                      caption={headerButtonsInfo.education.caption} />
               <HeaderButton id={headerButtonsInfo.contacts.id}
                       href={headerButtonsInfo.contacts.href}
                       caption={headerButtonsInfo.contacts.caption} />

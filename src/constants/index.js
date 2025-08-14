@@ -88,14 +88,14 @@ import {
     },
     {
       title: "Frontend Skills Development",
-      company_name: "Tesla",
+      company_name: "",
       icon: selfStudy,
       iconBg: "#fff",
       date: "Sep 2018 - Sep 2022",
       pointsWithSubpoints: [
-        {text: "Created projects using ReactJS, styled-components, Bootstrap: personal website (https://karnaryen.com/), multi-language webpage (https://pianoles.netlify.app/), and frontend for online shop (https://cacao-bu.netlify.app/);"},
-        {text: "Created project using VueJS, Intersection Observer API: tech blog (https://tech-blog-vue.netlify.app/);"},
-        {text: "Created project using Angular, Tailwind CSS: delivery company website (https://angular-cargo.netlify.app/);"},
+        {text: "Created projects using ReactJS, styled-components, Bootstrap: personal website (karnaryen.com), multi-language webpage (pianoles.netlify.app), and frontend for online shop (cacao-bu.netlify.app);"},
+        {text: "Created project using VueJS, Intersection Observer API: tech blog (tech-blog-vue.netlify.app);"},
+        {text: "Created project using Angular, Tailwind CSS: delivery company website (angular-cargo.netlify.app);"},
         {text: "“Yandex School of Web Interfaces Development”, Frontend student (6 months): created frontend for internal web application to automatically build projects from github (git, webpack, Figma to responsive CSS/HTML, Javascript, ReactJS, testing, client-side optimization, ESLint, BEM, Typescript);"},
         {text: "Completed two online specializations in web-interfaces development (Coursera and freeCodeCamp). Learned and practiced with responsive web design, semantic and accessible HTML, CSS-animations, pure HTML5/CSS3/Javascript webpages."},
       ],

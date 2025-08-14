@@ -1,0 +1,59 @@
+.subsection__education {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	gap: 60px;
+	justify-items: start;
+	align-items: start;
+	max-width: 900px;
+	margin: auto;
+}
+
+.education__text {
+	font-size: 20px;
+	line-height: 30px;
+	text-align: justify;
+	padding: 5px 10px 20px 10px;
+}
+
+@media screen and (max-width: 1080px) {
+	.education__text {
+		font-size: 18px;
+		margin-top: 20px;
+		line-height: 22px;
+	}
+	.subsection__education {
+		grid-template-columns: 1fr;
+		gap: 10px;
+	}
+}
+
+.education__column {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: start;
+	height: 100%;
+	gap: 10px
+}
+
+.education__logo-mai {
+	max-height: 40px;
+	opacity: 70%;
+}
+
+.education__years {
+	font-weight: bold;
+}
+
+.education__divider {
+	width: 70%;
+	height: 1px;
+	background-color: white;
+	margin: 20px auto;
+}
+
+.education__column a {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+	cursor: pointer;
+}
