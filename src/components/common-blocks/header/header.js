@@ -7,7 +7,11 @@ import "./header.css";
 function Header() {
     return (
         <header className="header">
-            <h1 className="header__caption"><a href="/">Natalia Karaseva</a></h1>
+            
+            <h1 className="header__caption"><a href="/" className="header__caption-container">
+                <img className="header__caption-icon" src="logo192.png" alt="website icon" />
+                Natalia Karaseva</a>
+            </h1>
             <div className="header__mobile-menu" id="menu-btn">
               <button className="header__menu-btn" onClick={toggleMenu} aria-label="main menu"><i className="fas fa-bars"></i></button>
             </div>

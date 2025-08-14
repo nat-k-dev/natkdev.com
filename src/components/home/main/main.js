@@ -11,13 +11,16 @@ function Main() {
         <main className="main">
             <div id="aboutme"></div>
             <section className="main__subsection">
-              <h2 className="subsection__heading">About me</h2>
+              <h2 className="subsection__heading">
+                Frontend developer
+                <img src="frontend-icon-responsive.png" alt="icon with desktop, tablet and smartphone" />
+              </h2>
               <AboutMe />
             </section>
   
             <div id="projects"></div>
             <section className="main__subsection">	
-              <h2 className="subsection__heading">My projects</h2>
+              <h2 className="subsection__heading">Projects</h2>
               <Projects />
             </section>
   

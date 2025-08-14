@@ -7,16 +7,29 @@
 	color: var(--header-text-color);	
 	box-shadow: 0 3px 8px rgba(181, 234, 234, 0.5);
 	z-index: 10;
+	display: flex;
+	justify-content: space-between;
 }
 
 .header__caption {
-	float: left;
 	font-family: Roboto, Helvetica, sans-serif;
 	font-display: swap;
 	font-size: 25px;
 	padding: 5px;
 	padding-left: 1%;
 	margin: 15px;
+}
+
+.header__caption-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: start;
+	gap: 8px;
+}
+
+.header__caption-icon {
+	max-height: 60px;
 }
 
 .header__btns {	
@@ -57,6 +70,7 @@
 		font-size: 25px;
 		border: none;
 		background-color: transparent;
+		padding-right: 15px;
 	}
 	.header__caption {
 		margin: 5px;
