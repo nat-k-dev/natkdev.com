@@ -7,7 +7,7 @@ function Education() {
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2006 - 2012</div>
-            <img className="education__logo-img" src="mai.svg" alt="MAI logo" />
+            <img className="education__logo-img mai" src="mai.svg" alt="MAI logo" />
           </div>
           <div className="education__column">
             <p>Moscow Aviation Institute (State University of AerospaceTechnologies) </p>
