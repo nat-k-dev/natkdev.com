@@ -7,7 +7,7 @@ function Education() {
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2006 - 2012</div>
-            <img className="education__logo-mai" src="mai.svg" alt="MAI logo" />
+            <img className="education__logo-img" src="mai.svg" alt="MAI logo" />
           </div>
           <div className="education__column">
             <p>Moscow Aviation Institute (State University of AerospaceTechnologies) </p>
@@ -19,7 +19,7 @@ function Education() {
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2019</div>
-            <img className="education__logo-mai rounded-full" src="yandex.png" alt="Yandex logo" />
+            <img className="education__logo-img rounded-full" src="yandex.png" alt="Yandex logo" />
           </div>
           <div className="education__column">
             <p>Yandex School of Web Interfaces Development</p>
@@ -32,7 +32,7 @@ function Education() {
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2019</div>
-            <img className="education__logo-mai" src="freecodecamp.jpg" alt="FreeCodeCamp logo" />
+            <img className="education__logo-img" src="freecodecamp.jpg" alt="FreeCodeCamp logo" />
           </div>
           <div className="education__column">
             <p>freeCodeCamp</p>
@@ -51,7 +51,7 @@ function Education() {
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2018</div>
-            <img className="education__logo-mai" src="coursera.jpg" alt="Coursera logo" />
+            <img className="education__logo-img" src="coursera.jpg" alt="Coursera logo" />
           </div>
           <div className="education__column">
             <p>Moscow Institute of Physics and Technology, Yandex, E-Learning Development Fund</p>

@@ -36,9 +36,14 @@
 	gap: 10px
 }
 
-.education__logo-mai {
+.education__logo-img {
 	max-height: 40px;
 	opacity: 70%;
+	border-radius: 8px;
+}
+
+.education__logo-img.mai {
+	max-width: 45px;
 }
 
 .education__years {
