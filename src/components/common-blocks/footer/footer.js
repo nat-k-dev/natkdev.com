@@ -4,7 +4,7 @@ import "./footer.css";
 
 function Footer() {
     return (
-        <footer className="footer footer-pin">&copy; <Link to="/">natkdev.com</Link> 2025</footer>
+        <footer className="footer footer-pin">&copy; <Link to="/">karnaryen.com</Link> 2025</footer>
     );
 }
 
