@@ -1,12 +1,12 @@
 
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/home/home";
-import ProjectBinaryCalculator from "./components/project-binary-calculator/projectBinaryCalculator";
-import ProjectMemoji from "./components/project-memoji/projectMemoji";
-import ProjectDesignSystem from "./components/project-design-system/projectDesignSystem";
-import NoMatchPage from "./components/no-match-page/NoMatchPage";
-import ProjectStarsAnimation from "./components/project-stars-animation/projectStarsAnimation";
-import Project3dComputer from "./components/project-3d-computer/project3dComputer";
+import Home from "./components/home/home.jsx";
+import ProjectBinaryCalculator from "./components/project-binary-calculator/projectBinaryCalculator.jsx";
+import ProjectMemoji from "./components/project-memoji/projectMemoji.jsx";
+import ProjectDesignSystem from "./components/project-design-system/projectDesignSystem.jsx";
+import NoMatchPage from "./components/no-match-page/NoMatchPage.jsx";
+import ProjectStarsAnimation from "./components/project-stars-animation/projectStarsAnimation.jsx";
+import Project3dComputer from "./components/project-3d-computer/project3dComputer.jsx";
 
 function App() {
   return (

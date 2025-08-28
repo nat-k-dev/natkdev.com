@@ -1,6 +1,6 @@
 import React from "react";
-import Project from "./project/project";
-import {projectsInfo} from "./projects-info";
+import Project from "./project/project.jsx";
+import {projectsInfo} from "./projects-info.js";
 import "./projects.css";
 import { motion } from "framer-motion";
 

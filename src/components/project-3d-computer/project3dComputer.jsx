@@ -1,6 +1,6 @@
 import React from "react";
 import "./project3dComputer.css";
-import ComputersCanvas from "../canvas/Computer";
+import ComputersCanvas from "../canvas/Computer.jsx";
 import { Link } from "react-router-dom";
 
 const Project3dComputer = () => {

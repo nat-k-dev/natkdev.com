@@ -1,9 +1,9 @@
 import React, {useEffect} from "react";
 import { Link } from "react-router-dom";
-import Footer from "../common-blocks/footer/footer";
+import Footer from "../common-blocks/footer/footer.jsx";
 import "./projectMemoji.css";
-import Game from "./game";
-import Card from "./card";
+import Game from "./game.js";
+import Card from "./card.js";
 
 const ProjectMemoji = () => {
     useEffect(() => {

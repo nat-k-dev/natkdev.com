@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import BackHomeButton from "../common-blocks/back-home-button/back-home-button";
+import BackHomeButton from "../common-blocks/back-home-button/back-home-button.jsx";
 import "./projectDesignSystem.css";
 
 const ProjectDesignSystem = () => {

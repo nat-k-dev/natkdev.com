@@ -29,7 +29,7 @@ function HeaderButton(props) {
             onMouseLeave={() => {
               setBgColour(headerLightColor);
             }} >
-        <a href={props.href}>
+        <a href={props.href} className="text-nowrap">
             {props.caption}
         </a>
     </button>

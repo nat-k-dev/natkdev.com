@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../common-blocks/footer/footer";
+import Footer from "../common-blocks/footer/footer.jsx";
 import "./no-match-page.css";
 
 const NoMatchPage = () => {

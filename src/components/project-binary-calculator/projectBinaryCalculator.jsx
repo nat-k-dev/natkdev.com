@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import {evaluate} from "mathjs";
 import { Link } from "react-router-dom";
-import Footer from "../common-blocks/footer/footer";
+import Footer from "../common-blocks/footer/footer.jsx";
 import "./binaryCalculator.css";
 
 const ProjectBinaryCalculator = () => {

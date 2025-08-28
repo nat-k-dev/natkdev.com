@@ -1,10 +1,10 @@
 import React from "react";
-import AboutMe from "./about-me/aboutMe";
-import Projects from "./projects/projects";
-import MyBackground from "./my-background/my-background";
-import Contacts from "./contacts/contacts";
+import AboutMe from "./about-me/aboutMe.jsx";
+import Projects from "./projects/projects.jsx";
+import MyBackground from "./my-background/my-background.jsx";
+import Contacts from "./contacts/contacts.jsx";
 import "./main.css";
-import Education from "./education/education";
+import Education from "./education/education.jsx";
 
 function Main() {
     return (

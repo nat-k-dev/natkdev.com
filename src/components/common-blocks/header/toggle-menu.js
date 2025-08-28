@@ -7,10 +7,10 @@ export function toggleMenu() {
     let menuBox = document.getElementById('menu-box');
     let header = document.querySelector('.home-page .header');
     if (menuBox.style.display === 'flex'){
-    menuBox.style.display = 'none';
-    header.style.borderBottomLeftRadius = '0';
+        menuBox.style.display = 'none';
+        header.style.borderBottomLeftRadius = '0';
     } else {
-    menuBox.style.display = 'flex';
-    header.style.borderBottomLeftRadius = '100px';
+        menuBox.style.display = 'flex';
+        header.style.borderBottomLeftRadius = '100px';
     };
 }

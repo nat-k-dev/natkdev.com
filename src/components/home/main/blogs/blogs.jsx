@@ -1,6 +1,6 @@
 import React from "react";
-import Blog from "./blog/blog";
-import { blogsInfo } from "./blogs-info";
+import Blog from "./blog/blog.jsx";
+import { blogsInfo } from "./blogs-info.js";
 import "./blogs.css";
 
 function Blogs() {
