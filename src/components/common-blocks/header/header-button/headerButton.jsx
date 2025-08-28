@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import {headerLightColor, headerHoverButtonEffect, smallScreenWidth} from "../../../home/main/main-constants";
-import { toggleMenu } from "../toggle-menu";
 import "./headerButton.css";
 
 function HeaderButton(props) {
+  const { id, href, caption, isOpen = false, setIsOpen } = props;
   const [bgColour, setBgColour] = useState(headerLightColor);
   const bgStyles = {
     background: `${bgColour}`,
@@ -22,7 +22,7 @@ function HeaderButton(props) {
     <button className="header__btn" 
             id={props.id} 
             style={bgStyles}
-            onClick={toggleMenu}
+            onClick={() => setIsOpen(!isOpen)}
             onMouseEnter={() => {
                 setBgColour(headerHoverButtonEffect);
             }}
