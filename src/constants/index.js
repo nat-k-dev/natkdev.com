@@ -63,64 +63,64 @@ import {
   
   const experiences = [
     {
-      title: "Frontend Developer",
+      title: "FrontendDeveloper",
       company_name: "Neolook Solutions",
       icon: neolook,
       iconBg: "#fff",
-      date: "October 2022 - Present",
+      date: "Oct 2022 - Present",
       pointsWithSubpoints: [
         {
-          text: "Developed web interfaces using Angular for the following applications:",
+          text: "NEOLOOK_WORK.point_1_main",
           subpoints: [
-            "• “S2S Family” - livestream web application to allow families video access to their child staying in a neonatology department (NICU);",
-            "• “S2S Professional” - livestream web application for nurses in NICU;",
-            "• “Early Moves” - web application to record baby movements remotely;",
-            "• Information Flyer - helping instructions for parents to start using “S2S Family” https://mmc.neolook.care."
+            "NEOLOOK_WORK.point_1_sub_1",
+            "NEOLOOK_WORK.point_1_sub_2",
+            "NEOLOOK_WORK.point_1_sub_3",
+            "NEOLOOK_WORK.point_1_sub_4"
           ]
         },
         {
-          text: "Translated UI/UX designs from Figma into responsive, cross-browser compatible web pages and components such as tables, forms, navigation, menu, buttons, cards, modals, animations using HTML, CSS and Tailwind CSS, Typescript. Implemented routing, data processing and API communication at frontend side, created API with Strapi. Developed dark/light color modes, Dutch-English translation module, email templates. Debugged and solved issues.",
+          text: "NEOLOOK_WORK.point_2",
         },
         {
-          text: "Collaborated with backend developers and designers to deliver consistent, user-friendly experiences (sprint-based workflow, with stand-ups, sprint planning, and demonstrator meetings).",
+          text: "NEOLOOK_WORK.point_3",
         }
       ]
     },
     {
-      title: "Frontend Skills Development",
+      title: "FrontendSkillsDevelopment",
       company_name: "",
       icon: selfStudy,
       iconBg: "#fff",
       date: "Sep 2018 - Sep 2022",
       pointsWithSubpoints: [
-        {text: "Created projects using ReactJS, styled-components, Bootstrap: personal website (karnaryen.com), multi-language webpage (pianoles.netlify.app), and frontend for online shop (cacao-bu.netlify.app);"},
-        {text: "Created project using VueJS, Intersection Observer API: tech blog (tech-blog-vue.netlify.app);"},
-        {text: "Created project using Angular, Tailwind CSS: delivery company website (angular-cargo.netlify.app);"},
-        {text: "“Yandex School of Web Interfaces Development”, Frontend student (6 months): created frontend for internal web application to automatically build projects from github (git, webpack, Figma to responsive CSS/HTML, Javascript, ReactJS, testing, client-side optimization, ESLint, BEM, Typescript);"},
-        {text: "Completed two online specializations in web-interfaces development (Coursera and freeCodeCamp). Learned and practiced with responsive web design, semantic and accessible HTML, CSS-animations, pure HTML5/CSS3/Javascript webpages."},
+        {text: "SELF_STUDY_WORK.project_1"},
+        {text: "SELF_STUDY_WORK.project_2"},
+        {text: "SELF_STUDY_WORK.project_3"},
+        {text: "SELF_STUDY_WORK.project_4"},
+        {text: "SELF_STUDY_WORK.project_5"},
       ],
     },
     {
-      title: "Software Developer",
+      title: "SoftwareDeveloper",
       company_name: "InfoAccountant",
       icon: InfoBuh,
       iconBg: "#fff",
       date: "Sep 2017 - Aug 2018",
       pointsWithSubpoints: [
-        {text: "Participating in development of the new version of accounting software in C++ for Windows, improving the program interface in accordance with a new design, writing tests (gtest), code review."},
+        {text: "INFO_ACCOUNTANT.experience_1"},
       ],
     },
     {
-      title: "Software Test Engineer",
+      title: "SoftwareTestEngineer",
       company_name: "ABBYY",
       icon: abbyy,
       iconBg: "#fff",
       date: "Apr 2012 - Aug 2017",
       pointsWithSubpoints: [
-        {text: "Testing of SDK for optical character recognition (Windows, C++)."},
-        {text: "Full cycle of SDK applications release testing: test plan development and prioritization, test data and test environment preparation, tests implementation, tests results analysis and bug reporting, test automation and regression testing, report writing."},
-        {text: "Functional, exploratory and load testing; tests utilities development and support, code review."},
-        {text: "Release management, communication with developers and analysts, working in accordance with Agile Methodologies."},
+        {text: "ABBYY_WORK.testing_1"},
+        {text: "ABBYY_WORK.testing_2"},
+        {text: "ABBYY_WORK.testing_3"},
+        {text: "ABBYY_WORK.testing_4"},
       ],
     },
   ];

@@ -21,9 +21,39 @@
     "ParallaxeffectonTailwind": "Parallax-effect in Tailwind",
     "InformationFlyerforNeolookS2SFamily": "Informatieflyer voor Neolook S2S Family",
     "Schoollibraryapptohelpregisterbooks": "Schoolbibliotheek-app voor het registreren van boeken",
+    "FrontendSkillsDevelopment": "Ontwikkeling van frontendvaardigheden",
+    "SoftwareDeveloper": "Software-ontwikkelaar",
+    "SoftwareTestEngineer": "Engineer Softwaretesten",
+
     "ABOUT_ME": {
         "Paragraph1": "Hallo, mijn naam is Natalia. Ik ben een frontendontwikkelaar met een passie voor het creëren van schone, gebruiksvriendelijke en responsieve webinterfaces. Ik werk met HTML, CSS, Tailwind CSS, JavaScript, TypeScript, Angular en React. Ik geniet van het bouwen van webapplicaties die mensen gemakkelijk kunnen gebruiken, en ik vind het belangrijk om deel uit te maken van projecten die een betekenisvolle impact hebben. Mijn recente ervaring omvat het ontwikkelen van webapplicaties voor de zorgsector — waarmee medisch personeel, kinderen op de intensivecareafdelingen en families verbonden blijven via intuïtieve, moderne interfaces.",
         "Paragraph2": "Ik haal de meeste inspiratie uit het creëren en verfijnen van intuïtieve webinterfaces, terwijl ik mijn frontendvaardigheden voortdurend verder ontwikkel. Bekijk gerust mijn projecten hieronder!"
+    },
+
+    "NEOLOOK_WORK": {
+        "point_1_main": "Webinterfaces ontwikkeld met Angular voor de volgende applicaties:",
+        "point_1_sub_1": "• “S2S Family” - livestream webapplicatie waarmee families videoverbinding hebben met hun kind dat op de neonatologieafdeling (NICU) verblijft;",
+        "point_1_sub_2": "• “S2S Professional” - livestream webapplicatie voor verpleegkundigen op de NICU;",
+        "point_1_sub_3": "• “Early Moves” - webapplicatie om babybewegingen op afstand te registreren;",
+        "point_1_sub_4": "• Informatieflyer - instructies voor ouders om gebruik te maken van “S2S Family”.",
+        "point_2": "UI/UX-ontwerpen uit Figma vertaald naar responsieve, cross-browser compatibele webpagina's en componenten zoals tabellen, formulieren, navigatie, menu, knoppen, kaarten, modals, animaties met HTML, CSS en Tailwind CSS, Typescript. Routing, dataverwerking en API-communicatie aan de frontendzijde geïmplementeerd, API gemaakt met Strapi. Donkere/lichtmodus ontwikkeld, module voor Nederlands-Engelse vertaling, e-mailsjablonen. Problemen opgelost en gedebugd.",
+        "point_3": "Samengewerkt met backendontwikkelaars en designers om consistente, gebruiksvriendelijke ervaringen te leveren (sprint-gebaseerde workflow, met stand-ups, sprintplanning en demonstratiemeetings)."
+    },
+    "SELF_STUDY_WORK": { 
+        "project_1": "Projecten gemaakt met ReactJS, styled-components, Bootstrap: mijn persoonlijke webpagina, meertalige webpagina over pianolessen en frontend voor een online winkel;",
+        "project_2": "Techblog gemaakt met VueJS, Intersection Observer API;",
+        "project_3": "Website voor een bezorgbedrijf gemaakt met Angular, Tailwind CSS (alleen visueel gedeelte);",
+        "project_4": "“Yandex School of Web Interfaces Development”, Frontend student (6 maanden): frontend gemaakt voor interne webapplicatie om automatisch projecten van GitHub te bouwen (git, webpack, Figma naar responsieve CSS/HTML, Javascript, ReactJS, testen, client-side optimalisatie, ESLint, BEM, Typescript);",
+        "project_5": "Twee online specialisaties in webinterface-ontwikkeling voltooid (Coursera en freeCodeCamp). Geleerd en geoefend met responsive webdesign, semantische en toegankelijke HTML, CSS-animaties, pure HTML5/CSS3/Javascript-webpagina's."
+    },
+    "INFO_ACCOUNTANT": {
+        "experience_1": "Deelgenomen aan de ontwikkeling van de nieuwe versie van boekhoudsoftware in C++ voor Windows, de programma-interface verbeterd volgens een nieuw ontwerp, tests geschreven (gtest), code review uitgevoerd."
+    },
+    "ABBYY_WORK": {
+        "testing_1": "Testen van SDK voor optische tekenherkenning (Windows, C++).",
+        "testing_2": "Volledig testtraject van SDK-toepassingen: testplanontwikkeling en prioritering, voorbereiding van testdata en testomgeving, uitvoering van tests, analyse van testresultaten en bugrapportage, testautomatisering en regressietests, rapportage.",
+        "testing_3": "Functionele, verkennende en load tests; ontwikkeling en ondersteuning van testtools, code review.",
+        "testing_4": "Release management, communicatie met ontwikkelaars en analisten, werken volgens Agile-methodologieën."
     }
   }
   

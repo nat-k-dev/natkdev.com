@@ -3,10 +3,12 @@ import "./my-background.css";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "../../../../constants";
+import { useTranslation } from "react-i18next";
 
 
 
 const ExperienceCard = ({ experience }) => {
+  const { t } = useTranslation();
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -27,7 +29,7 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className='text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className='text-[24px] font-bold'>{t(experience.title)}</h3>
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
@@ -42,14 +44,14 @@ const ExperienceCard = ({ experience }) => {
           key={`experience-point-${i}-sub`}
           className='pl-1 tracking-wider'
         >
-          {pointWithSubpoints.text}
+          {t(pointWithSubpoints.text)}
           <ul className='list-none ml-1 space-y-2'>
           {pointWithSubpoints.subpoints && pointWithSubpoints.subpoints.map((subpoint, j) => (
             <li
               key={`experience-point-${i}-sub-${j}`}
               className='pl-1 tracking-wider' 
             >
-              {subpoint}
+              {t(subpoint)}
             </li>
           ))}
           </ul>
