@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./project.css";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const cardVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -9,6 +10,7 @@ const cardVariants = {
   };
 
 function Project(props) {
+    const { t } = useTranslation();
 
     const cssClassName = ["project", props.cssClassName].join(' ');
 
@@ -20,7 +22,7 @@ function Project(props) {
                         <div className="icon"></div>
                     </Link> :
                     <a href={props.link} title="Click to open in new tab" target="_blank" rel="noreferrer">
-                        <p className="caption project-caption_text-center">{props.caption}</p>
+                        <p className="caption project-caption_text-center">{t(props.caption)}</p>
                         <div className="icon"></div>
                     </a>
                 }

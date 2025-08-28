@@ -5,14 +5,16 @@ import MyBackground from "./my-background/my-background.jsx";
 import Contacts from "./contacts/contacts.jsx";
 import "./main.css";
 import Education from "./education/education.jsx";
+import { useTranslation } from "react-i18next";
 
 function Main() {
+  const { t } = useTranslation();
     return (
         <main className="main">
             <div id="aboutme"></div>
             <section className="main__subsection">
               <h2 className="subsection__heading">
-                Frontend developer
+                {t("FrontendDeveloper")}
                 <img src="frontend-icon-responsive.png" alt="icon with desktop, tablet and smartphone" />
               </h2>
               <AboutMe />
@@ -20,25 +22,25 @@ function Main() {
   
             <div id="projects"></div>
             <section className="main__subsection">	
-              <h2 className="subsection__heading">Projects</h2>
+              <h2 className="subsection__heading">{t("Projects")}</h2>
               <Projects />
             </section>
   
             <div id="experience"></div>
             <section className="main__subsection">
-              <h2 className="subsection__heading">Experience</h2>
+              <h2 className="subsection__heading">{t("Experience")}</h2>
               <MyBackground />
             </section>
   
             <div id="education"></div>
             <section className="main__subsection">
-              <h2 className="subsection__heading">Education</h2>
+              <h2 className="subsection__heading">{t("Education")}</h2>
               <Education />            
             </section>
   
             <div id="contacts"></div>
             <section className="main__subsection">
-              <h2 className="subsection__heading">Contacts</h2>
+              <h2 className="subsection__heading">{t("Contacts")}</h2>
               <Contacts />
             </section>
           </main>

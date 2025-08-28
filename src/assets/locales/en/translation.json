@@ -1,9 +1,28 @@
 {
-    "welcome": "Welcome to my app",
-    "login": "Login",
-    "logout": "Logout",
+    "AboutMe": "About me",
+    "Projects": "Projects",
+    "Experience": "Experience",
+    "Education": "Education",
+    "Contacts": "Contacts",
+    "FrontendDeveloper": "Frontend developer",
+    "Courses": "Courses",
+    "Workprojects": "Work projects",
+    "Selfstudyprojects": "Self-study projects",
+    "OnlineStoreonReact": "Online Store on React",
+    "MultilanguageReactpage": "Multi-language React page",
+    "TravelblogonWordPress": "Travel blog on WordPress",
+    "Smartphonerotation": "Smartphone rotation",
+    "TenzingNorgaytributepage": "Tenzing Norgay tribute page",
+    "Memojiwebgame": "Memoji web-game",
+    "Binarycalculatoronline": "Binary calculator online",
+    "Designsystem": "Design system",
+    "TechblogonVue.JS": "Tech blog on Vue.JS",
+    "DeliverycompanywebsiteonAngularandTailwind(onlyfrontend)": "Delivery company website on Angular and Tailwind (only frontend)",
+    "ParallaxeffectonTailwind": "Parallax effect on Tailwind",
+    "InformationFlyerforNeolookS2SFamily": "Information Flyer for Neolook S2S Family",
+    "Schoollibraryapptohelpregisterbooks": "School library app to help register books",
     "ABOUT_ME": {
-        "Paragraph1": "",
+        "Paragraph1": "Hello, my name is Natalia. I'm a frontend developer passionate about creating clean, user-friendly, and responsive web interfaces. I'm working with HTML, CSS, Tailwind CSS, JavaScript, TypeScript, Angular, and React. I enjoy building web applications that people find easy to use, and I value being part of projects that have a meaningful impact. My recent experience includes developing web applications for the healthcare sector — helping medical staff, children in intensive care units and families stay connected through intuitive, modern interfaces.",
         "Paragraph2": "I find the most inspiration in creating and refining intuitive web interfaces while continually developing my frontend skills. Feel free to check out my projects below!"
     }
   }

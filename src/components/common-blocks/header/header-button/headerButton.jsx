@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import {headerLightColor, headerHoverButtonEffect, smallScreenWidth} from "../../../home/main/main-constants";
 import "./headerButton.css";
+import { useTranslation } from "react-i18next";
 
 function HeaderButton(props) {
+  const { t } = useTranslation();
   const { id, href, caption, isOpen = false, setIsOpen } = props;
   const [bgColour, setBgColour] = useState(headerLightColor);
   const bgStyles = {
@@ -30,7 +32,7 @@ function HeaderButton(props) {
               setBgColour(headerLightColor);
             }} >
         <a href={props.href} className="text-nowrap">
-            {props.caption}
+            {t(props.caption)}
         </a>
     </button>
   );

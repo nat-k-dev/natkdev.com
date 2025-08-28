@@ -3,78 +3,78 @@ export const projectsInfo = {
       internalPage: false,
       cssClassName: "project__cacao-bu",
       link: "https://cacao-bu.netlify.app/",
-      caption: "Online Store on React"
+      caption: "OnlineStoreonReact"
     },
     pianoles: {
       internalPage: false,
       cssClassName: "project__pianoles",
       link: "https://pianoles.netlify.app/",
-      caption: "Multi-language React page"
+      caption: "MultilanguageReactpage"
     },
     wordpressBlog: {
       internalPage: false,
       cssClassName: "project__wordpress-blog",
       link: "https://natkdevtravel.wordpress.com/",
-      caption: "Travel blog on WordPress"
+      caption: "TravelblogonWordPress"
     },    
     smartphone: {
       internalPage: false,
       cssClassName: "project__smartphone",
       link: "https://codepen.io/appalse/full/LvPvbg",
-      caption: "Smartphone rotation"
+      caption: "Smartphonerotation"
     },
     tributePage: {
       internalPage: false,
       cssClassName: "project__tribute-page",
       link: "https://codepen.io/appalse/full/MRmoNg",
-      caption: "Tenzing Norgay tribute page"
+      caption: "TenzingNorgaytributepage"
     },
     memoji: {
       internalPage: true,
       cssClassName: "project__memoji-game",
       link: "/memoji",
-      caption: "Memoji web-game"
+      caption: "Memojiwebgame"
     },
     binaryCalc: {
       internalPage: true,
       cssClassName: "project__binary-calculator",
       link: "/binary-calculator",
-      caption: "Binary calculator online"
+      caption: "Binarycalculatoronline"
     },
     designSystem: {
       internalPage: true,
       cssClassName: "project__design-system",
       link: "/design-system",
-      caption: "Design system"
+      caption: "Designsystem"
     },
     techBlogVue: {
       internalPage: false,
       cssClassName: "project__tech-blog-vue",
       link: "https://tech-blog-vue.netlify.app/",
-      caption: "Tech blog on Vue.JS"
+      caption: "TechblogonVue.JS"
     },
     angularCargo: {
       internalPage: false,
       cssClassName: "project__angular-cargo",
       link: "https://angular-cargo.netlify.app/",
-      caption: "Delivery company website on Angular and Tailwind (only frontend)"
+      caption: "DeliverycompanywebsiteonAngularandTailwind(onlyfrontend)"
     },
     parallaxTailwind: {
       internalPage: false,
       cssClassName: "project__parallax-tailwind",
       link: "https://play.tailwindcss.com/cdMTD7LkOb?layout=preview",
-      caption: "Parallax effect on Tailwind"
+      caption: "ParallaxeffectonTailwind"
     },
     flyerFamilyApp: {
       internalPage: false,
       cssClassName: "project__flyer-family-app",
       link: "https://mmc.neolook.care/",
-      caption: "Information Flyer for Neolook S2S Family"
+      caption: "InformationFlyerforNeolookS2SFamily"
     },
     biebOudersApp: {
       internalPage: false,
       cssClassName: "project__biebouders-app",
       link: "https://biebouders.netlify.app/",
-      caption: "School library app to help register books"
+      caption: "Schoollibraryapptohelpregisterbooks"
     }
   };

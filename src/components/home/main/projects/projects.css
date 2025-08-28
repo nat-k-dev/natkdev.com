@@ -6,6 +6,11 @@
 	margin: auto;
 }
 
+.projects__caption {
+	@apply text-center text-lg md:text-xl lg:text-2xl mb-8;
+	@apply flex items-center gap-4 justify-center;
+}
+
 @media screen and (max-width: 1200px) {
 	.projects {
 		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);

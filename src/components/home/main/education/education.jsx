@@ -1,7 +1,9 @@
 import React from "react";
 import "./education.css";
+import { useTranslation } from "react-i18next";
 
 function Education() {
+  const { t } = useTranslation();
     return (
       <React.Fragment>
         <div className="subsection__education">
@@ -15,7 +17,7 @@ function Education() {
           </div>
         </div>
 
-        <p className="my-10 text-center text-3xl ">Courses</p>
+        <p className="my-10 text-center text-3xl ">{t("Courses")}</p>
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2019</div>

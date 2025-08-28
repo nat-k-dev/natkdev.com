@@ -2,7 +2,7 @@ export const headerButtonsInfo = {
     aboutMe: {
         id: "header-btn-about",
         href: "#aboutme",
-        caption: "About me"
+        caption: "AboutMe"
     },
     projects: {
         id: "header-btn-projects",

@@ -1,10 +1,29 @@
 {
-    "welcome": "Welkom bij mijn app",
-    "login": "Login",
-    "logout": "Uitloggen",
+    "AboutMe": "Over mij",
+    "Projects": "Projecten",
+    "Experience": "Ervaring",
+    "Education": "Opleiding",
+    "Contacts": "Contact",
+    "FrontendDeveloper": "Frontend-ontwikkelaar",
+    "Courses": "Cursussen",
+    "Workprojects": "Werkprojecten",
+    "Selfstudyprojects": "Zelfstudieprojecten",
+    "OnlineStoreonReact": "Online winkel in React",
+    "MultilanguageReactpage": "Meertalige React-pagina",
+    "TravelblogonWordPress": "Reisblog in WordPress",
+    "Smartphonerotation": "Smartphone-rotatie",
+    "TenzingNorgaytributepage": "Tenzing Norgay eerbetoonpagina",
+    "Memojiwebgame": "Memoji-webgame",
+    "Binarycalculatoronline": "Online binaire calculator",
+    "Designsystem": "Designsysteem",
+    "TechblogonVue.JS": "Techblog in Vue.JS",
+    "DeliverycompanywebsiteonAngularandTailwind(onlyfrontend)": "Website voor bezorgbedrijf, Angular (alleen frontend)",
+    "ParallaxeffectonTailwind": "Parallax-effect in Tailwind",
+    "InformationFlyerforNeolookS2SFamily": "Informatieflyer voor Neolook S2S Family",
+    "Schoollibraryapptohelpregisterbooks": "Schoolbibliotheek-app voor het registreren van boeken",
     "ABOUT_ME": {
-        "Paragraph1": "",
-        "Paragraph2": "I vind het the most inspiration in creating and refining intuitive web interfaces while continually developing my frontend skills. Feel free to check out my projects below!"
+        "Paragraph1": "Hallo, mijn naam is Natalia. Ik ben een frontendontwikkelaar met een passie voor het creëren van schone, gebruiksvriendelijke en responsieve webinterfaces. Ik werk met HTML, CSS, Tailwind CSS, JavaScript, TypeScript, Angular en React. Ik geniet van het bouwen van webapplicaties die mensen gemakkelijk kunnen gebruiken, en ik vind het belangrijk om deel uit te maken van projecten die een betekenisvolle impact hebben. Mijn recente ervaring omvat het ontwikkelen van webapplicaties voor de zorgsector — waarmee medisch personeel, kinderen op de intensivecareafdelingen en families verbonden blijven via intuïtieve, moderne interfaces.",
+        "Paragraph2": "Ik haal de meeste inspiratie uit het creëren en verfijnen van intuïtieve webinterfaces, terwijl ik mijn frontendvaardigheden voortdurend verder ontwikkel. Bekijk gerust mijn projecten hieronder!"
     }
   }
   

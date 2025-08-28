@@ -3,6 +3,9 @@ import Project from "./project/project.jsx";
 import {projectsInfo} from "./projects-info.js";
 import "./projects.css";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import { selfStudy } from "../../../../assets/index.js";
+import { neolook } from "../../../../assets/index.js";
 
 const containerVariants = {
   hidden: {},
@@ -14,7 +17,28 @@ const containerVariants = {
 };
 
 function Projects() {
-    return (
+  const { t } = useTranslation();
+  return (
+    <>
+      <h3 className="projects__caption">
+        <img className="h-10" src={neolook} alt="Neolook icon" />
+        {t("Workprojects")}
+      </h3>
+      <motion.div className="projects"
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.1 }}
+      >
+        <Project cssClassName={projectsInfo.flyerFamilyApp.cssClassName} 
+                  link={projectsInfo.flyerFamilyApp.link}
+                  caption={projectsInfo.flyerFamilyApp.caption}
+                  internalPage={projectsInfo.flyerFamilyApp.internalPage} /> 
+      </motion.div>	
+      <h3 className="projects__caption mt-10">
+      <img className="h-10" src={selfStudy} alt="Self-study icon" />
+        {t("Selfstudyprojects")}
+      </h3>
       <motion.div className="projects"
         variants={containerVariants}
         initial="hidden"
@@ -26,10 +50,6 @@ function Projects() {
                   link={projectsInfo.biebOudersApp.link}
                   caption={projectsInfo.biebOudersApp.caption}
                   internalPage={projectsInfo.biebOudersApp.internalPage} /> 
-        <Project cssClassName={projectsInfo.flyerFamilyApp.cssClassName} 
-                  link={projectsInfo.flyerFamilyApp.link}
-                  caption={projectsInfo.flyerFamilyApp.caption}
-                  internalPage={projectsInfo.flyerFamilyApp.internalPage} /> 
         <Project cssClassName={projectsInfo.techBlogVue.cssClassName} 
                   link={projectsInfo.techBlogVue.link}
                   caption={projectsInfo.techBlogVue.caption}
@@ -71,12 +91,13 @@ function Projects() {
                   link={projectsInfo.designSystem.link}
                   caption={projectsInfo.designSystem.caption}
                   internalPage={projectsInfo.designSystem.internalPage} /> 
-        {/*<Project cssClassName={projectsInfo.binaryCalc.cssClassName} 
+        <Project cssClassName={projectsInfo.binaryCalc.cssClassName} 
                   link={projectsInfo.binaryCalc.link}
                   caption={projectsInfo.binaryCalc.caption}
-                  internalPage={projectsInfo.binaryCalc.internalPage} /> */}
+                  internalPage={projectsInfo.binaryCalc.internalPage} />
       </motion.div>	
-    );
+    </>
+  );
 }
 
 export default Projects;

@@ -17,15 +17,9 @@ function AboutMe() {
         <div className="subsection__aboutme">
           <img className="aboutme__photo" src="me.jpeg" alt="website developer" />
           <article className="aboutme__text"> 
-            <p className="aboutme__paragraph">
-            Hello, my name is Natalia.
-I'm a frontend developer passionate about creating clean, user-friendly, and responsive web interfaces.
-I'm working with HTML, CSS, Tailwind CSS, JavaScript, TypeScript, Angular, and React.
-I enjoy building web applications that people find easy to use, and I value being part of projects that have a meaningful impact.
-My recent experience includes developing web applications for the healthcare sector — helping medical staff, children in intensive care units and families stay connected through intuitive, modern interfaces.
-            </p>
+            <p className="aboutme__paragraph">{t("ABOUT_ME.Paragraph1")}</p>
             <p className="aboutme__paragraph">{t("ABOUT_ME.Paragraph2")}</p>
-            <div className="aboutme__skills">
+            <div className="aboutme__skills fade-in-up">
               <div className="aboutme__skill">
                 <IconHtml/>HTML
               </div>
