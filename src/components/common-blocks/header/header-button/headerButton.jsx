@@ -11,7 +11,7 @@ function HeaderButton(props) {
 
   window.addEventListener("resize", function(event) {
     let menuBox = document.getElementById('menu-box');
-    if (this.window.innerWidth >= smallScreenWidth) {
+    if (this.window.innerWidth > smallScreenWidth) {
       menuBox.style.display = 'flex';
     } else {
       menuBox.style.display = 'none';

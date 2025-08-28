@@ -49,6 +49,7 @@ function Header() {
             {/* Mobile Dropdown */}
             <div className="header__mobile-menu relative" id="menu-btn">
                 <button className="header__menu-btn" onClick={() => setIsOpen(!isOpen)} aria-label="main menu"><i className="fas fa-bars"></i></button>
+                
                 {isOpen && (
                         <div className="mobile-menu__dropdown">
                                 <HeaderButton isOpen={isOpen} setIsOpen={setIsOpen} id={headerButtonsInfo.aboutMe.id}
@@ -75,6 +76,9 @@ function Header() {
                         </div>
                 )}
             </div>
+            <div className={`backgroun-overlay ${isOpen ? "block" : "hidden"}`} 
+                onClick={() => setIsOpen(!isOpen)}
+            ></div> 
 
           </header>
     );
