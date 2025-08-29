@@ -54,6 +54,33 @@
         "testing_2": "Full cycle of SDK applications release testing: test plan development and prioritization, test data and test environment preparation, tests implementation, tests results analysis and bug reporting, test automation and regression testing, report writing.",
         "testing_3": "Functional, exploratory and load testing; tests utilities development and support, code review.",
         "testing_4": "Release management, communication with developers and analysts, working in accordance with Agile Methodologies."
+    },
+    "WORK_PROJECTS": {
+        "ReadMore": "Read more...",
+        "TechStack": "Tech stack:",
+        "Browsers": "Developed for browsers:",
+        "Confidential": "[🔒 Confidential]",
+        "EARLY_MOVES": {
+            "ProjectDescriptionTitle": "Neolook Early Moves",
+            "ProjectDescriptionText": "`Early Moves` is a software solution to support healthcare professionals and parents in capturing and analyzing infants movements remotely, helping to detect developmental conditions early and provide better care for high-risk or premature babies.",
+            "MyResponsibilitiesText": "I joined the Early Moves project at its start in January 2023, where I was responsible for building the entire frontend while other team members handled the backend. I translated Figma designs into a scalable, responsive Angular application (v15-v18) using Tailwind CSS, and implemented features such as login, video recording, and translation. I also optimized the application for mobile, tablet, desktop, and wide-screen devices and created reliable email templates.",
+            "Awards": "🏆 `Early Moves` was recognized as one of the winners of the 'Computable Awards' in 2023, in the healthcare category."
+        },
+        "MMC_FLYER": {
+            "ProjectDescriptionTitle": "",
+            "ProjectDescriptionText": "",
+            "MyResponsibilitiesText": ""
+        },
+        "S2S_FAMILY": {
+            "ProjectDescriptionTitle": "",
+            "ProjectDescriptionText": "",
+            "MyResponsibilitiesText": ""
+        },
+        "S2S_PROFESSIONAL": {
+            "ProjectDescriptionTitle": "",
+            "ProjectDescriptionText": "",
+            "MyResponsibilitiesText": ""
+        }
     }
   }
   

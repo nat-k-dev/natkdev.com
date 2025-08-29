@@ -54,6 +54,33 @@
         "testing_2": "Volledig testtraject van SDK-toepassingen: testplanontwikkeling en prioritering, voorbereiding van testdata en testomgeving, uitvoering van tests, analyse van testresultaten en bugrapportage, testautomatisering en regressietests, rapportage.",
         "testing_3": "Functionele, verkennende en load tests; ontwikkeling en ondersteuning van testtools, code review.",
         "testing_4": "Release management, communicatie met ontwikkelaars en analisten, werken volgens Agile-methodologieën."
+    },
+    "WORK_PROJECTS": {
+        "ReadMore": "Lees meer...",
+        "TechStack": "Tech stack:",
+        "Browsers": "Ontwikkeld voor browsers:",
+        "Confidential": "[🔒 Vertrouwelijk]",
+        "EARLY_MOVES": {
+            "ProjectDescriptionTitle": "Neolook Early Moves",
+            "ProjectDescriptionText": "`Early Moves` is een software die zorgverleners en ouders helpt om op afstand de bewegingen van baby's te volgen en te bekijken. Zo kunnen ontwikkelingsproblemen vroeg worden ontdekt en krijgen risicovolle of te vroeg geboren baby's betere zorg.",
+            "MyResponsibilitiesText": "Ik begon in januari 2023 met het Early Moves-project en was verantwoordelijk voor de volledige frontend, terwijl andere teamleden het backend deel maakten. Ik heb de Figma-ontwerpen omgezet naar een schaalbare, responsieve Angular-applicatie (v15-v18) met Tailwind CSS, en functies toegevoegd zoals inloggen, videoregistratie en vertaling. Ook heb ik de applicatie geschikt gemaakt voor mobiel, tablet, desktop en brede schermen en betrouwbare e-mailtemplates ontwikkeld.",
+            "Awards": "🏆 `Early Moves` kreeg in 2023 een vermelding bij de 'Computable Awards', in de categorie Zorgproject."
+        },
+        "MMC_FLYER": {
+            "ProjectDescriptionTitle": "",
+            "ProjectDescriptionText": "",
+            "MyResponsibilitiesText": ""
+        },
+        "S2S_FAMILY": {
+            "ProjectDescriptionTitle": "",
+            "ProjectDescriptionText": "",
+            "MyResponsibilitiesText": ""
+        },
+        "S2S_PROFESSIONAL": {
+            "ProjectDescriptionTitle": "",
+            "ProjectDescriptionText": "",
+            "MyResponsibilitiesText": ""
+        }
     }
   }
   

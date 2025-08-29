@@ -1,3 +1,8 @@
+.work-projects {
+	max-width: 1600px;
+	margin: auto;
+}
+
 .projects {
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
@@ -7,7 +12,7 @@
 }
 
 .projects__caption {
-	@apply text-center text-lg md:text-xl lg:text-2xl mb-8;
+	@apply text-center text-lg md:text-xl lg:text-2xl lg:mb-8;
 	@apply flex items-center gap-4 justify-center;
 }
 

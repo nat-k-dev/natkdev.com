@@ -16,6 +16,16 @@ import abbyy from "./company/abbyy.png";
 import InfoBuh from "./company/info-buhgalter.png";
 import neolook from "./company/neolook.png";
 import selfStudy from "./company/self-study.png";
+import developerWorkingIcon from "./company/developer-is-working-icon.png";
+
+import safariSvg from "./tech/browsers/safari.svg";
+import chromeSvg from "./tech/browsers/chrome.svg";
+import edgeSvg from "./tech/browsers/edge.svg";
+import firefoxSvg from "./tech/browsers/firefox.svg";
+
+import webRtcSvg from "./tech/webrtc.svg";
+import recordRtcPng from "./tech/recordrtc.png";
+import cronitorPng from "./tech/cronitor.png";
 
 
 export {
@@ -35,4 +45,12 @@ export {
   InfoBuh,
   neolook,
   selfStudy,
+  developerWorkingIcon,
+  safariSvg,
+  chromeSvg,
+  edgeSvg,
+  firefoxSvg,
+  webRtcSvg,
+  recordRtcPng,
+  cronitorPng,
 };
