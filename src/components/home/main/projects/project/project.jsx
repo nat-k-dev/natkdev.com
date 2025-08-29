@@ -18,11 +18,11 @@ function Project(props) {
         <motion.div className={cssClassName} key={props.link} variants={cardVariants}>
                 {props.internalPage ? 
                     <Link to={props.link}>
-                        <p className="caption project-caption_text-center">{props.caption}</p>
+                        <p className="project-caption_text-center">{props.caption}</p>
                         <div className="icon"></div>
                     </Link> :
                     <a href={props.link} title="Click to open in new tab" target="_blank" rel="noreferrer">
-                        <p className="caption project-caption_text-center">{t(props.caption)}</p>
+                        <p className="project-caption_text-center">{t(props.caption)}</p>
                         <div className="icon"></div>
                     </a>
                 }
