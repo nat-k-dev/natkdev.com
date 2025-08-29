@@ -2,7 +2,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./neolook-projects.css"
-import uiProjecteearlyMoves from "./ui-project-early-moves.png";
+import uiProjectEarlyMoves from "./ui-project-early-moves.png";
 import angularImg from "../../../../../assets/tech/svg/angular.svg"
 import tailwindImg from "../../../../../assets/tech/svg/tailwind-css.svg"
 import { safariSvg, chromeSvg, firefoxSvg, edgeSvg, recordRtcPng, cronitorPng } from "../../../../../assets";
@@ -15,7 +15,7 @@ function EarlyMovesProject() {
         <article className="work-project__article">
             <section className="work-project__container">
                 <div className="work-project__main-img">
-                    <img src={uiProjecteearlyMoves} alt="EarlyMoves logo" />
+                    <img src={uiProjectEarlyMoves} alt="EarlyMoves logo" />
                 </div>
                 <div className="work-project__text-container">
                     <h4>

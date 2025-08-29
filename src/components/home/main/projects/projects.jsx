@@ -6,8 +6,9 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { selfStudy } from "../../../../assets/index.js";
 import { developerWorkingIcon } from "../../../../assets/index.js";
-import { neolook } from "../../../../assets/index.js";
 import EarlyMovesProject from "./neolook/early-moves-project.jsx"
+import MMCFlyerProject from "./neolook/mmc-flyer-project.jsx";
+import S2SPlatformProject from "./neolook/s2s-platform-project.jsx";
 
 const containerVariants = {
   hidden: {},
@@ -33,6 +34,8 @@ function Projects() {
         viewport={{ once: true, amount: 0.1 }}
       >
         <EarlyMovesProject/>
+        <MMCFlyerProject/>
+        <S2SPlatformProject/>
 
         {/*<Project cssClassName={projectsInfo.flyerFamilyApp.cssClassName} 
                   link={projectsInfo.flyerFamilyApp.link}

@@ -60,6 +60,8 @@
         "TechStack": "Tech stack:",
         "Browsers": "Ontwikkeld voor browsers:",
         "Confidential": "[🔒 Vertrouwelijk]",
+        "Open": "Open",
+        "DemoMode": "Demomodus: videostreams worden vervangen door stockvideo's.",
         "EARLY_MOVES": {
             "ProjectDescriptionTitle": "Neolook Early Moves",
             "ProjectDescriptionText": "`Early Moves` is een software die zorgverleners en ouders helpt om op afstand de bewegingen van baby's te volgen en te bekijken. Zo kunnen ontwikkelingsproblemen vroeg worden ontdekt en krijgen risicovolle of te vroeg geboren baby's betere zorg.",
@@ -67,20 +69,15 @@
             "Awards": "🏆 `Early Moves` kreeg in 2023 een vermelding bij de 'Computable Awards', in de categorie Zorgproject."
         },
         "MMC_FLYER": {
-            "ProjectDescriptionTitle": "",
-            "ProjectDescriptionText": "",
-            "MyResponsibilitiesText": ""
+            "ProjectDescriptionTitle": "Máxima MC Information Flyer",
+            "ProjectDescriptionText": "Dit project is een informatieve webpagina die ouders helpt zich voor te bereiden voordat ze S2S Family gebruiken, de software om hun baby in de NICU te bekijken. De pagina geeft een duidelijk overzicht van de software, ervaringen van andere ouders, stap-voor-stap instructies voor de installatie en een FAQ-sectie. Het doel is om ouders te helpen de software makkelijk te begrijpen en te gebruiken.",
+            "MyResponsibilitiesText": "Ik heb in april 2023 de Máxima MC Information Flyer webpagina ontwikkeld voor Neolook en het Máxima MC ziekenhuis. Ik heb automatische taalherkenning toegevoegd, zodat de pagina in het Nederlands of Engels bekeken kan worden. Om het makkelijker te maken voor het Neolook-team om de inhoud te beheren, heb ik Strapi gebruikt om de teksten voor de FAQ- en testimonials-secties op te slaan. Ik heb ervoor gezorgd dat de pagina goed werkt op zowel mobiele als desktop schermen en heb CSS-animaties toegevoegd om de interface gebruiksvriendelijker te maken."
         },
-        "S2S_FAMILY": {
-            "ProjectDescriptionTitle": "",
-            "ProjectDescriptionText": "",
-            "MyResponsibilitiesText": ""
-        },
-        "S2S_PROFESSIONAL": {
-            "ProjectDescriptionTitle": "",
-            "ProjectDescriptionText": "",
-            "MyResponsibilitiesText": ""
-        }
+        "S2S_PLATFORM": {
+            "ProjectDescriptionTitle": "Neolook S2S Platform",
+            "ProjectDescriptionText": "Het S2S Platform van Neolook is een systeem met video- en AI-oplossingen voor de zorg in de NICU en PICU. Het heeft drie onderdelen: S2S Family om ouders contact te laten houden met hun baby, S2S Professional om zorgprofessionals te ondersteunen, en S2S Academic voor klinisch onderzoek.",
+            "MyResponsibilitiesText": "In de afgelopen drie jaar was ik vooral verantwoordelijk voor de ontwikkeling van de frontend van het S2S Platform. Mijn werk bestond uit het bouwen van nieuwe functies, pagina's en componenten, en ervoor zorgen dat ze betrouwbaar en goed bruikbaar waren op verschillende schermen. Toen het project complexer werd, werkte ik ook aan de frontend-architectuur om deze schaalbaar en onderhoudbaar te maken. Tot de functies die ik heb ontwikkeld horen: real-time camerastatus-updates (SSE), grid- en lijstweergaven voor cameramonitoring (voor zowel verpleegposten als zorgtelefoons), een webinterface voor videovergaderingen met meerdere personen, toegangsbeheer en URL-bescherming op basis van licentietype (Family, Professional of Academic), en licht/donker-modi. Ik heb nauw samengewerkt met ontwerpers, backend-ontwikkelaars, de solution architect en het management. We werkten in sprints met regelmatige demo's en sprintplanning in Jira."
+        }  
     }
   }
   

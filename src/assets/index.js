@@ -27,6 +27,8 @@ import webRtcSvg from "./tech/webrtc.svg";
 import recordRtcPng from "./tech/recordrtc.png";
 import cronitorPng from "./tech/cronitor.png";
 
+import openNewTabIconPng from "./open-new-tab-icon.png";
+
 
 export {
   menu,
@@ -53,4 +55,5 @@ export {
   webRtcSvg,
   recordRtcPng,
   cronitorPng,
+  openNewTabIconPng,
 };

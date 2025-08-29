@@ -3,7 +3,11 @@
 }
 
 .work-project__container {
-    @apply flex flex-col lg:flex-row gap-10;
+    @apply flex flex-col lg:flex-row gap-10 lg:items-center;
+}
+
+.work-project__container.work-project__container-flex-col-reverse {
+    @apply flex-col-reverse lg:flex-row;
 }
 
 .work-project__main-img {
@@ -54,3 +58,4 @@
 .confidential {
     @apply mt-1 lg:mt-0 lg:ml-5 font-normal block lg:inline-block;
 }
+
