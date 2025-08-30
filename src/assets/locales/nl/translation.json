@@ -24,12 +24,10 @@
     "FrontendSkillsDevelopment": "Ontwikkeling van frontendvaardigheden",
     "SoftwareDeveloper": "Software-ontwikkelaar",
     "SoftwareTestEngineer": "Engineer Softwaretesten",
-
     "ABOUT_ME": {
         "Paragraph1": "Hallo, mijn naam is Natalia. Ik ben een frontendontwikkelaar met een passie voor het creëren van schone, gebruiksvriendelijke en responsieve webinterfaces. Ik werk met HTML, CSS, Tailwind CSS, JavaScript, TypeScript, Angular en React. Ik geniet van het bouwen van webapplicaties die mensen gemakkelijk kunnen gebruiken, en ik vind het belangrijk om deel uit te maken van projecten die een betekenisvolle impact hebben. Mijn recente ervaring omvat het ontwikkelen van webapplicaties voor de zorgsector — waarmee medisch personeel, kinderen op de intensivecareafdelingen en families verbonden blijven via intuïtieve, moderne interfaces.",
         "Paragraph2": "Ik haal de meeste inspiratie uit het creëren en verfijnen van intuïtieve webinterfaces, terwijl ik mijn frontendvaardigheden voortdurend verder ontwikkel. Bekijk gerust mijn projecten hieronder!"
     },
-
     "NEOLOOK_WORK": {
         "point_1_main": "Webinterfaces ontwikkeld met Angular voor de volgende applicaties:",
         "point_1_sub_1": "• “S2S Family” - livestream webapplicatie waarmee families videoverbinding hebben met hun kind dat op de neonatologieafdeling (NICU) verblijft;",
