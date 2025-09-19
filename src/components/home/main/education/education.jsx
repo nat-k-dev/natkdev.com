@@ -20,6 +20,40 @@ function Education() {
         <p className="my-10 text-center text-3xl ">{t("Courses")}</p>
         <div className="subsection__education">
           <div className="education__column">
+            <div className="education__years">2025</div>
+            <img className="education__logo-img rounded-full" src="angular-udemy.png" alt="Angular course at Udemy logo" />
+          </div>
+          <div className="education__column">
+            <p>Udemy</p>
+            <a href={"https://www.udemy.com/certificate/UC-daae9ae8-71aa-4c12-90cb-d195c81c7700/"} 
+               target="_blank" 
+               rel="noreferrer">
+                Angular - The Complete Guide (2025 Edition)
+            </a>
+          </div>
+        </div>
+
+        <div className="education__divider"></div>
+
+        <div className="subsection__education">
+          <div className="education__column">
+            <div className="education__years">2025</div>
+            <img className="education__logo-img rounded-full" src="duo.png" alt="DUO logo" />
+          </div>
+          <div className="education__column">
+            <p>Dienst Uitvoering Onderwijs (DUO)</p>
+            <a href={"/inburgering-a2.pdf"} 
+               target="_blank" 
+               rel="noreferrer">
+                Inburgeringsdiploma A2
+            </a>
+          </div>
+        </div>
+
+        <div className="education__divider"></div>
+
+        <div className="subsection__education">
+          <div className="education__column">
             <div className="education__years">2019</div>
             <img className="education__logo-img rounded-full" src="yandex.png" alt="Yandex logo" />
           </div>
