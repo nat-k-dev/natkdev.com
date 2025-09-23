@@ -98,7 +98,23 @@ function Education() {
                   Web interfaces development: HTML, CSS and JavaScript Specialization
               </a>
             </p>
-            
+          </div>
+        </div>
+
+        <div className="education__divider"></div>
+
+        <div className="subsection__education">
+          <div className="education__column">
+            <div className="education__years">2017</div>
+            <img className="education__logo-img rounded-full" src="istqb.png" alt="DUO logo" />
+          </div>
+          <div className="education__column">
+            <p>GASQ Service GmbH</p>
+            <a href={"/ISTQB_certificate.pdf"} 
+               target="_blank" 
+               rel="noreferrer">
+                ISTQB Certified Tester (Foundation Level)
+            </a>
           </div>
         </div>
 
