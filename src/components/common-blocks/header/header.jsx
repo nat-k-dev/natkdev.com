@@ -11,7 +11,7 @@ function Header() {
     const { i18n, t } = useTranslation();
     const currentLang = i18n.language;
     const toggleLanguage = () => {
-        const newLang = currentLang === "en" ? "nl" : "en";
+        const newLang = currentLang.includes("en") ? "nl" : "en";
         i18n.changeLanguage(newLang);
       };
 
@@ -40,7 +40,7 @@ function Header() {
                       href={headerButtonsInfo.contacts.href}
                       caption={headerButtonsInfo.contacts.caption} />
                 <span className="language-separator"></span>
-                {currentLang === "en" ? (
+                {currentLang.includes("en") ? (
                         <button onClick={toggleLanguage} className="language-toggle">🇳🇱 NL</button>
                         ) : (
                         <button onClick={toggleLanguage} className="language-toggle">🇬🇧 EN</button>
