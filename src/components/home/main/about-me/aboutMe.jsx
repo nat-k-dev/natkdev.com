@@ -15,7 +15,7 @@ function AboutMe() {
     return (
       <React.Fragment>
         <div className="subsection__aboutme">
-          <img className="aboutme__photo" src="me.jpeg" alt="website developer" />
+          <img className="aboutme__photo" src="me.png" alt="website developer" />
           <article className="aboutme__text"> 
             <p className="aboutme__paragraph">{t("ABOUT_ME.Paragraph1")}</p>
             <p className="aboutme__paragraph">{t("ABOUT_ME.Paragraph2")}</p>
