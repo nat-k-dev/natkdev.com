@@ -1,4 +1,4 @@
-export const projectsInfo = {
+export const PROJECTS_INFO = {
     cacaoBu: {
       internalPage: false,
       cssClassName: "project__cacao-bu",
