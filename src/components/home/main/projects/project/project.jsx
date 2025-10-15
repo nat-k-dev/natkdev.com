@@ -9,20 +9,20 @@ const cardVariants = {
     show: { opacity: 1, y: 0 },
   };
 
-function Project(props) {
+function Project({cssClassName, link, caption, internalPage}) {
     const { t } = useTranslation();
 
-    const cssClassName = ["project", props.cssClassName].join(' ');
+    const cssClassList = ["project", cssClassName].join(' ');
 
     return (
-        <motion.div className={cssClassName} key={props.link} variants={cardVariants}>
-                {props.internalPage ? 
-                    <Link to={props.link}>
-                        <p className="project-caption_text-center">{props.caption}</p>
+        <motion.div className={cssClassList} key={link} variants={cardVariants}>
+                {internalPage ? 
+                    <Link to={link}>
+                        <p className="project-caption_text-center">{caption}</p>
                         <div className="icon"></div>
                     </Link> :
-                    <a href={props.link} title="Click to open in new tab" target="_blank" rel="noreferrer">
-                        <p className="project-caption_text-center">{t(props.caption)}</p>
+                    <a href={link} title="Click to open in new tab" target="_blank" rel="noreferrer">
+                        <p className="project-caption_text-center">{t(caption)}</p>
                         <div className="icon"></div>
                     </a>
                 }
