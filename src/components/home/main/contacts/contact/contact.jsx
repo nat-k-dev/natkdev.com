@@ -1,15 +1,15 @@
 import React from "react";
 import "./contact.css";
 
-function Contact(props) {
-  const iconClassName = ["contact-icon", props.icon].join(' ');
-  const targetValue = props.type === "link" ? "_blank" : "_self";
-  const relValue = props.type === "link" ? "noreferrer" : "";
+function Contact({icon, type, caption, href}) {
+  const iconClassName = ["contact-icon", icon].join(' ');
+  const targetValue = type === "link" ? "_blank" : "_self";
+  const relValue = type === "link" ? "noreferrer" : "";
   return (
         <li className="caption">
-          <a href={props.href} target={targetValue} rel={relValue}>
+          <a href={href} target={targetValue} rel={relValue}>
             <i className={iconClassName}></i>
-            {props.caption}
+            {caption}
           </a>
         </li>
   );

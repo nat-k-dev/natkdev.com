@@ -1,4 +1,4 @@
-export const headerButtonsInfo = {
+export const HEADER_BUTTONS_INFO = {
     aboutMe: {
         id: "header-btn-about",
         href: "#aboutme",

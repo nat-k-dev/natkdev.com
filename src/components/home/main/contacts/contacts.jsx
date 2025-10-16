@@ -1,24 +1,15 @@
 import React from "react";
 import Contact from "./contact/contact.jsx";
-import {contactsInfo} from "./contacts-info.js";
+import {CONTACTS_INFO} from "./contacts-info.js";
 import "./contacts.css";
 
 function Contacts() {
   return (
     <div className="subsection__contacts">				
       <ul className="contact-list">
-        <Contact type={contactsInfo.github.type}
-                 href={contactsInfo.github.href}
-                 icon={contactsInfo.github.icon}
-                 caption={contactsInfo.github.caption} />
-        <Contact type={contactsInfo.email.type}
-                 href={contactsInfo.email.href}
-                 icon={contactsInfo.email.icon}
-                 caption={contactsInfo.email.caption} />
-        <Contact type={contactsInfo.linkedIn.type}
-                 href={contactsInfo.linkedIn.href}
-                 icon={contactsInfo.linkedIn.icon}
-                 caption={contactsInfo.linkedIn.caption} />            
+        <Contact {...CONTACTS_INFO.github}/>
+        <Contact {...CONTACTS_INFO.email}/>
+        <Contact {...CONTACTS_INFO.linkedIn}/>            
       </ul>	
     </div>
   );

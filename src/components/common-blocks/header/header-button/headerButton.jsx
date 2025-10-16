@@ -22,7 +22,7 @@ function HeaderButton(props) {
 
   return (
     <button className="header__btn" 
-            id={props.id} 
+            id={id} 
             style={bgStyles}
             onClick={() => setIsOpen(!isOpen)}
             onMouseEnter={() => {
@@ -31,8 +31,8 @@ function HeaderButton(props) {
             onMouseLeave={() => {
               setBgColour(headerLightColor);
             }} >
-        <a href={props.href} className="text-nowrap">
-            {t(props.caption)}
+        <a href={href} className="text-nowrap">
+            {t(caption)}
         </a>
     </button>
   );

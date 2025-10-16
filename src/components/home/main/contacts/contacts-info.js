@@ -1,4 +1,4 @@
-export const contactsInfo = {
+export const CONTACTS_INFO = {
     github: {
         type: "link",
         href: "https://github.com/nat-k-dev",
