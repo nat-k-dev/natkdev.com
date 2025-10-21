@@ -55,6 +55,7 @@ function Projects() {
          
         <Project {...PROJECTS_INFO.biebOudersApp} /> 
         <Project {...PROJECTS_INFO.techBlogVue} /> 
+        <Project {...PROJECTS_INFO.ticTakToeApp} />
         <Project {...PROJECTS_INFO.cacaoBu} /> 
         <Project {...PROJECTS_INFO.pianoles} />
         <Project {...PROJECTS_INFO.angularCargo} />
@@ -66,7 +67,7 @@ function Projects() {
 
         <Project {...PROJECTS_INFO.memoji} />  
         <Project {...PROJECTS_INFO.designSystem} /> 
-        <Project {...PROJECTS_INFO.binaryCalc} />
+        {/*<Project {...PROJECTS_INFO.binaryCalc} />*/}
       </motion.div>	
     </>
   );

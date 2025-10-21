@@ -73,6 +73,10 @@
 	background: url('project__biebouders.png') no-repeat center;
 }
 
+.project__tictaktoe > a > .icon {
+	background: url('project__tictaktoe.png') no-repeat center;
+}
+
 
 .project-caption_text-center {
 	text-align: center;

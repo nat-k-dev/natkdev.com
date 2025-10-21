@@ -76,5 +76,11 @@ export const PROJECTS_INFO = {
       cssClassName: "project__biebouders-app",
       link: "https://biebouders.netlify.app/",
       caption: "Schoollibraryapptohelpregisterbooks"
+    },
+    ticTakToeApp: {
+      internalPage: true,
+      cssClassName: "project__tictaktoe",
+      link: "/tic-tak-toe",
+      caption: "TicTakToe"
     }
   };
