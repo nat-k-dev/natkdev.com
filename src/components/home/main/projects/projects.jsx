@@ -42,7 +42,7 @@ function Projects() {
                   caption={projectsInfo.flyerFamilyApp.caption}
                   internalPage={projectsInfo.flyerFamilyApp.internalPage} /> */}
       </motion.div>	
-      <h3 className="projects__caption mt-10">
+      <h3 className="projects__caption mt-10 mb-8">
       <img className="h-10" src={selfStudy} alt="Self-study icon" />
         {t("Selfstudyprojects")}
       </h3>

@@ -18,7 +18,7 @@ function Project({cssClassName, link, caption, internalPage}) {
         <motion.div className={cssClassList} key={link} variants={cardVariants}>
                 {internalPage ? 
                     <Link to={link}>
-                        <p className="project-caption_text-center">{caption}</p>
+                        <p className="project-caption_text-center">{t(caption)}</p>
                         <div className="icon"></div>
                     </Link> :
                     <a href={link} title="Click to open in new tab" target="_blank" rel="noreferrer">
