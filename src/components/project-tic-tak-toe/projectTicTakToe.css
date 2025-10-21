@@ -2,6 +2,7 @@
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     color: #46432f;
     min-height: 100dvh;
+    padding-bottom: 2rem;
   }
 
   #tic-tak-toe h1 {
