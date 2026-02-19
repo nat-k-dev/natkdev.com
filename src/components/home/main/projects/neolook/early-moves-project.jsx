@@ -25,7 +25,7 @@ function EarlyMovesProject() {
                     <p>
                         {t("WORK_PROJECTS.EARLY_MOVES.ProjectDescriptionText")}
                         <span className="link__read-more">
-                            <a href={"https://neolooksolutions.com/earlymoves/"} target="_blank" rel="noreferrer">
+                            <a href={"https://zorginnovatie.nl/innovaties/neolook-early-moves"} target="_blank" rel="noreferrer">
                                 {t("WORK_PROJECTS.ReadMore")}
                             </a>
                         </span>
