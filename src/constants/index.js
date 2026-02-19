@@ -9,6 +9,7 @@ import {
     figma,
     docker,
     abbyy,
+    juniorEinstein,
     neolook,
     selfStudy,
     InfoBuh,
@@ -62,6 +63,22 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "FrontendDeveloper",
+      company_name: "Junior Einstein",
+      icon: juniorEinstein,
+      iconBg: "#fff",
+      date: "Nov 2025 - Present",
+      pointsWithSubpoints: [
+        {text: "JUNIOR_EINSTEIN.point_1"},
+        {text: "JUNIOR_EINSTEIN.point_2"},
+        {text: "JUNIOR_EINSTEIN.point_3"},
+        {text: "JUNIOR_EINSTEIN.point_4"},
+        {text: "JUNIOR_EINSTEIN.point_5"},
+        {text: "JUNIOR_EINSTEIN.point_6"},
+        {text: "JUNIOR_EINSTEIN.point_7"},
+      ]
+    },
     {
       title: "FrontendDeveloper",
       company_name: "Neolook Solutions",

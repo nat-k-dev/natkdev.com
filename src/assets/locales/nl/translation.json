@@ -29,6 +29,15 @@
         "Paragraph1": "Hallo, mijn naam is Natalia. Ik ben een frontendontwikkelaar met een passie voor het creëren van gebruiksvriendelijke, responsieve en strakke webinterfaces. Ik werk met HTML, CSS, Tailwind CSS, JavaScript, TypeScript, Angular en React. Ik geniet van het bouwen van webapplicaties die mensen gemakkelijk kunnen gebruiken, en ik vind het belangrijk om deel uit te maken van projecten die een betekenisvolle impact hebben. Mijn recente ervaring omvat het ontwikkelen van webapplicaties voor de zorgsector — waarmee medisch personeel, kinderen op de intensivecareafdelingen en families verbonden blijven via intuïtieve, moderne interfaces.",
         "Paragraph2": "Ik haal de meeste inspiratie uit het creëren en verfijnen van intuïtieve webinterfaces, terwijl ik mijn frontendvaardigheden voortdurend verder ontwikkel. Bekijk gerust mijn projecten hieronder!"
     },
+    "JUNIOR_EINSTEIN": {
+        "point_1": "Ontwikkelde kernfunctionaliteiten van de UI, zoals productkaarten, filters en paginatie.",
+        "point_2": "Ontwikkelde herbruikbare componenten met behulp van shadcn/ui en Storybook voor gebruik in meerdere projecten.",
+        "point_3": "Schreef unit tests met Vitest en end-to-end tests met Cypress.",
+        "point_4": "Nam deel aan code reviews binnen een team van drie frontend developers.",
+        "point_5": "Voerde een structurele refactoring van het webshopproject uit.",
+        "point_6": "Implementeerde meertalige ondersteuning met behulp van next-intl.",
+        "point_7": "Werkte met moderne tools zoals AI-agents, MCP-servers, Figma en Jira."
+    },
     "NEOLOOK_WORK": {
         "point_1_main": "Webinterfaces ontwikkeld met Angular voor de volgende applicaties:",
         "point_1_sub_1": "• “S2S Family” - livestream webapplicatie waarmee families videoverbinding hebben met hun kinderen dat op de neonatologieafdeling (NICU) verblijft;",

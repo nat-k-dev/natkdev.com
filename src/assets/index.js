@@ -14,6 +14,7 @@ import threejs from "./tech/threejs.svg";
 
 import abbyy from "./company/abbyy.png";
 import InfoBuh from "./company/info-buhgalter.png";
+import juniorEinstein from "./company/junior-einstein.svg";
 import neolook from "./company/neolook.png";
 import selfStudy from "./company/self-study.png";
 import developerWorkingIcon from "./company/developer-is-working-icon.png";
@@ -45,6 +46,7 @@ export {
   threejs,
   abbyy,
   InfoBuh,
+  juniorEinstein,
   neolook,
   selfStudy,
   developerWorkingIcon,
