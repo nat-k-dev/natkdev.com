@@ -20,6 +20,23 @@ function Education() {
         <p className="my-10 text-center text-3xl ">{t("Courses")}</p>
         <div className="subsection__education">
           <div className="education__column">
+            <div className="education__years">2026</div>
+            <img className="education__logo-img rounded-full" src="claude-code-udemy.png" alt="Claude Code course at Udemy logo" />
+          </div>
+          <div className="education__column">
+            <p>Udemy</p>
+            <a href={"https://www.udemy.com/certificate/UC-976b46bd-e0dc-4ad5-9efd-3e25437854ba/"} 
+               target="_blank" 
+               rel="noreferrer">
+                Claude Code - The Practical Guide
+            </a>
+          </div>
+        </div>
+
+        <div className="education__divider"></div>
+
+        <div className="subsection__education">
+          <div className="education__column">
             <div className="education__years">2025</div>
             <img className="education__logo-img rounded-full" src="angular-udemy.png" alt="Angular course at Udemy logo" />
           </div>
