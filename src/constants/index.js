@@ -67,7 +67,7 @@ import {
       company_name: "Neolook Solutions",
       icon: neolook,
       iconBg: "#fff",
-      date: "Oct 2022 - Present",
+      date: "Oct 2022 - Sep 2025",
       pointsWithSubpoints: [
         {
           text: "NEOLOOK_WORK.point_1_main",
