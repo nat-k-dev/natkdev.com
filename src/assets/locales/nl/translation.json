@@ -30,22 +30,20 @@
         "Paragraph2": "Ik haal de meeste inspiratie uit het creëren en verfijnen van intuïtieve webinterfaces, terwijl ik mijn frontendvaardigheden voortdurend verder ontwikkel. Bekijk gerust mijn projecten hieronder!"
     },
     "JUNIOR_EINSTEIN": {
-        "point_1": "Ontwikkelde kernfunctionaliteiten van de UI, zoals productkaarten, filters en paginatie.",
-        "point_2": "Ontwikkelde herbruikbare componenten met behulp van shadcn/ui en Storybook voor gebruik in meerdere projecten.",
-        "point_3": "Schreef unit tests met Vitest en end-to-end tests met Cypress.",
-        "point_4": "Nam deel aan code reviews binnen een team van drie frontend developers.",
-        "point_5": "Voerde een structurele refactoring van het webshopproject uit.",
-        "point_6": "Implementeerde meertalige ondersteuning met behulp van next-intl.",
-        "point_7": "Werkte met moderne tools zoals AI-agents, MCP-servers, Figma en Jira."
+        "point_1": "UI-componenten en functionaliteit ontwikkeld voor een intern e-commerceplatform met React, Next.js, TypeScript en Tailwind CSS.",
+        "point_2": "Herbruikbare componenten gebouwd voor een gedeeld design system met shadcn/ui en Storybook (Button, Checkbox, Switch, Alert).",
+        "point_3": "Productkaarten en filterinterfaces voor de webshop geïmplementeerd.",
+        "point_4": "Code reviews uitgevoerd en tests geschreven met Vitest (unit) en Cypress (end-to-end) om de codekwaliteit te waarborgen.",
+        "point_5": "Internationalisatie onderzocht en meertalige ondersteuning geïmplementeerd."
     },
     "NEOLOOK_WORK": {
-        "point_1_main": "Webinterfaces ontwikkeld met Angular voor de volgende applicaties:",
-        "point_1_sub_1": "• “S2S Family” - livestream webapplicatie waarmee families videoverbinding hebben met hun kinderen dat op de neonatologieafdeling (NICU) verblijft;",
-        "point_1_sub_2": "• “S2S Professional” - livestream webapplicatie voor verpleegkundigen op de NICU;",
-        "point_1_sub_3": "• “Early Moves” - webapplicatie om babybewegingen op afstand te registreren;",
-        "point_1_sub_4": "• Informatieflyer - instructies voor ouders om gebruik te maken van “S2S Family”.",
-        "point_2": "UI/UX-ontwerpen uit Figma vertaald naar responsieve, cross-browser compatibele webpagina's en componenten zoals tabellen, formulieren, navigatie, menu, knoppen, kaarten, modals, animaties met HTML, CSS en Tailwind CSS, Typescript. Routing, dataverwerking en API-communicatie aan de frontendzijde geïmplementeerd, API gemaakt met Strapi. Donkere/lichtmodus ontwikkeld, module voor Nederlands-Engelse vertaling, e-mailsjablonen. Problemen opgelost en gedebugd.",
-        "point_3": "Samengewerkt met backendontwikkelaars en designers om consistente, gebruiksvriendelijke ervaringen te leveren (sprint-gebaseerde workflow, met stand-ups, sprintplanning en demonstratiemeetings)."
+        "point_1": "Frontendinterfaces ontwikkeld voor zorgplatforms gebruikt op neonatale en pediatrische intensive care afdelingen (NICU/PICU).",
+        "point_2": "Frontendarchitectuur ontworpen en geïmplementeerd voor meerdere Angular-applicaties; Figma-designs vertaald naar schaalbare, responsieve interfaces met TypeScript en Tailwind CSS.",
+        "point_3": "Complexe UI-functionaliteit ontwikkeld, waaronder monitoringdashboards voor patiënten en camera’s, datatabellen, filterinterfaces en meerstapsformulieren/modals.",
+        "point_4": "Realtime functionaliteit geïmplementeerd, waaronder camerastatusupdates via Server-Sent Events en videocommunicatie via WebRTC.",
+        "point_5": "Kerninfrastructuur van de applicatie ontwikkeld, inclusief routeringrefactor, dark/light mode, Nederlands-Engelse lokalisatie en API-integratie (REST, Strapi).",
+        "point_6": "Nauw samengewerkt met backend developers en designers in een Agile-omgeving om betrouwbare zorginterfaces te leveren.",
+        "point_7": "Oplossingen geïmplementeerd in ziekenhuizen zoals Máxima MC (Eindhoven), UMC Utrecht en UMC Groningen."
     },
     "SELF_STUDY_WORK": { 
         "project_1": "Projecten gemaakt met ReactJS, styled-components, Bootstrap: mijn persoonlijke webpagina, meertalige webpagina over pianolessen en frontend voor een online winkel;",

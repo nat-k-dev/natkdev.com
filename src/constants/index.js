@@ -75,8 +75,6 @@ import {
         {text: "JUNIOR_EINSTEIN.point_3"},
         {text: "JUNIOR_EINSTEIN.point_4"},
         {text: "JUNIOR_EINSTEIN.point_5"},
-        {text: "JUNIOR_EINSTEIN.point_6"},
-        {text: "JUNIOR_EINSTEIN.point_7"},
       ]
     },
     {
@@ -86,21 +84,13 @@ import {
       iconBg: "#fff",
       date: "Oct 2022 - Sep 2025",
       pointsWithSubpoints: [
-        {
-          text: "NEOLOOK_WORK.point_1_main",
-          subpoints: [
-            "NEOLOOK_WORK.point_1_sub_1",
-            "NEOLOOK_WORK.point_1_sub_2",
-            "NEOLOOK_WORK.point_1_sub_3",
-            "NEOLOOK_WORK.point_1_sub_4"
-          ]
-        },
-        {
-          text: "NEOLOOK_WORK.point_2",
-        },
-        {
-          text: "NEOLOOK_WORK.point_3",
-        }
+        {text: "NEOLOOK_WORK.point_1"},
+        {text: "NEOLOOK_WORK.point_2"},
+        {text: "NEOLOOK_WORK.point_3"},
+        {text: "NEOLOOK_WORK.point_4"},
+        {text: "NEOLOOK_WORK.point_5"},
+        {text: "NEOLOOK_WORK.point_6"},
+        {text: "NEOLOOK_WORK.point_7"},
       ]
     },
     {

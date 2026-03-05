@@ -30,22 +30,20 @@
         "Paragraph2": "I find the most inspiration in creating and refining intuitive web interfaces while continually developing my frontend skills. Feel free to check out my projects below!"
     },
     "JUNIOR_EINSTEIN": {
-        "point_1": "Built core UI features such as product cards, filters, and pagination.",
-        "point_2": "Developed reusable component libraries using shadcn/ui and Storybook to support multiple projects.",
-        "point_3": "Wrote unit tests with Vitest and end-to-end tests with Cypress.",
-        "point_4": "Participated in code reviews within a team of three frontend developers.",
-        "point_5": "Led structural refactoring of the webshop project.",
-        "point_6": "Implemented multilingual support using next-intl.",
-        "point_7": "Worked with modern tooling including AI agents, MCP servers, Figma, and Jira."
+        "point_1": "Developed UI components and product features for an internal e-commerce platform using React, Next.js, TypeScript, and Tailwind CSS.",
+        "point_2": "Built reusable components for a shared design system using shadcn/ui and Storybook (Button, Checkbox, Switch, Alert).", 
+        "point_3": "Implemented product UI elements such as product cards and filtering interfaces.",
+        "point_4": "Contributed to code reviews and wrote unit tests (Vitest) and end-to-end tests (Cypress) to improve code quality.",
+        "point_5": "Researched internationalization approaches and implemented multilingual support for the application."
     },
     "NEOLOOK_WORK": {
-        "point_1_main": "Developed web interfaces using Angular for the following applications:",
-        "point_1_sub_1": "• “S2S Family” - livestream web application to allow families video access to their children staying in a neonatology department (NICU);",
-        "point_1_sub_2": "• “S2S Professional” - livestream web application for nurses in NICU;",
-        "point_1_sub_3": "• “Early Moves” - web application to record baby movements remotely;",
-        "point_1_sub_4": "• Information Flyer - helping instructions for parents to start using “S2S Family”.",
-        "point_2": "Translated UI/UX designs from Figma into responsive, cross-browser compatible web pages and components such as tables, forms, navigation, menu, buttons, cards, modals, animations using HTML, CSS and Tailwind CSS, Typescript. Implemented routing, data processing and API communication at frontend side, created API with Strapi. Developed dark/light color modes, Dutch-English translation module, email templates. Debugged and solved issues.",
-        "point_3": "Collaborated with backend developers and designers to deliver consistent, user-friendly experiences (sprint-based workflow, with stand-ups, sprint planning, and demonstrator meetings)."
+        "point_1": "Led the development of frontend interfaces for healthcare platforms used in neonatal and pediatric intensive care units (NICU/PICU).",
+        "point_2": "Designed and implemented the frontend architecture for several Angular applications, translating Figma designs into scalable, responsive interfaces using TypeScript and Tailwind CSS.",
+        "point_3": "Developed complex UI features including patient and camera monitoring dashboards, data tables, filtering interfaces, and multi-step forms/modals.",
+        "point_4": "Implemented real-time functionality such as camera status updates using Server-Sent Events and video communication using WebRTC.",
+        "point_5": "Built core application infrastructure including routing refactoring, dark/light mode, Dutch-English localization, and API integration (REST, Strapi).",
+        "point_6": "Collaborated closely with backend developers and designers in an Agile environment to deliver reliable healthcare interfaces.",
+        "point_7": "Solutions were deployed in hospitals including Máxima MC (Eindhoven), UMC Utrecht, and UMC Groningen."
     },
     "SELF_STUDY_WORK": { 
         "project_1": "Created projects using ReactJS, styled-components, Bootstrap: my personal webpage, multi-language webpage about piano lessons, and frontend for online shop;",
