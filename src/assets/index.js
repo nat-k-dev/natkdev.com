@@ -12,12 +12,12 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import abbyy from "./company/abbyy.png";
-import InfoBuh from "./company/info-buhgalter.png";
+import abbyy from "./company/abbyy.webp";
+import InfoBuh from "./company/info-buhgalter.webp";
 import juniorEinstein from "./company/junior-einstein.svg";
-import neolook from "./company/neolook.png";
-import selfStudy from "./company/self-study.png";
-import developerWorkingIcon from "./company/developer-is-working-icon.png";
+import neolook from "./company/neolook.webp";
+import selfStudy from "./company/self-study.webp";
+import developerWorkingIcon from "./company/developer-is-working-icon.webp";
 
 import safariSvg from "./tech/browsers/safari.svg";
 import chromeSvg from "./tech/browsers/chrome.svg";
