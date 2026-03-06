@@ -43,10 +43,10 @@ function S2SPlatformProject() {
                                 <p>{t("WORK_PROJECTS.TechStack")}</p>
                                 <div className="work-project__tech-stack-list">
                                     <div className="tech-stack">
-                                        <img src={angularImg} alr="angular icon" />Angular
+                                        <img src={angularImg} alt="angular icon" />Angular
                                     </div>
                                     <div className="tech-stack">
-                                        <img src={tailwindImg} alr="tailwind icon" />Tailwind CSS
+                                        <img src={tailwindImg} alt="tailwind icon" />Tailwind CSS
                                     </div>
                                 </div>
         
@@ -55,9 +55,9 @@ function S2SPlatformProject() {
                             <section className="section__browsers">
                                 <p className="">{t("WORK_PROJECTS.Browsers")}</p>
                                 <div className="work-project__browsers-list">
-                                    <img src={chromeSvg} alr="chrome icon" />
-                                    <img src={edgeSvg} alr="edge icon" />
-                                    <img src={safariSvg} alr="safari icon" />
+                                    <img src={chromeSvg} alt="chrome icon" />
+                                    <img src={edgeSvg} alt="edge icon" />
+                                    <img src={safariSvg} alt="safari icon" />
                                 </div>
                             </section>
         

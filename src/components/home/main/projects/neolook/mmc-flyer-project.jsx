@@ -20,7 +20,7 @@ function MMCFlyerProject() {
                             [ 
                             <a className="underline underline-offset-1 opacity-80 hover:opacity-100 flex items-center gap-2" href={"https://mmc.neolook.care/"} target="_blank" rel="noreferrer">
                             {t("WORK_PROJECTS.Open")}
-                                <img className="h-5" src={openNewTabIconPng} alr="open in new tab icon" />
+                                <img className="h-5" src={openNewTabIconPng} alt="open in new tab icon" />
                                 <span className="-ml-1.5">]</span>
                             </a>
                         </div>
@@ -34,10 +34,10 @@ function MMCFlyerProject() {
                         <p>{t("WORK_PROJECTS.TechStack")}</p>
                         <div className="work-project__tech-stack-list">
                             <div className="tech-stack">
-                                <img src={angularImg} alr="angular icon" />Angular
+                                <img src={angularImg} alt="angular icon" />Angular
                             </div>
                             <div className="tech-stack">
-                                <img src={tailwindImg} alr="tailwind icon" />Tailwind CSS
+                                <img src={tailwindImg} alt="tailwind icon" />Tailwind CSS
                             </div>
                         </div>
 
