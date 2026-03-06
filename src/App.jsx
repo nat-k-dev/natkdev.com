@@ -1,6 +1,6 @@
 
 import { Routes, Route } from "react-router-dom";
-import { lazy, Suspense } from "react";
+import { lazy, useEffect } from "react";
 import Home from "./components/home/home.jsx";
 const ProjectMemoji = lazy(() => import("./components/project-memoji/projectMemoji.jsx"));
 const ProjectBinaryCalculator = lazy(() => import("./components/project-binary-calculator/projectBinaryCalculator.jsx"));
@@ -11,6 +11,30 @@ const Project3dComputer = lazy(() => import("./components/project-3d-computer/pr
 const ProjectTicTakToe = lazy(() => import("./components/project-tic-tak-toe/projectTicTakToe.jsx"));
 
 function App() {
+  useEffect(() => {
+    const loadAnalytics = () => {
+      const script = document.createElement("script");
+      script.async = true;
+      script.src = "https://www.googletagmanager.com/gtag/js?id=G-LY3MM22D2V";
+      document.head.appendChild(script);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+
+      window.gtag = gtag;
+      gtag("js", new Date());
+      gtag("config", "G-LY3MM22D2V");
+    };
+
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(loadAnalytics);
+    } else {
+      setTimeout(loadAnalytics, 2000);
+    }
+  }, []);
+
   return (
     <div className="App">
       <Routes>
