@@ -17,7 +17,7 @@ function S2SPlatformProject() {
         <article className="work-project__article mt-20 mb-20">
                     <section className="work-project__container">
                         <div className="work-project__main-img relative">
-                            <div className="text-base text-gray-700/50 mb-2 ml-1">
+                            <div className="text-base text-gray-600 mb-2 ml-1">
                             {t("WORK_PROJECTS.DemoMode")}
                             </div>
                             <img className="rounded-xl border-4 shadow-md border-gray" src={s2sPlatformCameraDetails} alt="S2S Platform logo" />
