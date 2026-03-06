@@ -5,7 +5,7 @@ import "./neolook-projects.css"
 import uiProjectMMCImg from "./ui-project-mmc-flyer.webp";
 import angularImg from "../../../../../assets/tech/svg/angular.svg"
 import tailwindImg from "../../../../../assets/tech/svg/tailwind-css.svg"
-import { safariSvg, chromeSvg, firefoxSvg, edgeSvg, openNewTabIconPng } from "../../../../../assets";
+import { safariSvg, chromeSvg, edgeSvg, firefoxSvg, openNewTabIconPng } from "../../../../../assets";
 
 function MMCFlyerProject() {
     const { t } = useTranslation();
@@ -20,7 +20,7 @@ function MMCFlyerProject() {
                             [ 
                             <a className="underline underline-offset-1 opacity-80 hover:opacity-100 flex items-center gap-2" href={"https://mmc.neolook.care/"} target="_blank" rel="noreferrer">
                             {t("WORK_PROJECTS.Open")}
-                                <img className="h-5" src={openNewTabIconPng} alt="open in new tab icon" />
+                                <img className="h-5" src={openNewTabIconPng} alt="open in new tab icon" loading="lazy" decoding="async" />
                                 <span className="-ml-1.5">]</span>
                             </a>
                         </div>
@@ -34,18 +34,28 @@ function MMCFlyerProject() {
                         <p>{t("WORK_PROJECTS.TechStack")}</p>
                         <div className="work-project__tech-stack-list">
                             <div className="tech-stack">
-                                <img src={angularImg} alt="angular icon" />Angular
+                                <img src={angularImg} alt="angular icon" loading="lazy" decoding="async" />Angular
                             </div>
                             <div className="tech-stack">
-                                <img src={tailwindImg} alt="tailwind icon" />Tailwind CSS
+                                <img src={tailwindImg} alt="tailwind icon" loading="lazy" decoding="async" />Tailwind CSS
                             </div>
                         </div>
 
                     </section>
 
+                    <section className="section__browsers">
+                        <p className="">{t("WORK_PROJECTS.Browsers")}</p>
+                        <div className="work-project__browsers-list">
+                            <img src={chromeSvg} alt="chrome icon" loading="lazy" decoding="async" />
+                            <img src={edgeSvg} alt="edge icon" loading="lazy" decoding="async" />
+                            <img src={safariSvg} alt="safari icon" loading="lazy" decoding="async" />
+                            <img src={firefoxSvg} alt="firefox icon" loading="lazy" decoding="async" />
+                        </div>
+                    </section>
+
                 </div>
                 <div className="work-project__main-img">
-                    <img src={uiProjectMMCImg} alt="MMC Flyer logo" />
+                    <img src={uiProjectMMCImg} alt="MMC Flyer logo" loading="lazy" decoding="async" />
                 </div>
             </section>
         </article>

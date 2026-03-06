@@ -24,6 +24,8 @@ const ExperienceCard = ({ experience }) => {
             src={experience.icon}
             alt={experience.company_name}
             className='timeline-img'
+            loading="lazy"
+            decoding="async"
           />
         </div>
       }

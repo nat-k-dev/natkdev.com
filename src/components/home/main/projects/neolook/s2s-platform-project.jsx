@@ -20,9 +20,9 @@ function S2SPlatformProject() {
                             <div className="text-base text-gray-600 mb-2 ml-1">
                             {t("WORK_PROJECTS.DemoMode")}
                             </div>
-                            <img className="rounded-xl border-4 shadow-md border-gray" src={s2sPlatformCameraDetails} alt="S2S Platform logo" />
-                            <img className="rounded-xl border-4 shadow-xl border-gray absolute bottom-5 right-5 max-h-[50%]" src={s2sPlatformOverview} alt="S2S Platform logo" />
-                            <img className="absolute -bottom-3 -right-3 max-h-[50%]" src={s2sPlatformFamily} alt="S2S Platform logo" />
+                            <img className="rounded-xl border-4 shadow-md border-gray" src={s2sPlatformCameraDetails} alt="S2S Platform logo" loading="lazy" decoding="async" />
+                            <img className="rounded-xl border-4 shadow-xl border-gray absolute bottom-5 right-5 max-h-[50%]" src={s2sPlatformOverview} alt="S2S Platform logo" loading="lazy" decoding="async" />
+                            <img className="absolute -bottom-3 -right-3 max-h-[50%]" src={s2sPlatformFamily} alt="S2S Platform logo" loading="lazy" decoding="async" />
                         </div>
                         <div className="work-project__text-container">
                             <h4>
@@ -43,10 +43,10 @@ function S2SPlatformProject() {
                                 <p>{t("WORK_PROJECTS.TechStack")}</p>
                                 <div className="work-project__tech-stack-list">
                                     <div className="tech-stack">
-                                        <img src={angularImg} alt="angular icon" />Angular
+                                        <img src={angularImg} alt="angular icon" loading="lazy" decoding="async" />Angular
                                     </div>
                                     <div className="tech-stack">
-                                        <img src={tailwindImg} alt="tailwind icon" />Tailwind CSS
+                                        <img src={tailwindImg} alt="tailwind icon" loading="lazy" decoding="async" />Tailwind CSS
                                     </div>
                                 </div>
         
@@ -55,9 +55,9 @@ function S2SPlatformProject() {
                             <section className="section__browsers">
                                 <p className="">{t("WORK_PROJECTS.Browsers")}</p>
                                 <div className="work-project__browsers-list">
-                                    <img src={chromeSvg} alt="chrome icon" />
-                                    <img src={edgeSvg} alt="edge icon" />
-                                    <img src={safariSvg} alt="safari icon" />
+                                    <img src={chromeSvg} alt="chrome icon" loading="lazy" decoding="async" />
+                                    <img src={edgeSvg} alt="edge icon" loading="lazy" decoding="async" />
+                                    <img src={safariSvg} alt="safari icon" loading="lazy" decoding="async" />
                                 </div>
                             </section>
         

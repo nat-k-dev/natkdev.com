@@ -15,7 +15,7 @@ function EarlyMovesProject() {
         <article className="work-project__article">
             <section className="work-project__container">
                 <div className="work-project__main-img">
-                    <img src={uiProjectEarlyMoves} alt="EarlyMoves logo" />
+                    <img src={uiProjectEarlyMoves} alt="EarlyMoves logo" loading="lazy" decoding="async" />
                 </div>
                 <div className="work-project__text-container">
                     <h4>
@@ -36,10 +36,10 @@ function EarlyMovesProject() {
                         <p>{t("WORK_PROJECTS.TechStack")}</p>
                         <div className="work-project__tech-stack-list">
                             <div className="tech-stack">
-                                <img src={angularImg} alt="angular icon" />Angular
+                                <img src={angularImg} alt="angular icon" loading="lazy" decoding="async" />Angular
                             </div>
                             <div className="tech-stack">
-                                <img src={tailwindImg} alt="tailwind icon" />Tailwind CSS
+                                <img src={tailwindImg} alt="tailwind icon" loading="lazy" decoding="async" />Tailwind CSS
                             </div>
                             {/*<div className="tech-stack">
                                 <img src={recordRtcPng} alt="recordRTC icon" />RecordRTC
@@ -54,10 +54,10 @@ function EarlyMovesProject() {
                     <section className="section__browsers">
                         <p className="">{t("WORK_PROJECTS.Browsers")}</p>
                         <div className="work-project__browsers-list">
-                            <img src={chromeSvg} alt="chrome icon" />
-                            <img src={edgeSvg} alt="edge icon" />
-                            <img src={safariSvg} alt="safari icon" />
-                            <img src={firefoxSvg} alt="firefox icon" />
+                            <img src={chromeSvg} alt="chrome icon" loading="lazy" decoding="async" />
+                            <img src={edgeSvg} alt="edge icon" loading="lazy" decoding="async" />
+                            <img src={safariSvg} alt="safari icon" loading="lazy" decoding="async" />
+                            <img src={firefoxSvg} alt="firefox icon" loading="lazy" decoding="async" />
                         </div>
                     </section>
 
