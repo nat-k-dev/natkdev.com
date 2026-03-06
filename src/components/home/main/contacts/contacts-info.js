@@ -2,19 +2,19 @@ export const CONTACTS_INFO = {
     github: {
         type: "link",
         href: "https://github.com/nat-k-dev",
-        icon: "fab fa-github",
+        icon: "github",
         caption: "Github"
     },
     email: {
         type: "mail",
         href: "mailto:natalia.kutina13@gmail.com",
-        icon: "fas fa-envelope",
+        icon: "email",
         caption: "Email"
     },
     linkedIn: {
         type: "link",
         href: "https://www.linkedin.com/in/nataliakutina",
-        icon: "fab fa-linkedin-in",
+        icon: "linkedin",
         caption: "LinkedIn"
     }
 };

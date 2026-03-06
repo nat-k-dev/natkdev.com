@@ -39,7 +39,19 @@ function Header() {
             </nav>
             {/* Mobile Dropdown */}
             <div className="header__mobile-menu relative" id="menu-btn">
-                <button className="header__menu-btn" onClick={() => setIsOpen(!isOpen)} aria-label="main menu"><i className="fas fa-bars"></i></button>
+                <button className="header__menu-btn" onClick={() => setIsOpen(!isOpen)} aria-label="main menu">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                    width="1em"
+                    height="1em"
+                    className="w-8 h-8"
+                >
+                    <path d="M3 6.75h18a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5Zm0 4.5h18a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5Zm0 4.5h18a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5Z" />
+                </svg>
+                </button>
                 
                 {isOpen && (
                         <div className="mobile-menu__dropdown">
