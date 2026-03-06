@@ -1,13 +1,14 @@
 
 import { Routes, Route } from "react-router-dom";
+import { lazy, Suspense } from "react";
 import Home from "./components/home/home.jsx";
-import ProjectBinaryCalculator from "./components/project-binary-calculator/projectBinaryCalculator.jsx";
-import ProjectMemoji from "./components/project-memoji/projectMemoji.jsx";
-import ProjectDesignSystem from "./components/project-design-system/projectDesignSystem.jsx";
-import NoMatchPage from "./components/no-match-page/NoMatchPage.jsx";
-import ProjectStarsAnimation from "./components/project-stars-animation/projectStarsAnimation.jsx";
-import Project3dComputer from "./components/project-3d-computer/project3dComputer.jsx";
-import ProjectTicTakToe from "./components/project-tic-tak-toe/projectTicTakToe.jsx";
+const ProjectMemoji = lazy(() => import("./components/project-memoji/projectMemoji.jsx"));
+const ProjectBinaryCalculator = lazy(() => import("./components/project-binary-calculator/projectBinaryCalculator.jsx"));
+const ProjectDesignSystem = lazy(() => import("./components/project-design-system/projectDesignSystem.jsx"));
+const NoMatchPage = lazy(() => import("./components/no-match-page/NoMatchPage.jsx"));
+const ProjectStarsAnimation = lazy(() => import("./components/project-stars-animation/projectStarsAnimation.jsx"));
+const Project3dComputer = lazy(() => import("./components/project-3d-computer/project3dComputer.jsx"));
+const ProjectTicTakToe = lazy(() => import("./components/project-tic-tak-toe/projectTicTakToe.jsx"));
 
 function App() {
   return (
