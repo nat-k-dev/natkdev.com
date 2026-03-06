@@ -3,9 +3,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./neolook-projects.css"
-import s2sPlatformOverview from "./s2s-platform-overview-dark.png";
-import s2sPlatformCameraDetails from "./s2s-platform-camera-details.png";
-import s2sPlatformFamily from "./s2s-platform-family.png";
+import s2sPlatformOverview from "./s2s-platform-overview-dark.webp";
+import s2sPlatformCameraDetails from "./s2s-platform-camera-details.webp";
+import s2sPlatformFamily from "./s2s-platform-family.webp";
 import angularImg from "../../../../../assets/tech/svg/angular.svg"
 import tailwindImg from "../../../../../assets/tech/svg/tailwind-css.svg"
 import { safariSvg, chromeSvg, edgeSvg } from "../../../../../assets";

@@ -21,7 +21,7 @@ function Education() {
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2026</div>
-            <img className="education__logo-img rounded-full" src="claude-code-udemy.png" alt="Claude Code course at Udemy logo" />
+            <img className="education__logo-img rounded-full" src="claude-code-udemy.webp" alt="Claude Code course at Udemy logo" />
           </div>
           <div className="education__column">
             <p>Udemy</p>
@@ -38,7 +38,7 @@ function Education() {
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2025</div>
-            <img className="education__logo-img rounded-full" src="angular-udemy.png" alt="Angular course at Udemy logo" />
+            <img className="education__logo-img rounded-full" src="angular-udemy.webp" alt="Angular course at Udemy logo" />
           </div>
           <div className="education__column">
             <p>Udemy</p>
@@ -55,7 +55,7 @@ function Education() {
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2025</div>
-            <img className="education__logo-img rounded-full" src="duo.png" alt="DUO logo" />
+            <img className="education__logo-img rounded-full" src="duo.webp" alt="DUO logo" />
           </div>
           <div className="education__column">
             <p>Dienst Uitvoering Onderwijs (DUO)</p>
@@ -72,7 +72,7 @@ function Education() {
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2019</div>
-            <img className="education__logo-img rounded-full" src="yandex.png" alt="Yandex logo" />
+            <img className="education__logo-img rounded-full" src="yandex.webp" alt="Yandex logo" />
           </div>
           <div className="education__column">
             <p>Yandex School of Web Interfaces Development</p>
@@ -85,7 +85,7 @@ function Education() {
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2019</div>
-            <img className="education__logo-img" src="freecodecamp.jpg" alt="FreeCodeCamp logo" />
+            <img className="education__logo-img" src="freecodecamp.webp" alt="FreeCodeCamp logo" />
           </div>
           <div className="education__column">
             <p>freeCodeCamp</p>
@@ -104,7 +104,7 @@ function Education() {
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2018</div>
-            <img className="education__logo-img" src="coursera.jpg" alt="Coursera logo" />
+            <img className="education__logo-img" src="coursera.webp" alt="Coursera logo" />
           </div>
           <div className="education__column">
             <p>Moscow Institute of Physics and Technology, Yandex, E-Learning Development Fund</p>
@@ -123,7 +123,7 @@ function Education() {
         <div className="subsection__education">
           <div className="education__column">
             <div className="education__years">2017</div>
-            <img className="education__logo-img rounded-full" src="istqb.png" alt="DUO logo" />
+            <img className="education__logo-img rounded-full" src="istqb.webp" alt="DUO logo" />
           </div>
           <div className="education__column">
             <p>GASQ Service GmbH</p>

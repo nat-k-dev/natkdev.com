@@ -2,7 +2,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./neolook-projects.css"
-import uiProjectEarlyMoves from "./ui-project-early-moves.png";
+import uiProjectEarlyMoves from "./ui-project-early-moves.webp";
 import angularImg from "../../../../../assets/tech/svg/angular.svg"
 import tailwindImg from "../../../../../assets/tech/svg/tailwind-css.svg"
 import { safariSvg, chromeSvg, firefoxSvg, edgeSvg, recordRtcPng, cronitorPng } from "../../../../../assets";

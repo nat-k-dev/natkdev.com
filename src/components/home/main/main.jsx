@@ -15,7 +15,7 @@ function Main() {
             <section className="main__subsection">
               <h2 className="subsection__heading">
                 {t("FrontendDeveloper")}
-                <img src="frontend-icon-responsive.png" alt="icon with desktop, tablet and smartphone" />
+                <img src="frontend-icon-responsive.webp" alt="icon with desktop, tablet and smartphone" />
               </h2>
               <AboutMe />
             </section>

@@ -20,7 +20,7 @@ function Header() {
         <header className="header">
             
             <h1 className="header__caption"><a href="/" className="header__caption-container">
-                <img className="header__caption-icon" src="logo192.png" alt="website icon" />
+                <img className="header__caption-icon" src="logo192.webp" alt="website icon" />
                 Natalia Karaseva</a>
             </h1>
             
