@@ -13,7 +13,7 @@ export const CONTACTS_INFO = {
     },
     linkedIn: {
         type: "link",
-        href: "https://www.linkedin.com/in/nataliakutina",
+        href: "https://www.linkedin.com/in/karnaryen/",
         icon: "linkedin",
         caption: "LinkedIn"
     }
